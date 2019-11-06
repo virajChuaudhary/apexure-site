@@ -1,5 +1,5 @@
 ---
-title: Web Design Agency London | Websites and Landing Pages Design
+title: Demo Web Design Agency London | Websites and Landing Pages Design
 timezone: UTC
 collections:
   landing-pages-accountant-landing-page-full:
@@ -202,7 +202,7 @@ description: Do you need a top-notch Landing Page for your Business? We are the 
   and marketers by designing High-Converting Landing Pages, optimised for Lead Generation
   Optimal User Experience.
 baseurl: 
-url: https://www.apexure.com
+url: jekyll
 permalink: "/blog/:title"
 markdown: kramdown
 theme: minima
