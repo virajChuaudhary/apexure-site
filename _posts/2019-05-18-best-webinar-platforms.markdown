@@ -30,22 +30,17 @@ layout: new-webinar
 
 ##### What's a webinar 2?
 
-
-A Webinar Is Defined As A “Live, Virtual Event That Is Executed Online”. More Specifically, Webinars Are Educational Or Instructive Sessions That Include Both Audio And Visual Communication Between A Speaker And Attendees. 
+A Webinar Is Defined As A “Live, Virtual Event That Is Executed Online”. More Specifically, Webinars Are Educational Or Instructive Sessions That Include Both Audio And Visual Communication Between A Speaker And Attendees.
 
 The Word Webinar Comes From “Web-Based Seminar”, So Webinars Are Basically Digital Seminars That Anyone Can Attend. If You’re Wondering Whether These Webinars Are As Effective As In-Person Events, The Answer Is Yes. With Webinar Software, You Can Share Slides, Interact With Your Audience Through Chat Boxes, And Even Encourage Participants To Raise Questions Using Q&A Features. In Short, Webinar Software Allow You To Mimic Real-Life Seminars To A Tee.
 
-
 ##### What are webinars for?
 
-
 Companies Hold Webinars For A Wide Range Of Reasons, Including:
-        Educating Their Target Audience To Generate And Nurture Leads
-        Demonstrating Their Product/Service To Potential Customers
-        Training Existing Users, And Teaching Them How To Use Their Product/Service
+Educating Their Target Audience To Generate And Nurture Leads
+Demonstrating Their Product/Service To Potential Customers
+Training Existing Users, And Teaching Them How To Use Their Product/Service.
 
 After Analyzing 350,890 Webinars, Gotowebinar Found That Webinars Are Most Popular In The Software And Technology Industry, With 26% Of Webinars Being Produced By This One Industry:
 
 ###### ![why-we-use-slack.jpg](images/pastedimage.png)
- 
- 
