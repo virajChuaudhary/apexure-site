@@ -4,9 +4,6 @@ date: 2019-05-18 12:16:00 Z
 tags:
 - others
 top-graph-image: "/uploads/Image@2x.png"
-author: Waseem Bashir
-image: "/uploads/top-3-reasons-why-we-use-slack.jpg"
-take-away-image: "/uploads/3-reasons-why-we-use-slack.jpg"
 how-to-create-description: |-
   ## How to create a webinar landing page?
 
@@ -73,6 +70,9 @@ effective-webinar-box-description:
 
   Follow up is a key action which will determine your lead generation success. All the leads you generate need nurturing and constant follow up to increase your chances of success.
 effective-webinar-image: "/uploads/traffic.png"
+author: Waseem Bashir
+image: "/uploads/top-3-reasons-why-we-use-slack.jpg"
+take-away-image: "/uploads/3-reasons-why-we-use-slack.jpg"
 author-image: "/images/author-waseem-bashir.png"
 facebook-link: https://www.facebook.com/Apexure/
 instagram-link: https://www.instagram.com/waseembashir/
