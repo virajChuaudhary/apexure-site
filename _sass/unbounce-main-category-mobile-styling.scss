@@ -1,0 +1,158 @@
+/*************
+MEDIA QUERIES
+*************/
+@media (max-width: 1199.98px) { 
+
+}
+
+@media (max-width: 991.98px) { 
+
+#our_features{
+	.our_features_heading{
+		width:95%;
+	}
+  .features_content_wrapper{
+    width:100%;
+    padding: 30px 30px 60px 30px;
+  }
+  .features_content_wrapper:first-child:before {
+		content: "";
+		display:none;
+     }
+     .features_content_wrapper:nth-child(3):before {
+		content: "";
+		display:none;
+     }	
+ }
+
+ #why_choose_us_tools{
+ 	  .why_choose_us_main_wrapper{
+		h2{
+			width: 95%;
+		}
+
+ 	  }
+ }
+
+
+}
+
+@media (max-width: 767.98px) { 
+
+#our_features{
+  .our_features_heading{
+	 h2{
+	 	width:100%;
+	 	padding-bottom:30px;
+	 }
+  }
+  .features_content_wrapper{
+  	img{
+
+  	}
+  	h4{
+        width:95%;
+  	}
+  	p{
+  		width:95%;
+  	}
+  	
+  }
+
+}
+
+.cta_utm_button,
+.design_view_more_button{
+	a,
+	button{
+		max-width: 280px;
+		width: 280px;
+		font-size: 20px;
+	}
+}
+.mpt0{
+	padding-top: 0;
+}
+
+
+#tools_we_use{
+    padding: 90px 0 120px 0;
+    h2{
+    	width:95%;
+    	margin:0 auto;
+    	padding-bottom: 20px;
+    }
+    .d-flex{
+    	padding-bottom: 20px;
+    }
+	.our_conversion_tools_images {
+		width:50%;
+		padding-bottom: 40px;
+		img{
+          width:80%;
+		}
+	}
+}
+
+
+ #why_choose_us_tools{
+	padding: 0px 0 50px 0;
+ 	  .why_choose_us_main_wrapper{
+		h2{
+			width: 95%;
+		}
+		.why_choose_us_inner_wrapper{
+			.tool_list_wrapper{
+				li{
+					  flex-basis: 95%;
+				}
+			}
+		}
+ 	  }
+ }
+
+
+	 #our_features_single{
+		padding:80px 0 40px 0;
+	  .our_features_heading{
+	  	width:95%;
+	  }
+	  .why_jekyll_wrapper{
+	  	padding:30px;
+	  	margin-bottom:30px;
+	  		.jekyll_content{
+	  			h2{
+	  			padding-bottom: 30px;
+	  			}
+	  			p{
+	  			font-size: 20px;
+	  			line-height: 28px;
+	  			padding-bottom: 30px;
+	  			a{
+		  			font-size: 20px;
+	  			    line-height: 28px;
+	  			}
+	  			span{
+	  				font-size: 20px;
+	  			    line-height: 28px;
+	  			    img{
+	  			    	width:30px;
+	  			    }
+	  			}
+	  		  }
+	  		}
+	  }
+	}
+
+
+
+
+}
+
+@media (max-width: 575.98px) { 
+
+
+
+
+
+}

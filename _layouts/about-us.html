@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+      {% include header.html %}
+  <section id="header_wrapper" style="background-image: url({{site.baseurl}}{{ page.banner-image }});">
+    <div class="general_header_inner_wrapper"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main_banner about_alignment">
+                        <h1>{{page.banner-heading}}</h1>
+                        <h4 class="text-white">{{page.banner-subheading}}</h4>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div> 
+  </section> 
+
+<section id="about_us">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>{{page.about-us-heading}}</h2>
+                {{ page.about-us-description | markdownify  }}
+            </div>
+            <div class="col-md-6">
+                <img src="{{site.baseurl}}{{ page.about-us-image }}" alt="{{ page.about-us-image-alt-content }}" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="stats_section">
+                    <div class="stats_left">
+                        <div class="box_left_wrapper">
+                            <div class="stats_box text-center box_one">
+                                    <div class="box-inner_alignment">
+                                        <h2>{{ page.box-1-heading }}</h2> 
+                                        <h4>{{ page.box-1-content }}</h4>
+                                    </div>
+                            </div>
+                            <div class="stats_box text-center box_two">
+                                     <div class="box-inner_alignment">
+                                         <h2>{{ page.box-2-heading }}</h2> 
+                                         <h4>{{ page.box-2-content }}</h4>
+                                     </div>
+                            </div>
+                        </div>
+                        <div class="box_right_wrapper">
+                                <div class="stats_box text-center box_three">
+                                       <div class="box-inner_alignment">
+                                           <h2>{{ page.box-3-heading }}</h2> 
+                                           <h4>{{ page.box-3-content }}</h4>
+                                       </div>
+            
+                                </div>
+                                <div class="stats_box text-center box_four">
+                                        <div class="box-inner_alignment">
+                                            <h2>{{ page.box-4-heading }}</h2> 
+                                            <h4>{{ page.box-4-content }}</h4>
+                                        </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="stats_right">
+                        <h3>{{ page.section-2-heading }} </h3>
+                        <h5>{{ page.section-2-sub-heading }}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="our_team">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center">{{ page.team-heading }}</h2>
+
+                        <ul class="our_team_list">
+                                {% for team in site.ourteam %}
+                                    <li class="team_box">
+
+                                        <div>
+                                            <div class="employee_image d-xs-block d-sm-block d-md-none
+                                            ">
+                                                    <img src="{{team.image}}" alt="{{team.title}}">
+                                            </div>
+
+                                            <div class="team_content text-center">
+                                                <h5 class="employee_name"> {{team.title}} </h5>
+                                                <h5 class="employee_role">{{team.role}}</h5>
+                                            </div>
+                                            <ul class="team_social_links">
+                                                    {% if team.is-twitter-link-visible %}  
+                                                        <li>
+                                                                <a href="{{ team.twitter-link }}" target="blank"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                    {% endif %}
+
+                                                    {% if team.is-linkedin-link-visible %}  
+                                                        <li>
+                                                            <a href="{{ team.linkedin-link }}" target="blank">
+                                                                    <i class="fab fa-linkedin-in"></i>
+                                                            </a>
+                                                        </li>
+                                                    {% endif %}
+                                            </ul>	
+                                            <div class="employee_image d-none d-sm-none d-md-block">
+                                                    <img src="{{team.image}}" alt="{{team.title}}">
+                                            </div>
+
+                                        </div>
+                                            
+                                                
+
+                                                	 
+                                        </li>	
+                                {% endfor %}	
+
+
+                        </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="ceo_review">
+ <div class="container">
+     <div class="row">
+         <div class="col-md-6">
+                <img src="{{site.baseurl}}{{ page.founder-section-image }}" alt="{{ page.about-us-image-alt-content }}" class="img-fluid">
+         </div>
+         <div class="col-md-5">
+            <div class="ceo_message">
+                <img src="{{site.baseurl}}/images/apexure-about-us/left-quotes-sign.png" alt="quote" class="img-fluid quote">
+                {{ page.ceo-description | markdownify  }}
+                <h5>{{ page.ceo-name-heading }}, <span class="role">{{page.ceo-role-heading }}</span></h5>
+                <img src="{{site.baseurl}}{{page.ceo-company-image}}" alt="apexure-logo" class="img-fluid apexure_logo">
+            </div>
+         </div>
+     </div>
+ </div>
+</section>
+
+
+
+<section id="our_customers">
+    <div class="container">
+        <h2 class="text-center">{{ page.our-customers-heading }}</h2>
+            <div class="our_customer_images_wrapper d-flex align-items-center flex-wrap">
+            {% assign customers = site.customers %}
+                {% for customers in site.customers  %}
+                <div class="our_customer_images">
+                    <img src="{{site.baseurl}}{{ customers.image }}" alt="{{ customers.image-alt-title }}" class="img-fluid" >
+                </div>
+                {% endfor %}
+            </div>    
+    </div>
+ </section>
+
+
+
+
+
+
+
+<section id="who_we_are_testimonial">
+  <div class="container text-center">
+         <h2>{{ page.testimonial-heading }}</h2>
+         <img class="img-fluid" src="{{site.baseurl}}{{ page.testimonial-quotation-image }}" alt="Apexure Quote Review" id="quotation">
+         {{ page.testimonial-description | markdownify }}
+         <img class="img-fluid" src="{{site.baseurl}}{{ page.testimonial-review-image }}" alt="{{page.testimonial-review-name-content}}">
+         <h5> {{page.testimonial-review-name-content }}</h5>
+
+         <img class="img-fluid company-image" src="{{site.baseurl}}{{ page.testimonial-company-image }}" alt="company-image">
+  </div>
+</section>
+
+  <section id="cta"  style="background-image: url({{site.baseurl}}{{ page.cta-image }});">
+    <div class="cta_content">
+      <div class="container">
+         <h2>{{ page.cta-heading }}</h2>
+         <h4>{{ page.cta-sub-heading }}</h4>
+         <a href="{{site.baseurl}}{{page.cta-link}}">{{ page.cta-button-heading }}</a>
+      </div>
+    </div>
+  </section> 
+  
+
+
+
+
+
+
+  {% include scripts.html %}
+  {% include footer.html %}
+  </body>
+
+</html>

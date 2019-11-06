@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+      {% include header.html %}
+  <section id="header_wrapper" style="background: linear-gradient(to right, #8a1a9b , #410099);">
+
+  <div class="general_header_inner_wrapper"> 
+   <div class="container">
+    <div class="row">
+       <div class="col-12">
+         <div class="main_banner">
+          <h1>{{page.banner-heading}}</h1>
+         </div>
+       </div>
+    </div>    
+   </div>
+  </div> 
+  </section>
+
+  <section id="service_main_section">
+    <div class="container">
+      {% assign serviceslist = site.services %}
+        {% for serviceslist in site.services  %}
+      <section class="what_we_do_services_body pb10">
+        <div class="row main_alignment justify-content-center">
+              <div class="col-md-5 what_we_do_feature_image">
+                <img src="{{site.baseurl}}{{ serviceslist.image }}" alt="{{ serviceslist.image-alt-title }}" class="img-fluid" >
+              </div>
+              <div class="col-md-5 what_we_do_content_wrapper">
+                       <h3>{{ serviceslist.title }}</h3>
+                       <div class="what_we_do_content">
+                        {{  serviceslist.description | markdownify }}
+                       </div>
+                       <a href="{{site.baseurl}}{{ serviceslist.link }}">
+                        <img src="{{site.baseurl}}/images/read-more-arrow.png" alt="read-more-arrow">
+                          Read More
+                       </a>
+              </div>
+        </div>   
+       </section>
+       {% endfor %}
+   </div> 
+  </section>
+
+<!-- <section id="homepage_testimonial_services">
+  <div class="container">
+     <div class="homepage_testimonial_content">
+       <img src="{{site.baseurl}}/images/quote-left.png" alt="quote-left" class="homepage_quote_left">
+        <h4>{{ page.review-heading }}</h4>
+         {{page.review-description | markdownify}}
+        <h6>{{ page.review-name-heading }}</h6>
+        <img src="{{site.baseurl}}{{ page.review-clients-image }}" alt="{{ page.alt-clients-image-title }}" class="img-fluid">
+     </div>
+  </div>
+</section> -->
+
+<section id="homepage_testimonial">
+  <div class="container">
+     <div class="homepage_testimonial_content">
+       <img src="{{site.baseurl}}/images/quote-left.png" alt="quote-left" class="homepage_quote_left">
+        <h4>{{ page.review-heading }}</h4>
+         {{page.review-description | markdownify}}
+        <h6>{{ page.review-name-heading }}</h6>
+        <img src="{{site.baseurl}}{{ page.review-clients-image }}" alt="{{ page.alt-clients-image-title }}" class="img-fluid">
+     </div>
+  </div>
+</section>
+
+<section id="homepage_our_customers_service">
+  <div class="container">
+    <h2 class="text-center">{{ page.our-customers-heading }}</h2>
+    <div class="d-flex align-items-center justify-content-center flex-wrap">
+    {% assign servicepagecustomers = site.servicepagecustomers %}
+        {% for servicepagecustomers in site.servicepagecustomers  %}
+          <div class="our_customer_images">
+            <img src="{{site.baseurl}}{{ servicepagecustomers.image }}" alt="{{ servicepagecustomers.image-alt-title }}" class="img-fluid" >
+          </div>
+       {% endfor %}
+    </div>    
+  </div>
+</section>
+
+    {% include scripts.html %}
+    {% include footer.html %}
+  </body>
+</html>

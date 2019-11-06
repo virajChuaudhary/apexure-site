@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+      {% include header.html %}
+  <section id="header_wrapper" style="background-image: url({{site.baseurl}}{{ page.banner-image }});">
+ 
+  <div class="general_header_inner_wrapper"> 
+   <div class="container">
+    <div class="row">
+       <div class="col-12">
+         <div class="main_banner">
+          <h1>{{page.banner-heading}}</h1>
+          <h4 class="text-white">{{page.banner-sub-heading}}</h4>
+         </div>
+       </div>
+    </div>    
+   </div>
+  </div> 
+  </section> 
+
+  <section id="category_product_features">
+    <div class="container">
+      <div class="category_features_wrapper">
+        <div class="heading_width">
+          <h2 class="text-center">{{page.product-heading}}</h2>
+        </div>
+        <div class="product_banner_image_wrapper">
+          <img src="{{site.baseurl}}{{page.product-image}}" alt="{{page.banner-heading}}" class="img-fluid product_banner">
+        </div>
+        {% if page.is-stats %}
+         <div class="stats">
+           <div class="stats_alignment d-flex">
+            
+              <div class="stats_inner_wrapper ">
+                <div class="d-flex">
+                  <div>
+                    <img src="{{site.baseurl}}/images/up-arrow.png" alt="up-arrow">
+                  </div>
+                  <div>
+                   <h4>{{ page.stats-1-percentage-heading }}</h4>
+                  </div>
+                </div>
+                <p>{{ page.stats-1-percentage-description }}</p>
+              </div>
+
+              <div class="stats_inner_wrapper ">
+                <div class="d-flex">
+                  <div>
+                    <img src="{{site.baseurl}}/images/up-arrow.png"  alt="up-arrow">
+                  </div>
+                  <div>
+                   <h4>{{ page.stats-2-percentage-heading }}</h4>
+                  </div>
+                </div>
+                <p>{{ page.stats-2-percentage-description }}</p>
+              </div>
+
+              <div class="stats_inner_wrapper ">
+                <div class="d-flex">
+                  <div>
+                    <img src="{{site.baseurl}}/images/down-arrow.png"  alt="down-arrow">
+                  </div>
+                  <div>
+                   <h4>{{ page.stats-3-percentage-heading }}</h4>
+                  </div>
+                </div>
+                <p>{{ page.stats-3-percentage-description }}</p>
+              </div>
+              
+           </div>
+         </div>
+        {% endif %} 
+         <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <div class="product_challenge_alignment">
+                <h4>{{page.product-challenge-heading}} :</h4>
+                {{page.product-challenge-description | markdownify }}
+              </div>
+              <div class="product_solution_alignment">
+                <h4>{{page.product-solution-heading}} :</h4>
+              </div>
+            </div>  
+         </div>
+
+         <div class="row">
+           <div class="col-md-8 offset-md-2">
+            <h4>{{ page.main-feature-description | markdownify }}</h4>
+            {% if page.is-featured-type-1 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-1-image}}" alt="{{page.feature-type-1-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-1-heading}}</h4>
+                   {{page.feature-type-1-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+             {% if page.is-featured-type-2 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-2-image}}" alt="{{page.feature-type-2-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-2-heading}}</h4>
+                   {{page.feature-type-2-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+             {% if page.is-featured-type-3 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-3-image}}" alt="{{page.feature-type-3-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-3-heading}}</h4>
+                   {{page.feature-type-3-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+             {% if page.is-featured-type-4 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-4-image}}" alt="{{page.feature-type-4-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-4-heading}}</h4>
+                   {{page.feature-type-4-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+             {% if page.is-featured-type-5 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-5-image}}" alt="{{page.feature-type-5-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-5-heading}}</h4>
+                   {{page.feature-type-5-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+            {% if page.is-featured-type-6 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-6-image}}" alt="{{page.feature-type-6-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-6-heading}}</h4>
+                   {{page.feature-type-6-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+            {% if page.is-featured-type-7 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-7-image}}" alt="{{page.feature-type-7-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-7-heading}}</h4>
+                   {{page.feature-type-7-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+            {% if page.is-featured-type-8 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-8-image}}" alt="{{page.feature-type-8-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-8-heading}}</h4>
+                   {{page.feature-type-8-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+            {% if page.is-featured-type-9 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-9-image}}" alt="{{page.feature-type-9-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-9-heading}}</h4>
+                   {{page.feature-type-9-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+            {% if page.is-featured-type-10 %}   
+             <div class="category_features_content_wrapper d-md-flex">
+                <div>
+                  <img src="{{site.baseurl}}/{{page.feature-type-10-image}}" alt="{{page.feature-type-10-heading}}" class="img-fluid">
+                </div>
+                 <div class="category_features_content">
+                   <h4>{{page.feature-type-10-heading}}</h4>
+                   {{page.feature-type-10-description | markdownify}}
+                 </div>
+              </div>
+            {% endif %}
+
+           </div>
+         </div>
+
+         <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <div class="product_result_alignment">
+                <h4>{{page.product-result-heading}} :</h4>
+                {{page.product-result-description | markdownify }}
+                {% if page.is-review-graph-image %}  
+                  <div class="review_graph_image">
+                    <img src="{{site.baseurl}}/{{page.graph-image}}" alt="graph">
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+         </div>     
+      </div>
+    </div>
+  </section>
+
+  <section id="cta" style="background-image: url({{site.baseurl}}{{ page.cta-image }});">
+    <div class="cta_content">
+      <div class="container">
+         <h2>{{ page.cta-heading }}</h2>
+         <h4>{{ page.cta-sub-heading }}</h4>
+         <a href="{{site.baseurl}}{{page.cta-link}}">{{ page.cta-button-heading }}</a>
+      </div>
+    </div>
+  </section> 
+  
+
+
+
+
+
+
+  {% include scripts.html %}
+  {% include footer.html %}
+  </body>
+
+</html>

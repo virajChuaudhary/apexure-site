@@ -1,0 +1,221 @@
+---
+title: Web Design Agency London | Websites and Landing Pages Design
+timezone: UTC
+collections:
+  landing-pages-accountant-landing-page-full:
+    title: Accounting
+    output: true
+  homepagecustomers:
+    title: Homepage Our Customers
+    output: true
+  jekyll-mainpage:
+    title: Jekyll
+    output: true
+  landing-page-design-development:
+    title: Landing Page Design Development
+    output: true
+  main-category:
+    title: Main Category
+    output: true
+  customers:
+    title: Our Customers
+    output: true
+  ourteam:
+    title: Our Team
+    output: true
+  partnerspage:
+    title: Partners
+    output: true
+  portfolio-design:
+    title: Portfolio
+    output: true
+    permalink: "/design/:name"
+  posts:
+    title: Posts
+    output: true
+  services:
+    title: Services
+    output: true
+  contactcustomers:
+    title: Services
+    output: true
+  servicepagecustomers:
+    title: Services customers
+    output: true
+  socialmedia:
+    title: Social Media
+    output: true
+  unbounce-landingpage:
+    title: Unbounce Landing Page
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  homepagewhatwedo:
+    title: What We Do
+    output: true
+  wordpress-mainpage:
+    title: Wordpress
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: ourteam
+  values:
+    layout: about-us
+    permalink: 
+    image: 
+    is-linkedin-link-visible: 
+    is-twitter-link-visible: 
+    linkedin-link: 
+    role: 
+    title: 
+    twitter-link: 
+- scope:
+    path: ''
+    type: homepagewhatwedo
+  values:
+    layout: homepage
+    permalink: 
+    image: 
+    header: 
+    content: 
+- scope:
+    path: ''
+    type: services
+  values:
+    layout: services
+    permalink: 
+    image: 
+    header: 
+    content: 
+    link: 
+- scope:
+    path: ''
+    type: socialmedia
+  values:
+    layout: thank-you
+    permalink: 
+    image: 
+    header: 
+    content: 
+    link: 
+- scope:
+    path: ''
+    type: partners
+  values:
+    layout: partners
+    permalink: 
+    image: 
+    header: 
+    content: 
+    link: 
+- scope:
+    path: ''
+    type: homepagecustomers
+  values:
+    layout: homepage
+    title: 
+    image: 
+    alt: 
+- scope:
+    path: ''
+    type: customers
+  values:
+    layout: who-we-are
+    title: 
+    image: 
+    alt: 
+- scope:
+    path: ''
+    type: wordpress-mainpage
+  values:
+    layout: wordpress-main-category
+    title: 
+    image: 
+    alt: 
+    link: 
+- scope:
+    path: ''
+    type: jekyll-mainpage
+  values:
+    layout: jekyll-main-category
+    title: 
+    image: 
+    alt: 
+    link: 
+- scope:
+    path: ''
+    type: landing-page-design-development
+  values:
+    layout: landing-page-design-main-category
+    title: 
+    image: 
+    alt: 
+    link: 
+- scope:
+    path: ''
+    type: unbounce-landingpage
+  values:
+    layout: unbounce-main-category
+    title: 
+    image: 
+    alt: 
+    link: 
+- scope:
+    path: ''
+    type: main-category
+  values:
+    title: 
+    image: 
+    alt: 
+    link: 
+    tags: 
+- scope:
+    path: ''
+    type: portfolio-design
+  values:
+    title: 
+    layout: portfolio-design-layout
+    image: 
+    alt: 
+    link: 
+    tags: 
+- scope:
+    path: ''
+    type: posts
+  values:
+    author: 
+    image: 
+    take-away-image: 
+    author-image: 
+    facebook-link: 
+    instagram-link: 
+    twitter-link: 
+    author-description: 
+    comments: 
+    meta-description: 
+    meta-keywords: 
+email: infra@apexure.com
+description: Do you need a top-notch Landing Page for your Business? We are the Conversion-focused
+  Landing Page & Web Design Agency in London. We work with business, entrepreneurs
+  and marketers by designing High-Converting Landing Pages, optimised for Lead Generation
+  Optimal User Experience.
+baseurl: 
+url: https://www.apexure.com
+permalink: "/blog/:title"
+markdown: kramdown
+theme: minima
+social:
+  name: Apexure
+  links:
+  - https://twitter.com/apexure
+  - https://www.instagram.com/apexure/
+  - https://www.facebook.com/Apexure/
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-seo-tag

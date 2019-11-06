@@ -1,0 +1,213 @@
+
+@media (max-width: 991.98px) { 
+    .blog_content{
+        h4{
+            width: 100%;
+        }
+    }
+
+    // #blog_single_content_wrapper {
+    //     p{
+    //         font-size: 20px;
+    //         line-height: 30px;
+    //     }
+    // }
+}
+
+@media (max-width: 767.98px) { 
+    .blog_content{
+        padding: 42px 0px;
+        h4{
+            padding-bottom: 25px;
+            width: 100%;
+        }
+        .center_content{
+            img{
+                width: 15%;
+            }
+        }
+        .outer_content_section_wrapper{
+            padding: 15px 0px 0px 0px;
+        }
+    }
+
+    .blog_container_new{
+        h3{
+            font-size: 26px;
+            text-align: center;
+            width: 100%;
+            line-height: 36px;
+        }
+        h4{
+            font-size: 20px;
+        }
+        h6{
+            width: 100%;
+        }
+        
+        h5{
+            font-size: 23px;
+            line-height: 33px;
+        }
+        p{
+            width: 100% !important;
+        }
+    }
+    .how_do_you_create_lp{
+        padding: 43px 0px;
+        .pros_cons_outer_wrapper {
+            .pros{
+                .cons_list{
+                    margin-left: 0px;
+                }
+            }
+        }
+        .text_part{
+            h3{
+                width: 100%;
+            }
+        }
+        .how_to_build_lp{
+            .bold_text_part{
+                width: 100%;
+                padding-top: 27px;
+            }
+        }
+        .pros_cons_outer_wrapper{
+            .pros{
+                &:first-child{
+                    margin-bottom: 84px;
+                }
+                ul{
+                    li{
+                        &:last-child{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .is_landing_page_a_website{
+        padding: 31px 0px;
+        h4{
+            text-align: center;
+        }
+
+        .blue_box {
+            ul{
+                h4{
+                    text-align: left;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .how_does_a_landing_page_work{
+        padding: 65px 0px;
+        .how_does_a_lp_work_content{
+            .outer_wrapper{
+                min-height: 360px;
+            }
+        }
+    }
+    .who_designs_lp{
+        p{
+            padding-top: 14px;
+        }
+        .who_designs_lp_content{
+            .who_designs_lp_img_list_outer_wrapper{
+                padding-top: 0px;
+               .who_designs_lp_img_list{
+                margin-bottom: 30px;
+                   img{
+                    display: block;
+                    margin: 0 auto;
+                   }
+               }
+            }
+            .book_a_call {
+                a{
+                    width: 55%;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 575.98px) { 
+    .blog_container_new{
+        h3{
+            font-size: 20px !important;
+            line-height: 30px !important;
+        }
+        // p{
+        //     font-size: 16px !important;
+        //     line-height: 26px !important;
+        // }
+    
+    }
+    .who_designs_lp{
+        .who_designs_lp_content{
+            .book_a_call{
+                width: 95%;
+            }
+            .jumbotron_outer_box {
+                h3{
+                    width: 93%;
+                }
+            }
+        }
+    }
+    .is_landing_page_a_website{
+        p{
+            text-align: center;
+        }
+        .blue_box{
+            img{
+                width: 14%;
+                right: 0px;
+            }
+        }
+    }
+    .how_do_you_create_lp {
+        .how_to_build_lp{
+            padding: 25px;
+        }
+    }
+    .is_landing_page_a_website{
+        .blue_box{
+            padding: 24px;
+            ul{
+               li{
+                font-size: 20px;
+                padding-left: 35px;
+                &:before{
+                    left: -9px;
+                }
+                }
+            }
+        }
+    }
+    .types_of_lp{
+        .landing_page_types_content{
+            padding: 40px;
+        }
+    }
+    .who_designs_lp{
+        .who_designs_lp_content{
+            .book_a_call{
+                a{
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+}       
+
+@media (max-width: 375.98px){
+   
+}

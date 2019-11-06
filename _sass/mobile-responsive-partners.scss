@@ -1,0 +1,60 @@
+/*************
+MEDIA QUERIES
+*************/
+@media (max-width: 1199.98px) { 
+
+}
+
+@media (max-width: 991.98px) { 
+	#body_content_partners{
+	p{
+		font-size: 18px;
+		line-height: 30px;
+	}
+		.subheading_content_partners{
+			p{
+				width: 100%;
+			}
+		}
+
+		.partners_section{
+			.partners_info{
+				.partner_context {
+					padding-left: 36px;
+					h3{
+						font-size: 29px;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767.98px) {
+	#body_content_partners{
+	 	.partners_section{
+			.partners_info{
+				text-align: center;
+				&:nth-child(2){
+			 	.partner_image {
+			 		padding: 70px 0px;
+			 	}
+			}
+				.partner_image{
+					padding: 50px 0px;
+				}
+				.partner_context {
+					padding: 37px 0px;
+					p{
+						width: 88%;
+						margin: 0 auto;
+					}	
+				}
+				}
+		}	
+	}
+}
+
+
+@media (max-width: 575.98px) { 
+
+}

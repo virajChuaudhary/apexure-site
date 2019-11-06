@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "12"
+      },
+      "description": "Get high converting, super fast Jekyll websites designed and developed for you.",
+      "name": "Jekyll Design and Development",
+      "image": "https://www.apexure.com/images/apexure-jekyll-development.png",
+      "offers": {
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": "200.00",
+        "priceCurrency": "USD",
+        "priceValidUntil" : "2020-05-09",
+        "url": "https://www.apexure.com/jekyll/"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": "Kie",
+          "datePublished": "2018-04-09",
+          "description": "You’ve heard the saying “jack of all trades but master of none.” Waseem is truly a master of all trades! He knows it all! He was able to create an exciting landing page for my soon to come app specific to my needs and wants. It has been a great pleasure working with you, and many more to come! Would rate even higher than 5 stars!",
+          "name": "There is no better designer than Waseem!",
+          "reviewRating": {
+            "@type": "Rating",
+            "bestRating": "5",
+            "ratingValue": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": "Dan Blondell",
+          "datePublished": "2018-04-05",
+          "description": "What more can you ask for? Delivered quickly and well. Stayed in consistent communication. Friendly and clear. Responded to changes and executed them well",
+          "name": "Quick, Friendly, Good",
+          "reviewRating": {
+            "@type": "Rating",
+            "bestRating": "5",
+            "ratingValue": "4.8",
+            "worstRating": "1"
+          }
+        }
+      ]
+    }
+  </script>
+</head>
+  <body>
+      {% include header.html %}
+  <section id="header_wrapper" style="background: linear-gradient(to right, #8a1a9b , #410099);">
+ 
+    <div class="general_header_inner_wrapper"> 
+     <div class="container">
+      <div class="row">
+         <div class="col-12">
+           <div class="main_banner">
+            <h1>{{page.banner-heading}}</h1>
+            <h4 class="text-white">{{page.banner-sub-heading}}</h4>
+           </div>
+         </div>
+      </div>    
+     </div>
+    </div> 
+  </section> 
+
+<section id="our_features_single">
+  <div class="container">
+    <div class="our_features_heading">
+     <h2 class="text-center">{{ page.our-feature-heading }}</h2>
+     <h4 class="text-center">{{ page.our-feature-sub-heading }}</h4>
+    </div>
+    <div class="why_jekyll_wrapper">
+       <div class="jekyll_content">
+         <h2>{{ page.why-jekyll-heading }}</h2>
+         {% if page.is-jekyll-point-1 %} 
+           {{ page.jekyll-point-1-description | markdownify  }}
+         {% endif %}
+         {% if page.is-jekyll-point-2 %} 
+           {{ page.jekyll-point-2-description | markdownify  }}
+         {% endif %}
+         {% if page.is-jekyll-point-3 %} 
+           {{ page.jekyll-point-3-description | markdownify  }}
+         {% endif %}
+         {% if page.is-jekyll-point-4 %} 
+           {{ page.jekyll-point-4-description | markdownify  }}
+         {% endif %}
+         {% if page.is-jekyll-point-5 %} 
+           {{ page.jekyll-point-5-description | markdownify  }}
+         {% endif %}
+         <p>
+           <span><strong>Love:</strong></span>
+           <span>We</span>
+           <span>
+            <img src="/images/love.png" alt="why-we-love-jekyll" class="img-fluid">
+           </span>
+           <span>
+             Jekyll so much, even our own website is in built using Jekyll.
+           </span>
+
+         </p>
+       </div>
+    </div>  
+  </div> 
+</section> 
+<section id="category_page_gallery" class="service_category_gallery">
+    <div class="container">
+      <h2 class="text-center text-white">{{page.category-heading}}</h2>
+      
+      <div class="d-flex align-items-center justify-content-center flex-wrap">
+          {% assign jekyll-mainpage = site.jekyll-mainpage %}
+            {% for jekyll-mainpage in site.jekyll-mainpage  %}
+              
+              <div class="category_page_images">
+                 <img src="{{site.baseurl}}{{ jekyll-mainpage.image }}" alt="{{ jekyll-mainpage.image-alt-title }}" class="img-fluid" >
+                 <div class="category_page_images_overlay">
+                  <a href="{{site.baseurl}}{{ jekyll-mainpage.link }}">View Landing Page</a>
+                 </div>
+              </div>
+           {% endfor %}
+       </div>    
+    </div>
+  </section>  
+
+ 
+
+<section id="our_features">
+ <div class="container"> 
+    <div>
+       <div class="features_content_wrapper_single">
+         <img src="{{site.baseurl}}{{ page.feature-icon-1-image }}" alt="{{ page.feature-icon-1-heading }}">
+         <h4>{{ page.feature-icon-1-heading }}</h4>
+         <p> {{ page.feature-icon-1-description | markdownify  }}</p>
+       </div>
+    </div> 
+
+   <div class="features_main_wrapper d-flex  justify-content-center flex-wrap">  
+       <div class="features_content_wrapper">
+         <img src="{{site.baseurl}}{{ page.feature-icon-2-image }}" alt="{{ page.feature-icon-2-heading }}">
+         <h4>{{ page.feature-icon-2-heading }}</h4>
+        {{ page.feature-icon-2-description | markdownify  }}
+       </div>
+       <div class="features_content_wrapper">
+         <img src="{{site.baseurl}}{{ page.feature-icon-3-image }}" alt="{{ page.feature-icon-3-heading }}">
+         <h4>{{ page.feature-icon-3-heading }}</h4>
+        {{ page.feature-icon-3-description | markdownify  }}
+       </div>
+       <div class="features_content_wrapper">
+         <img src="{{site.baseurl}}{{ page.feature-icon-4-image }}" alt="{{ page.feature-icon-4-heading }}">
+         <h4>{{ page.feature-icon-4-heading }}</h4>
+         {{ page.feature-icon-4-description | markdownify  }}
+       </div>
+       <div class="features_content_wrapper">
+         <img src="{{site.baseurl}}{{ page.feature-icon-5-image }}" alt="{{ page.feature-icon-5-heading }}">
+         <h4>{{ page.feature-icon-5-heading }}</h4>
+        {{ page.feature-icon-5-description | markdownify  }}
+       </div>
+   </div> 
+ </div>
+</section>
+
+
+<section id="tools_we_use">
+  <div class="container">
+    <h2 class="text-center">{{ page.conversion-tools-heading }}</h2>
+   <div class="d-flex align-items-center justify-content-center flex-wrap">
+    {% if page.is-conversion-1-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-1-image }}" alt="{{ page.conversion-1-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}
+    {% if page.is-conversion-2-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-2-image }}" alt="{{ page.conversion-2-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}
+    {% if page.is-conversion-3-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-3-image }}" alt="{{ page.conversion-3-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}
+    {% if page.is-conversion-4-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-4-image }}" alt="{{ page.conversion-4-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}
+    {% if page.is-conversion-5-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-5-image }}" alt="{{ page.conversion-5-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}
+    {% if page.is-conversion-6-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-6-image }}" alt="{{ page.conversion-6-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}
+    {% if page.is-conversion-7-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-7-image }}" alt="{{ page.conversion-7-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}
+    {% if page.is-conversion-8-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-8-image }}" alt="{{ page.conversion-8-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}{% if page.is-conversion-9-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-9-image }}" alt="{{ page.conversion-9-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}
+    {% if page.is-conversion-10-logo %} 
+      <div class="our_conversion_tools_images">
+        <img src="{{site.baseurl}}{{ page.conversion-logo-10-image }}" alt="{{ page.conversion-10-image-alt-title }}" class="img-fluid" >
+      </div>
+    {% endif %}
+    </div>    
+  </div>
+</section>
+
+<section id="why_choose_us_tools">
+  <div class="container">
+    <div class="why_choose_us_main_wrapper">
+      <h2 class="text-center">{{page.why-choose-us-heading}}</h2>
+      <div class="why_choose_us_inner_wrapper">
+        <ul class="tool_list_wrapper">
+          {% for list in  page.main-features-list-description %}
+            <li><i class="fa fa-check fa_styling"></i><span class="main_tool_list">{{ list[1]}}</span></li>
+          {% endfor %}
+       </ul>  
+      </div>  
+    </div>
+  </div>
+</section>
+
+
+  
+
+
+  {% if page.is-testimonial %} 
+  <section id="testimonial">
+    <div class="container">
+       <div class="homepage_testimonial_content service_category_testimonial">
+         <img src="{{site.baseurl}}/images/quote-left.png" alt="quote-left" class="homepage_quote_left">
+          <h4>{{ page.review-heading }}</h4>
+           {{page.review-description | markdownify}}
+          <img src="{{site.baseurl}}{{ page.review-clients-image }}" alt="{{ page.alt-clients-image-title }}" class="img-fluid">
+          <h6>{{ page.review-name-heading }}</h6>
+        </div>
+    </div>
+  </section>
+  {% endif %}
+
+<section id="our_process">
+  <div class="container">
+    <h2 class="text-center">{{page.process-heading}}</h2>
+            <div class="category_features_wrapper">
+               <div class="row">
+                 <div class="col-md-10 offset-md-1">
+
+                  {% if page.is-featured-type-1 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-1-image}}" alt="{{page.feature-type-1-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-1-heading}}</h4>
+                         {{page.feature-type-1-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                   {% if page.is-featured-type-2 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-2-image}}" alt="{{page.feature-type-2-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-2-heading}}</h4>
+                         {{page.feature-type-2-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                   {% if page.is-featured-type-3 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-3-image}}" alt="{{page.feature-type-3-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-3-heading}}</h4>
+                         {{page.feature-type-3-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                   {% if page.is-featured-type-4 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-4-image}}" alt="{{page.feature-type-4-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-4-heading}}</h4>
+                         {{page.feature-type-4-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                   {% if page.is-featured-type-5 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-5-image}}" alt="{{page.feature-type-5-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-5-heading}}</h4>
+                         {{page.feature-type-5-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                  {% if page.is-featured-type-6 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-6-image}}" alt="{{page.feature-type-6-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-6-heading}}</h4>
+                         {{page.feature-type-6-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                  {% if page.is-featured-type-7 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-7-image}}" alt="{{page.feature-type-7-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-7-heading}}</h4>
+                         {{page.feature-type-7-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                  {% if page.is-featured-type-8 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-8-image}}" alt="{{page.feature-type-8-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-8-heading}}</h4>
+                         {{page.feature-type-8-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                  {% if page.is-featured-type-9 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-9-image}}" alt="{{page.feature-type-9-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-9-heading}}</h4>
+                         {{page.feature-type-9-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                  {% if page.is-featured-type-10 %}   
+                   <div class="category_features_content_wrapper d-md-flex">
+                      <div>
+                        <img src="{{site.baseurl}}/{{page.feature-type-10-image}}" alt="{{page.feature-type-10-heading}}" class="img-fluid">
+                      </div>
+                       <div class="category_features_content">
+                         <h4>{{page.feature-type-10-heading}}</h4>
+                         {{page.feature-type-10-description | markdownify}}
+                       </div>
+                    </div>
+                  {% endif %}
+
+                 </div>
+               </div>
+            </div>
+
+  </div>
+</section>
+
+
+
+  <section id="info" style="background-color: #fff;">
+    <div class="container">
+     <h2 class="text-center">{{ page.info-heading }}</h2>
+      <div class="row"> 
+        <div class="col-md-10 offset-md-1">
+          {% if page.is-question-1 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-1-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-1-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+          {% if page.is-question-2 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-2-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-2-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+          {% if page.is-question-3 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-3-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-3-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+          {% if page.is-question-4 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-4-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-4-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+          {% if page.is-question-5 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-5-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-5-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+          {% if page.is-question-6 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-6-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-6-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+          {% if page.is-question-7 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-7-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-7-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+          {% if page.is-question-8 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-8-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-8-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+          {% if page.is-question-9 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-9-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-9-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+          {% if page.is-question-10 %} 
+           <div class="question_warapper">
+             <h5><span>Q.</span> {{page.question-10-heading}}</h5>
+             <h6><span>A.</span>{{ page.question-10-description | markdownify  }}</h6>
+           </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% if page.is-operating %} 
+  <section id="our_operating">
+    <div class="container">
+       <h2 class="text-center">{{ page.operating-heading }}</h2>
+       <ul class="our_operating_list">
+          {% for list in  page.main-operating-list-description %}
+            <li><i class="fa fa-check fa_styling"></i><span class="main_operating_list">{{ list[1]}}</span></li>
+          {% endfor %}
+       </ul>  
+    </div>
+  </section>
+  {% endif %}
+
+  <section id="cta" style="background: #410099;">
+    <div class="cta_content">
+      <div class="container">
+         <h2>{{ page.cta-heading }}</h2>
+         <h4>{{ page.cta-sub-heading }}</h4>
+         <a href="{{site.baseurl}}{{page.cta-link}}">{{ page.cta-button-heading }}</a>
+      </div>
+    </div>
+  </section> 
+  
+
+
+
+
+
+
+  {% include scripts.html %}
+  {% include footer.html %}
+  </body>
+
+</html>

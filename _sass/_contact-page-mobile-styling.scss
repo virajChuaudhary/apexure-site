@@ -1,0 +1,200 @@
+/*************
+MEDIA QUERIES
+*************/
+@media (max-width: 1199.98px) {
+  #contact_form .contact-right-side {
+    padding: 0px 30px;
+  }
+
+  #hubspot_form_alignment {
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .banner_heading_contact{
+    padding-top: 100px;
+  }
+  #contact_location{
+    padding: 40px 0;
+    .contact_location_alignment{
+      flex-wrap: wrap;
+      .contact_location_address_alignment{
+        flex-basis: 100%;
+        .contact_location_london,
+        .contact_location_southend{
+          flex-basis: 50%;
+          h5{
+            color: $white;
+            padding-bottom: 10px;
+            font-family: 'Poppins-SemiBold';
+          }
+          ul{
+            li{
+              font-family: 'Poppins-Regular';
+              font-size: 16px;
+              color: #868686;
+            }
+          }
+        }
+      }
+      .location_contact_details{
+        flex-basis: 100%;
+        padding-top: 15px;
+        ul{
+          li{
+            text-align: left;
+            a{
+              color: #868686;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+}
+
+@media (max-width: 767.98px) {
+
+  #contact_form {
+    #hubspot_form_alignment {
+      padding-top: 40px;
+    }
+
+    .contact-right-side {
+      margin-top: 35px;
+    }
+
+    form {
+      .form-group {
+        input {
+          height: 60px;
+        }
+      }
+
+      button {
+        height: 70px;
+        font-size: 26px;
+      }
+    }
+
+    .contact_info {
+      padding-top: 55px;
+
+      h4 {
+        padding-bottom: 15px;
+      }
+
+      .branch_address_inner {
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  #our_customers {
+    .our_customers_contact {
+      width: 35%;
+    }
+  }
+  #header_wrapper{
+    .banner_heading_contact{
+      padding-top: 50px;
+      h1{
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 0;
+      }
+      
+    }
+  }
+  
+  #contact_location{
+    padding: 40px 0;
+    .contact_location_alignment{
+      flex-wrap: wrap;
+      .contact_location_address_alignment{
+        flex-basis: 100%;
+        .contact_location_london,
+        .contact_location_southend{
+          flex-basis: 50%;
+          h5{
+            color: $white;
+            padding-bottom: 10px;
+            font-family: 'Poppins-SemiBold';
+          }
+          ul{
+            li{
+              font-family: 'Poppins-Regular';
+              font-size: 16px;
+              color: #868686;
+            }
+          }
+        }
+      }
+      .location_contact_details{
+        flex-basis: 100%;
+        padding-top: 15px;
+        ul{
+          li{
+            text-align: left;
+            a{
+              color: #868686;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  #banner_form_alignment {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    h4{
+      padding-top: 35px;
+    }
+  }
+  #contact_testiomial{
+    padding:40px 0;
+    .testimonial-content{
+      h4{
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 20px;
+      }
+    }
+    .testimonail_by{
+      padding-top: 20px;
+      display: flex;
+      justify-content: flex-start;
+      .testimonial_by_name{
+        padding-left: 15px;
+        h5{
+          margin-bottom: 0;
+          padding-bottom: 0;
+          font-family: 'Poppins-Regular';
+        }
+      }
+    }
+  }
+
+
+
+
+
+}
+
+
+
+@media (max-width: 575.98px) {
+
+  #contact_form {
+    #contact_form #hubspot_form_alignment {
+      padding-top: 40px !important;
+    }
+  }
+}

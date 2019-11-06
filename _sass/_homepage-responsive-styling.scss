@@ -1,0 +1,218 @@
+/*************
+MEDIA QUERIES
+*************/
+@media (max-width: 1199.98px) { 
+  header{
+    // a{
+    //   padding: 5px 12px;
+    //   font-size:13px;
+    // }
+    #menu-header-menu{
+      li{
+        padding: 5px 7px;
+      }
+    } 
+  }
+}
+
+@media (max-width: 991.98px) { 
+
+header {
+    padding-top: 35px;
+    a{
+      font-size:16px;
+    }
+.main_menu_container{
+  .navbar{ 
+    .navbar-toggler{
+      padding:0;
+      border:none;
+      margin-top:-5px;
+
+      .navbar-toggler-icon{
+         /* background-image: url(/images/ham-menu-toggler.png); */
+         background-image: url(/images/hamburger.png);
+         height:1px;
+         background-size: contain;
+         width: 35px;
+       }
+    }
+   #menu-header-menu{
+        text-align:end;
+        padding-top:20px;
+        ul{
+          li {
+            a{
+              &:hover{
+                text-decoration:underline;
+                transition: all ease 0.5s;
+              }
+            }
+          }
+        }
+       }      
+    }
+  }
+  .logo{
+    img{
+      width: 100%;
+    }
+  }
+}
+
+
+
+#homepage_header_wrapper{
+  padding-bottom:25px;
+   .homepage_banner_wrapper{
+      flex: 0 0 100%;
+      max-width: 100%; 
+          padding-bottom:25px;
+        .homepage_banner{
+          text-align:center;
+          h1{
+            width: 100%;
+          }
+          h4{
+            width: 100%;
+          }
+        }
+   }
+ }
+
+
+   #homepage_testimonial{
+      .homepage_testimonial_content{
+        width: 80%;
+      }
+   }
+
+   #what_we_do{
+       .what_we_do_body{
+         .main_alignment{
+           text-align:center;
+         }
+       }
+       
+       .what_we_do_content_wrapper{
+         padding-top:25px;
+       }
+       p{
+        width:100%;
+       }
+   }
+
+   #why_choose_us{
+    height: auto;
+    padding: 70px 0px;
+     .why_choose_us_content h2{
+      padding-bottom:40px;
+     }
+    .why_choose_us_section_wrapper{
+    img{
+      margin-bottom: 20px;
+    }
+    p{
+      padding-bottom:40px;
+    }
+    }
+  }
+
+}
+
+@media (max-width: 767.98px) { 
+
+   header {
+    padding-top: 45px;
+    .main_menu_container{
+  .navbar{ 
+    .navbar-toggler{
+      margin-top:-38px;
+    }
+   }
+  }
+
+}
+
+
+   #homepage_header_wrapper{
+    	height: auto;
+      min-height: 525px;
+    	padding-bottom: 30px; 
+
+      .homepage_banner{
+        padding-top:50px;
+        text-align:center;
+        a{
+      	  width: 320px;
+      	  font-size:26px;
+        }
+      }
+    }
+	
+
+	#homepage_testimonial{
+      .homepage_testimonial_content{
+      	width: 95%;
+      }
+	}
+  #testimonial {
+    .homepage_testimonial_content{
+      width:95%;
+    }
+  }
+
+  #homepage_our_customers{
+      padding:50px 0 20px 0;  
+      h2{
+        
+      }
+      .our_customer_images {
+        width:45%;
+        padding-bottom: 30px;
+        img{
+              width:80%;
+        }
+      }
+    }
+
+
+	footer{
+    text-align: center;
+	  .footer_links {
+       	h6{
+       		padding-bottom:20px;
+       	}
+	  }
+
+    .our_info{
+      .footer_links{
+        ul{
+          li{
+            margin-right: 0px !important;
+          }
+        }
+      }
+    }
+	}
+}
+
+@media (max-width: 575.98px) { 
+
+  footer{
+      .row{
+        flex-wrap: wrap-reverse;
+      } 
+  }
+
+  .logo{
+    width: 60%;
+  }
+  #homepage_header_wrapper{
+    .homepage_banner{
+      a{
+        width: 100%;
+      }
+    }
+  }  
+}

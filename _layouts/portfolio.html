@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        {% include head.html %}
+        <meta http-equiv="refresh" content="3600"/>
+        {% include scripts.html %}
+        {% include javascript_core.html %}
+   </head>
+   <body>
+        {% include header.html %}
+
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+
+      <div style="display:none" class="portfolio-template">
+            <!--
+            <a href="URL" target = _ blank><img src="IMG_SRC" class="img-fluid" alt="ALT_TEXT"></a>
+            <div class="card_header">
+                <h3>CLIENT_NAME</h3>
+            </div>
+            -->
+        </div>
+
+       
+        <section id="categories_links">
+            <div class="container">
+                <div class="categories_outer">
+                    <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle" id="toggleFilter" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Filter by 
+                        </a>
+
+                        <div class="dropdown-menu filtering" id = "filtering" aria-labelledby="dropdownMenuLink">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Industry</a>
+
+                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Technology</a>
+                                    </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                        <ul class="industries" id = "industries" aria-labelledby="dropdownMenuLink">
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                        <ul class="tags" id = "tags" aria-labelledby="dropdownMenuLinkTypes">
+                                        </ul>
+                                    </div>
+                                </div> <!-- tab-content class-->
+                        </div> <!-- dropdpwn-menu filtering-->
+
+                    </div>
+                    <div id="industry">
+                        
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!-- dropdown links by categories-->
+
+        <section id="portfolio">
+            <div class="container">
+                <div id="portfolio_data">
+
+                </div>
+                <button id="portfolio-load-more">Load More</button>
+            </div>
+        </section>
+
+     {% include footer.html %}
+
+     <!-- Portfolio script  -->
+
+     <script>
+         
+
+           jQuery(document).ready(function ($){
+            var sheetId = '1hrK12bQmg-QE7Kp-eWS5aiAPRaF5QdTvlMGz3ZdTYhI'; // your sheet id
+                var sheetTitle = 'portfolio'; // your sheet title
+                var apikey =  'AIzaSyBFji5PeyiCvznz4yai11fO_5-RqiLr5uo'; // your google api key
+                var sheetUrl = 'https://sheets.googleapis.com/v4/spreadsheets/' + sheetId + '/values/' + sheetTitle + '?key=' + apikey;
+                var tags = '';
+                var flag = 1;
+                var industry ='' ;
+                var pageStart = 0;
+                var pageEnd = 9;
+                var pages = [];
+                var selectedTag = '';
+                var sheet = localStorage.getItem('sheet')
+                var now = new Date();
+                if (false) {
+                    sheet = JSON.parse(sheet)
+                    pages = sheet.data.values
+                    insertIndustries();
+                    insertTags();
+                    createTemplates();
+                    var expiresAt = new Date(sheet.expire)
+                    if (now > expiresAt) {
+                        localStorage.removeItem('sheet')
+                    }
+                } else {
+                    $.getJSON(sheetUrl, function(data) {
+                        pages = data.values;
+                        insertIndustries();
+                        insertTags(); 
+                        createTemplates();
+                        // //cache
+                        // var expire = new Date()
+                        // expire = expire.setMinutes(expire.getMinutes() + 1)
+                        // data = {data: data, expire: expire}
+                        // localStorage.setItem('sheet', JSON.stringify(data))
+                    });
+                }
+
+                    // events
+                        $('#portfolio-load-more').click(function() {
+                    var total = pages.filter(function(row){
+                        return row[9].trim() === '200' 
+                   }).length
+    
+                    pageStart = pageEnd;
+                    pageEnd = pageEnd + 9;
+        
+                    if(total < pageStart){
+                        $(this).remove()
+                        return
+                    }
+                    if (pageEnd > total) {
+                        $(this).remove()
+                        pageEnd = total % pageEnd;
+                    }
+                    createTemplates();
+                });
+    
+                $(document).on('click', 'ul.industries li', function(data){
+                    $('#filtering').hide();
+                    industry = $(this).data("industry");
+                    location.hash = industry
+                    pageStart = 0;
+                    pageEnd = 9;
+                    flag = 1
+                    $('#portfolio_data').html('') // clear all templates in page
+                    createTemplates()
+                    insertPath(industry);
+                   
+                });
+
+                $(document).on('click', 'ul.tags li', function(data){
+                    $('#filtering').hide();
+                    tags = $(this).data("tags");
+                    location.hash = tags;
+                    pageStart = 0;
+                    pageEnd = 9;
+                    flag = 0
+                    $('#portfolio_data').html('') // clear all templates in page
+                    createTemplates()
+                    //insertPathTag();
+                    insertPath(); 
+                });
+    
+                $(document).on('click', '#industry', function(data){
+                    location.hash = '';
+                    pageStart = 0;
+                    pageEnd = 9;
+                    $(this).hide();
+                    $('#portfolio_data').html('');
+                    industry = '';
+                    tags= '';
+                    createTemplates();
+                });
+                
+                // hide and show (toggle) for filter by dropdown button
+                    $(document).ready(
+                        $("#filtering").hide(),
+                        $("#toggleFilter").click(function(){
+                        $("#filtering").toggle();
+                    }));
+
+                // functions
+    
+                function createTemplates() {
+                   var filteredPages = pages.filter(function(row){
+                       if(industry && flag == 1){
+                        return row[9].trim() === '200' && industry === row[6]
+                       }
+                    //   return row[9].trim() === '200'
+
+                    //filtering for tags
+                    if(tags && flag == 0){
+                        return row[9].trim() === '200' && tags === row[5]
+                       }
+                       return row[9].trim() === '200'
+                   })
+                   
+                    buttonToggle(filteredPages);
+                   if (filteredPages.length === 0) {
+                       return
+                   }
+                   var pageLimit = filteredPages.length >= pageEnd ? pageEnd : filteredPages.length
+                    for(var i = pageStart; i < pageLimit; i++){
+                        var row = filteredPages[i]
+                        if(row[9].trim() === '200'){
+                            var template = $('.portfolio-template')
+                                .html()
+                                .trim()
+                                .replace('<!--', '')
+                                .replace('-->', '')
+                                .trim();
+                            template = template.replace('IMG_SRC', row[11]);
+                            template = template.replace('CLIENT_NAME', row[3]);
+                            template = template.replace('URL', row[8]);
+                            template = template.replace('ALT_TEXT', row[12]); 
+                            template = '<div class="portfolio-item-inner">' + template + '</div>'
+                            template = '<div class="portfolio-item slide-in-bottom">' + template + '</div>' 
+                            $('#portfolio_data').append(template);
+                        }
+                    }
+                }
+
+                function insertIndustries() {
+                    var industries = pages.reduce(function(carry, page) {
+                        if(page[9].trim() === '200' && page[6] && carry.indexOf(page[6]) === -1) {
+                            carry.push(page[6])
+                        }
+                        return carry
+                    }, [])
+
+                    // var industries = pages.reduce(function(carry, page) {
+                    //     var pageIndustries = page[6].split('|');
+                    //     for(var i=0; i<pageIndustries.length; i++){
+                    //         if(page[9].trim() === '200' && pageIndustries[i] && carry.indexOf( pageIndustries[i]) === -1 ) {
+                    //             carry.push(pageIndustries[i])
+                    //         }
+                    //     }
+                    //      return carry
+                    // }, [])
+     
+                    for(var i = 0; i < industries.length; i++) {
+                        $('#industries').append('<li data-industry="' + industries[i] +  '">' + industries[i] + '</li>')
+                    }
+
+                    var hash = location.hash;
+                    var flag= 1;
+                    if(hash && flag === 1){
+                        hash = decodeURIComponent(hash.replace('#', ''));
+                        var lowerCaseIndustries = industries
+                            .map(function(i) {
+                                return i.toLowerCase()
+                            })
+                        if(lowerCaseIndustries.indexOf(hash.toLowerCase()) >= 0) {
+                            industry = hash
+                            insertPath()
+                        }
+                    }
+                }
+
+
+                function insertTags() {
+                    var selectedTag = pages.reduce(function(carry, page) {
+                        var pageIndustries = page[5].split('|');
+                        for(var i=0; i<pageIndustries.length; i++){
+                            if(page[9].trim() === '200' && pageIndustries[i] && carry.indexOf(pageIndustries[i]) === -1 ) {
+                                carry.push(pageIndustries[i])
+                            }
+                        }
+                         return carry
+                    }, [])
+     
+                    for(var i = 0; i < selectedTag.length; i++) {
+                        $('#tags').append('<li data-tags="' + selectedTag[i] +  '">' + selectedTag[i] + '</li>')
+                    }
+
+                }
+
+
+                function buttonToggle(filteredPages) {
+                    if(filteredPages.length >= pageEnd){
+                        $('#portfolio-load-more').removeClass('d-none');
+                    } else {
+                        $('#portfolio-load-more').addClass('d-none');
+                    }
+                }
+                
+                function insertPath(){
+                    var temp='';
+                    if(industry && flag == 1) 
+                        {
+                             temp = industry;
+                        }
+                        if(tags && flag == 0) {
+                            temp = tags;
+                        }
+                    $('#industry').show();
+                    $('#industry').text(temp).append('<i class="fal fa-times-circle"></i>');
+                    
+                }
+
+                $('#industry').hide();
+
+               
+
+                // pre-loader
+                $(window).on('load', function() { // makes sure the whole site is loaded 
+                $('#status').fadeOut(); // will first fade out the loading animation 
+                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+                $('body').delay(350).css({'overflow':'visible'});
+                });  
+            });
+     </script>
+   </body>
+</html>
