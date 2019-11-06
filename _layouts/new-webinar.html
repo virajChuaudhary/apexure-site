@@ -175,84 +175,26 @@
     <div class="row">
       <div class="col">
         <div class="landing_page_types_content">
-
-
           <div class="fector-box">
               {% for what-factors-description in page.what-factors-description %}
 
               {{ what-factors-description | markdownify }}
 
               {% endfor %}
-          </div>
-
-
-
-          <div class="fector-box">
-            <h4> 1) Use a short formq........... </h4>
-
-            <div class="">
-            <p>Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing Name, Email and Phone number.
-            </p>
-            </div>
-            <div class=""><img src="images/back.png"></div>
-          </div>
-          <div class="fector-box">
-              <h4> 2) Use a countdown timer</h4>
-  
-              <div class="">
-              <p>Countdown timers are useful to create urgency. In simple terms, you want to demonstrate Time is running out. When integrating countdown timers there are two configurations:
-              </p>
-              <ul>
-                  <li> <span class="intro"> Static: </span> </br>
-                  <p>Set a universal cut off date for all participants. e.g. Black Friday sale day is set for everyone shopping.</p>
-                  </li> 
-                  <li> <span class="intro">  
-                  Evergreen: </span></br>
-                  <p> Instead of setting an end date for everyone, customize the date so every visitor has their own unique end date. This is based on their initial touch point. evergreen timers could be hard to configure unless you rely on some third-party apps.
-                  </p>
-                  <p>
-                      You can use countdown timers to show registration close date/time.
-                      Here are some examples of countdown timers effectively used on webinar pages:
-                      
-                  </p>
-                </li> 
-              </ul>           
-              </div>
-              <div class="bottom-img-fect"><img src="images/Timer.png"></div>
-            </div>
-            <div class="fector-box">
-                <h4> 3) Use a timezone converter</h4>
-    
-                <div class="">
-                <p>Adding a simple timezone converter will help your visitors to schedule the event in their work week. I have noticed personally webinars held in US time zones usually mean I can view them after 6 pm UK time. However, I am left to do the calculations myself. 
-                    By adding a simple timezone converter script you can overcome this annoyance. Or even better automatically convert the time based on users’ timezone set by the operating system. 
-                    </p>
-                </div>
-                
-              </div>
-              <div class="fector-box">
-                  <h4> 4) Add a can't make it section block</h4>
-      
-                  <div class="">
-                  <p>Chances are visitors could be busy or might not be able to make it. By adding a secondary Call to Action which takes in their email to send out the recording once the webinar is over could also be thought of a clever lead generation channel. However, ensure you don't give to much attention to the 'Can't make it' call to action buttons as the primary focus should be to get registrations for the main webinar.
-                  </p>
-                  </div>
-                  
-                </div>                                    
-                <div class="fector-box">
-                    <h4> 5) Show an attendee count of the previous event</h4>
-        
-                    <div class="">
-                    <p>To showcase trust, authority and prestige you could list your previous webinar including participant count. 'People buy what others buy'. Using psychological triggers you increase the chances of getting more signups.
-                    </p>
-                    </div>
-                     
-                  </div>                
+          </div>               
         </div>
 <div class=" max-680 make-pd">
         <div class="blue-brdr mid-dot-pd">
             <div class="middle-dot">
               <ul> 
+
+                <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
+                    {% for what-factors-points in page.what-factors-points %}
+
+                    {{ what-factors-points | markdownify }}
+
+                    {% endfor %}       
+                </li>
                  
                   <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span> </br>
                     <p>Show scarcity by adding an attendee capacity</p>
