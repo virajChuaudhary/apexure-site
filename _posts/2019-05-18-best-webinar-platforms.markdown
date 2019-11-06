@@ -87,6 +87,27 @@ meta-keywords: Slack best practices, How to use slack,  Slack for Business, Slac
 description: As an agency, we love Slack. It makes our work life more manageable and
   effective. Using the tool for a few years, we have learned many lessons and share
   the best practices for using Slack for business.
+what-factors: What factors influence conversions on a webinar landing page?
+what-factors-description:
+- |-
+  #### 1) Use a short form
+
+  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing Name, Email and Phone number.
+
+  ![back.png](/uploads/back.png)
+- |-
+  #### 2) Use a countdown timer
+  Countdown timers are useful to create urgency. In simple terms, you want to demonstrate Time is running out. When integrating countdown timers there are two configurations:
+
+   Static:
+  Set a universal cut off date for all participants. e.g. Black Friday sale day is set for everyone shopping.
+
+   Evergreen:
+  Instead of setting an end date for everyone, customize the date so every visitor has their own unique end date. This is based on their initial touch point. evergreen timers could be hard to configure unless you rely on some third-party apps.
+
+  You can use countdown timers to show registration close date/time. Here are some examples of countdown timers effectively used on webinar pages:
+
+  ![Timer.png](/uploads/Timer.png)
 layout: new-webinar
 ---
 
