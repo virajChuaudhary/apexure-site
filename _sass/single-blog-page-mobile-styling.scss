@@ -1,0 +1,163 @@
+/*************
+MEDIA QUERIES
+*************/
+@media (max-width: 1199.98px) { 
+
+}
+
+@media (max-width: 991.98px) { 
+
+
+#newsletter_form{
+ width:90%;
+ .form-group{
+	.form-control{
+
+	  }
+ }
+
+ 
+  #newsletter_submit_button{
+  	font-size:26px;
+  }
+}
+
+}
+
+@media (max-width: 767.98px) { 
+
+#header_wrapper{
+	.blog_banner{
+		h1{
+			font-size: 28px;
+			line-height: 36px;
+		}
+		.blog_single_banner_alignment{
+	      align-items: center;
+	      .author_image_wrapper{
+	      	margin-right:20px;
+           img{
+	      	max-width:60px;
+	       }
+	      }
+	      h4{
+	      	padding-right: 10px;
+	      	width: auto !important;
+	      	font-size: 16px;
+	      }
+		}
+	}
+}
+
+
+	 #newsletter_form{
+	 width:98%;
+	 .form-group{
+		.form-control{
+
+		  }
+	 }
+	} 
+
+    #share-bar{
+	padding-bottom:20px;
+		//display:none;
+		h4{
+			padding-bottom:10px;
+		}
+	}
+	#blog_you_may_like{
+		padding:40px 0;
+		h2{
+			padding-bottom:50px;
+		}
+		.blog_you_may_like_inner_wrapper{
+		 .blog_inner_alignment{
+	        flex-basis: 100%;
+		 }
+		}
+	}
+
+
+
+
+		#best_practice{
+		    padding: 50px 0 20px 0;
+			.best_practice_inner{
+			  flex-basis: 95%;	
+			  margin-bottom: 30px;
+			  padding:30px;
+			  border-radius: 8px;
+			  h4{
+		        	font-size: 20px;
+		        	padding-bottom: 20px;
+		        }
+			}
+		}
+		.info_custom_blog{
+			margin-bottom:40px;
+			padding-bottom: 40px;
+			h5{
+				 padding-bottom: 10px !important;
+			}
+		}
+}
+
+@media (max-width: 575.98px) { 
+
+#blog_single_content_wrapper{
+	padding: 70px 0 30px 0;
+	p{
+		font-size:18px;
+		line-height:28px;
+		a{
+		  font-size:18px;
+		  line-height:28px;	
+		}
+	}
+	h2,
+	h3,
+	h4,
+	h5{
+		font-size:26px;
+		line-height:32px;
+		a{
+			font-size:26px;
+		    line-height:32px;
+		}
+	}
+	blockquote{
+		padding:50px 20px 20px 20px;
+	}
+}
+#about_author{
+	padding-bottom:80px;
+  .about_author_wrapper{
+    width:80%;
+    h4{
+    	padding-bottom:30px;
+    }
+			
+  }	
+}
+
+
+
+
+	 #newsletter_form{
+	  display:block;
+
+	 .form-group{
+		.form-control{
+	       margin-bottom:20px;
+		  }
+	 }
+	 #newsletter_submit_button{
+	 	padding: 15px 30px;
+	 }
+
+	 
+	} 
+
+
+}
