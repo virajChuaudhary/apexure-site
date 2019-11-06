@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+      {% include header.html %}
+  <section id="header_wrapper" style="background: linear-gradient(to right, #8a1a9b , #410099);">
+  
+    <div class="general_header_inner_wrapper"> 
+     <div class="container">
+      <div class="row">
+         <div class="col-12">
+           <div class="main_banner">
+            <h1>{{page.banner-heading}}</h1>
+           </div>
+         </div>
+      </div>    
+     </div>
+    </div> 
+  </section>
+
+  <section id="body_content_partners">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="subheading_content_partners">
+            <h2 class="text-center">{{page.subheading}}</h2>
+            <p class="text-center">{{page.paragraph | markdownify}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="partners_section">
+      {% assign partner = site.partnerspage %}
+        {% for partner in site.partnerspage  %}
+        <div class="row partners_info mx-auto">
+          <div class="col-md-4 partner_image d-md-flex flex-column justify-content-center">
+              <img src="{{site.baseurl}}{{ partner.image }}" alt="{{ partner.image-alt-title }}" class="img-fluid" >
+          </div>
+          <div class="col-md-8 partner_context d-md-flex flex-column justify-content-center">
+              <h3>{{ partner.infoheading}}</h3>
+              <p>{{ partner.infocontent}}</p>
+              <a href="{{partner.link}}">Learn More</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    </div>  
+  </section>
+
+  <section id="cta" style="background: #410099;">
+    <div class="cta_content">
+      <div class="container">
+         <h2>{{ page.cta-heading }}</h2>
+         <h4>{{ page.cta-sub-heading }}</h4>
+         <a href="{{site.baseurl}}{{page.cta-link}}">{{ page.cta-button-heading }}</a>
+      </div>
+    </div>
+  </section>
+
+    {% include scripts.html %}
+    {% include footer.html %}
+  </body>
+</html>
