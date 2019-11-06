@@ -97,17 +97,35 @@ what-factors-description:
   ![back.png](/uploads/back.png)
 - |-
   #### 2) Use a countdown timer
+
   Countdown timers are useful to create urgency. In simple terms, you want to demonstrate Time is running out. When integrating countdown timers there are two configurations:
 
-   Static:
+  Static:
   Set a universal cut off date for all participants. e.g. Black Friday sale day is set for everyone shopping.
 
-   Evergreen:
+  Evergreen:
   Instead of setting an end date for everyone, customize the date so every visitor has their own unique end date. This is based on their initial touch point. evergreen timers could be hard to configure unless you rely on some third-party apps.
 
   You can use countdown timers to show registration close date/time. Here are some examples of countdown timers effectively used on webinar pages:
 
   ![Timer.png](/uploads/Timer.png)
+- |-
+  #### 3) Use a timezone converter
+
+  Adding a simple timezone converter will help your visitors to schedule the event in their work week. I have noticed personally webinars held in US time zones usually mean I can view them after 6 pm UK time. However, I am left to do the calculations myself. By adding a simple timezone converter script you can overcome this annoyance. Or even better automatically convert the time based on users’ timezone set by the operating system.
+- |-
+  #### 4) Add a can't make it section block
+
+  Chances are visitors could be busy or might not be able to make it. By adding a secondary Call to Action which takes in their email to send out the recording once the webinar is over could also be thought of a clever lead generation channel. However, ensure you don't give to much attention to the 'Can't make it' call to action buttons as the primary focus should be to get registrations for the main webinar.
+- |-
+  #### 5) Show an attendee count of the previous event
+
+  To showcase trust, authority and prestige you could list your previous webinar including participant count. 'People buy what others buy'. Using psychological triggers you increase the chances of getting more signups.
+what-factors-points:
+- Show scarcity by adding an attendee capacity
+- Add social proof/testimonials
+- Add a friendly photo/headshot of the host(s) + name and bio.
+- Limit the number of seats and show proof by showing recent signups.
 layout: new-webinar
 ---
 
