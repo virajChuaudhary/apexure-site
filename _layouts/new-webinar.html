@@ -169,12 +169,24 @@
 
 <section class="types_of_lp" id="is_lp_a_website">
   <div class="purple_box" id="what-fun" >
-   <h3 class="text-white text-center">What factors influence conversions on a webinar landing page?</h3>
+   <h3 class="text-white text-center">{{ page.what-factors }}</h3>
   </div> <!-- purple_box ends-->
   <div class="blog_container_new container">
     <div class="row">
       <div class="col">
         <div class="landing_page_types_content">
+
+
+          <div class="fector-box">
+{{ for what-factors-description in page.what-factors-description }}
+
+{{ what-factors-description | markdownify }}
+
+{{ endfor }}
+          </div>
+
+
+
           <div class="fector-box">
             <h4> 1) Use a short form </h4>
 
