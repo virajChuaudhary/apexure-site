@@ -20,6 +20,74 @@ meta-keywords: Slack best practices, How to use slack,  Slack for Business, Slac
 description: As an agency, we love Slack. It makes our work life more manageable and
   effective. Using the tool for a few years, we have learned many lessons and share
   the best practices for using Slack for business.
+top-graph-image: "/uploads/Image@2x.png"
+how-to-create-description: |-
+  ## How to create a webinar landing page?
+
+  #### There Are Quite A Few Ways In Which You Can Setup A Landing Page For Your Webinar.
+how-to-create-repeater-description:
+- |-
+  \#### Self hosted landing pages
+  \
+
+  \
+  If you host your website yourself and manage it directly without a content management system you can get going by either building a page in html/css and then hosting it. although it’s the most simplest way to get started but its not the most efficient. static web pages load up fast and you have granular control if you are a developer. however, most of the time it will be a job of a marketer to run lead generation campaigns like a webinar.
+- |-
+  #### **Landing page builders**
+
+  Landing page builders like unbounce, instapages, clickfunnels allow marketers to easily make edits and setup up split tests to increase conversions. all page builders offer drag and drop builders which allow non-it people to build pages, host and publish them without involving it. Landing page builders like unbounce allows users to add custom scripts. using custom scripts you can add add-ons like countdown timers, show proof, speaker profiles etc.
+- |-
+  #### **CMS based website builders**
+
+  When it comes to managing a website the first technology which comes to mind is wordpress. yes, you can create a landing page in wordpress and style it to match your brand, it’s just landing page builders such as unbounce are designed from the ground up to host landing pages. Wordpress webinar landing pages will do most of the heavy lifting but would need a proficient web designer/developer to make edits.
+mega-guide-title-description: "### In this mega guide, we’ll tell you all you need
+  to know about using webinar and webinar landing pages to generate leads, including:"
+mega-guide-repeat-description:
+- |-
+  ![g1.png](/uploads/g1.png)
+
+  #### What’s a webinar
+- |-
+  ![g2.png](/uploads/g2.png)
+
+  #### How to create a webinar landing page
+- |-
+  ![g3.png](/uploads/g3.png)
+
+  #### What you need to run an effective webinar campaign
+- |-
+  ![g4.png](/uploads/g4.png)
+
+  #### What factors influence conversions on a webinar landing page
+- |-
+  ![g5.png](/uploads/g5.png)
+
+  #### What to consider when choosing a webinar platform
+- |-
+  ![g6.png](/uploads/g6.png)
+
+  #### Best webinar platform to check out in 2019
+mega-guide-bottom-description: By the time you reach the end of this guide, you’ll
+  be an expert on crafting webinar landing pages and running webinars
+effective-webinar: What you need to run an effective webinar campaign
+effective-webinar-box-description:
+- |-
+  #### Traffic
+
+  In order to generate new leads, you can run Facebook ads and drive traffic to your landing page. Although you might be tempted to call it a webinar we would recommend using something else e.g. conference, showcase, pitch night, demo day etc. I personally think the marketing world is saturated with the word webinars in general and you come up with clever ideas to stand out from the crowd.
+- |-
+  #### A Webinar Landing Page
+
+  You need a dedicated landing page where you can send your traffic and we will cover this in detail today.
+- |-
+  #### Deliver Webinar
+
+  To deliver an engaging and quality webinar you would need a quality tool that can deliver an engaging and reliable service. We have got this covered as well for you.
+- |-
+  #### Follow Up
+
+  Follow up is a key action which will determine your lead generation success. All the leads you generate need nurturing and constant follow up to increase your chances of success.
+effective-webinar-image: "/uploads/traffic.png"
 layout: new-webinar
 ---
 
