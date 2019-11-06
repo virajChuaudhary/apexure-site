@@ -1,0 +1,109 @@
+/*************
+MEDIA QUERIES
+*************/
+@media (max-width: 1199.98px) { 
+
+  #category_page_gallery{
+    padding:100px 0 100px 0;
+       h2{
+          width: 70%;
+       }
+  } 
+  #benefits{
+    .benefits_content{
+         h2{
+          padding-top:50px;
+          width: 75%;
+         }
+    }
+  }
+
+  
+
+}
+
+@media (max-width: 991.98px) { 
+
+  #benefits{
+    .benefits_content{
+         h2{
+          width: 90%;
+         }
+    }
+  }
+
+}
+
+@media (max-width: 767.98px) { 
+
+
+
+
+#category_page_gallery{
+    padding:80px 0 80px 0;
+       h2{
+          width: 95%;
+       }
+
+   .category_page_images{
+      flex-basis: 100%;
+      text-align:center;
+        .category_page_images_overlay{
+          cursor: pointer;
+         a{
+            padding: 10px 25px 10px 25px;
+            border:2px solid $white;
+         }
+      }   
+   }
+}
+
+#category_features{
+  .category_features_wrapper{
+    padding: 100px 0 40px 0;
+    h4{   
+          p{
+            padding: 0px 20px 0px 30px;
+            font-size:20px;
+          }
+    }
+    img{
+      margin-right:15px;
+    }
+    .category_features_content_wrapper{
+      padding:0px 20px 0px 30px;
+      img{
+        margin-bottom:20px;
+      } 
+      .category_features_content{
+        padding-bottom:40px;
+      }
+    }
+
+    .category_main_page_features_wrapper {
+      padding-left:30px;
+      .features_list{
+        li{
+         flex-basis: 44%;
+         span{
+          padding-bottom:10px;
+         }
+         .fa_styling{
+          margin-right:10px;
+         }
+        }
+      }
+    }
+  }
+}
+
+
+}
+
+@media (max-width: 575.98px) { 
+
+
+
+
+
+}

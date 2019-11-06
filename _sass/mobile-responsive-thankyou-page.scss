@@ -1,0 +1,70 @@
+/*************
+MEDIA QUERIES
+*************/
+@media (max-width: 991.98px) { 
+	#thankyou_page{
+		span{
+			font-size: 14px;
+		}
+		padding: 72px 0px;
+		.thankyou-subheading{
+			padding-bottom: 45px;
+		} 
+		.blog_parent{
+			&:last-child{
+				padding-top: 40px;
+			}
+		}	
+	}
+	.social_media_links_parent{
+		margin: 0 auto;
+	}   
+
+	#thankyou_social_media{
+		.social_media_links{
+			margin-top: 40px;
+			.card{
+				.card-body{
+					padding: 51px;
+				}
+			}
+		}
+	}
+
+	.blog_parent{
+		margin: 0 auto;
+	}
+
+	.banner_icon_thankyou{
+		img{
+			margin-bottom: 17px;
+			margin-top: 40px;
+		}
+	}
+
+	#header_wrapper{
+		.general_header_inner_wrapper{
+			.thankyou_heading{
+				h1 {
+					width: 100%;
+				}
+
+				h4{
+					padding-bottom: 40px;
+					width: 100%;
+				}
+			}	
+		}
+	}
+}
+
+@media (max-width: 767.98px) {
+	#thankyou_page{
+		.blog_parent{
+			&:first-child{
+				padding-bottom: 40px;
+			}
+		}	
+	}
+}
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+  <body>
+  {% include google-tag-manager.html %}
+  {% include header.html %}
+  <section id="header_wrapper" style="background-image: url({{site.baseurl}}{{ page.banner-image }});">
+
+    <div class="general_header_inner_wrapper"> 
+     <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="banner_icon_thankyou">
+            <img src="{{site.baseurl}}{{ page.icon }}" class="img-fluid" alt="icon">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+         <div class="col-12">
+           <div class="main_banner thankyou_heading">
+            <h1>{{page.banner-heading}}</h1>
+            <h4>{{page.banner-subheading}}</h4>
+           </div>
+         </div>
+      </div>    
+     </div>
+    </div> 
+  </section>
+
+  <section id="thankyou_page">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="thankyou-subheading">
+                     <h2> {{ page.sub-heading }}</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  {% for post in site.posts  limit:3  %}
+                  <div class="col-lg-4 col-md-6 d-md-flex blog_parent">
+                    <div class=" blog_inner_alignment">
+                      <div class="blog_wrapper"> 
+                        <div class="blog_banner_image_wrapper">
+                          <a href="{{ site.baseurl }}{{ post.url }}">  
+                            <img class="img-fluid blog_banner_image" src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+                          </a> 
+                        </div> 
+                      <div class="blog_box">
+                        <div class="blog_content_alignment">
+                          <div class="author_wrapper"> 
+                            <div class="author_image">
+                              <img class="rounded-circle" src="{{ site.baseurl }}{{ post.author-image }}" alt="{{ post.author }}">
+                            </div> 
+                            <span class="blog_author">{{ post.author }} </span>
+                            <span class="blog_seperator">|</span>
+                            <span class="blog_news_date">  {{ post.date | date:"%d %b %Y" }} </span>
+                            </div>    
+                              <a href="{{ site.baseurl }}{{ post.url }}"> <h4> {{ post.title }} </h4></a>
+                          </div>    
+                            <!-- <div class="blog_main_content_align">
+                             <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+                            </div> --> 
+                         </div>  
+                      </div>
+                   </div>
+                   </div>
+                  {% endfor %}
+                </div><!-- row --> 
+                </div><!--container-->
+  </section>
+  <section id="thankyou_social_media">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center">{{ page.sub-heading-socialmedia }}</h2>
+        </div>
+      </div>
+      <div class="row">
+        {% assign social = site.socialmedia %}
+        {% for social in site.socialmedia %}
+        <div class="col-lg-4 col-md-6 social_media_links_parent">
+          <div class="social_media_links">
+            <div class="card">
+              <div class="card-body">
+                <img src="{{site.baseurl}}{{ social.image }}" class="img-fluid" alt="{{ social.image-alt-title }}">
+                <p class="card-text">{{social.socialmedia-text}}</p>
+                <div class="social_footer_links">  
+                  <a href="{{ social.link }}" class="card-link">{{social.socialmedia-links}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         {% endfor %}  
+      </div>
+    </div>
+  </section>
+
+  <section id="who_we_are_testimonial">
+    <div class="container text-center">
+      <img class="img-fluid" src="{{site.baseurl}}{{ page.testimonial-quotation-image }}" alt="Apexure Quote Review" id="quotation">
+      <h4>{{ page.testimonial-heading }}</h4>
+       {{ page.testimonial-description | markdownify }}
+      <h6> {{page.testimonial-review-name-content }}</h6>
+      <img class="img-fluid" src="{{site.baseurl}}{{ page.testimonial-review-image }}" alt="{{page.testimonial-review-name-content}}">
+    </div>
+  </section>
+  <section id="homepage_our_customers">
+  <div class="container">
+    <h2 class="text-center">{{ page.our-customers-heading }}</h2>
+   <div class="d-flex align-items-center justify-content-center flex-wrap">
+    {% assign homepagecustomers = site.homepagecustomers %}
+        {% for homepagecustomers in site.homepagecustomers  %}
+          <div class="our_customer_images">
+            <img src="{{site.baseurl}}{{ homepagecustomers.image }}" alt="{{ homepagecustomers.image-alt-title }}" class="img-fluid" >
+          </div>
+       {% endfor %}
+    </div>    
+  </div>
+  </section>
+  
+    {% include javascript_core.html %}     
+  </body>
+
+ {% include footer.html %}
+</html> 

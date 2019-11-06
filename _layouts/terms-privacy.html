@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+    {% include header.html %}
+<section id="header_wrapper" style="background: linear-gradient(to right, #8a1a9b , #410099);">
+
+  <div class="general_header_inner_wrapper"> 
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <div class="main_banner">
+                      <h1>{{page.banner-heading}}</h1>
+              </div>
+            </div>
+        </div>    
+      </div>
+    </div>
+</section>
+<section id="privacy-policy-section"> 
+  <div class="privacy-policy-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <!-- <div class="privacy-heading">
+            <h3>{{page.content-heading}}</h3>
+          </div> -->
+          <div class="privacy-content">
+             {{page.privacy-description | markdownify}}
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+
+  {% include scripts.html %}
+  {% include footer.html %}
+  </body>
+</html>

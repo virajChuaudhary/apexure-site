@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /thankyou/
+Sitemap: https://www.apexure.com/sitemap.xml
