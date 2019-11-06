@@ -3,6 +3,20 @@ title: Best Webinar Platform
 date: 2019-05-18 12:16:00 Z
 tags:
 - others
+author: Waseem Bashir
+image: "/uploads/top-3-reasons-why-we-use-slack.jpg"
+take-away-image: "/uploads/3-reasons-why-we-use-slack.jpg"
+author-image: "/images/author-waseem-bashir.png"
+facebook-link: https://www.facebook.com/Apexure/
+instagram-link: https://www.instagram.com/waseembashir/
+twitter-link: https://twitter.com/waseembashir
+author-description: Founder & CEO  of Apexure, Waseem worked in London’s Financial
+  Industry. He has worked on trading floors in BNP Paribas and Trafigura, developing
+  complex business systems. Waseem loves working with Startups and combines data and
+  design to create improved User Experiences.
+comments: true
+meta-keywords: Slack best practices, How to use slack,  Slack for Business, Slack
+  team communication
 top-graph-image: "/uploads/Image@2x.png"
 how-to-create-description: |-
   ## How to create a webinar landing page?
@@ -70,20 +84,6 @@ effective-webinar-box-description:
 
   Follow up is a key action which will determine your lead generation success. All the leads you generate need nurturing and constant follow up to increase your chances of success.
 effective-webinar-image: "/uploads/traffic.png"
-author: Waseem Bashir
-image: "/uploads/top-3-reasons-why-we-use-slack.jpg"
-take-away-image: "/uploads/3-reasons-why-we-use-slack.jpg"
-author-image: "/images/author-waseem-bashir.png"
-facebook-link: https://www.facebook.com/Apexure/
-instagram-link: https://www.instagram.com/waseembashir/
-twitter-link: https://twitter.com/waseembashir
-author-description: Founder & CEO  of Apexure, Waseem worked in London’s Financial
-  Industry. He has worked on trading floors in BNP Paribas and Trafigura, developing
-  complex business systems. Waseem loves working with Startups and combines data and
-  design to create improved User Experiences.
-comments: true
-meta-keywords: Slack best practices, How to use slack,  Slack for Business, Slack
-  team communication
 description: As an agency, we love Slack. It makes our work life more manageable and
   effective. Using the tool for a few years, we have learned many lessons and share
   the best practices for using Slack for business.
@@ -111,7 +111,7 @@ what-factors-description:
 layout: new-webinar
 ---
 
-##### What's a webinar?
+##### What's a webinar?.....
 
 A Webinar Is Defined As A “Live, Virtual Event That Is Executed Online”. More Specifically, Webinars Are Educational Or Instructive Sessions That Include Both Audio And Visual Communication Between A Speaker And Attendees.
 
