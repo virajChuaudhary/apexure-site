@@ -31,7 +31,7 @@
   {% include google-tag-manager.html %}
 
   <section class="max-966 sec-1">
-<!-- 
+
 <div class="color-back" style="background: #8A1A9B;">
 <div class="m-title"><h3>Struggling to <span class="heighlight"> generate more leads </span> for your company? </h3></div>
 <div class="titlt-title"><h4>If you aren’t already running webinars, you should start experimenting with this strategy, asap. </h4></div>
@@ -54,9 +54,8 @@
    </div>
    </div>  
 </div>
-</div> -->
+</div>
 
-<div class="graph-img"><img src="{{ page.top-graph-image }}"></div>
   </section>
   
   <section class="blog_content new-webinar-blog">
@@ -64,37 +63,64 @@
         <div class="row">
           <div class="col">
             <div class="contents">
-              {{ page.mega-guide-title-description | markdownify }}
+              <h3>In this mega guide, we’ll tell you all you need to know 
+                about using webinar and webinar landing pages to generate leads, including:</h3>
             </div>
           </div>
         </div><!-- row ends -->
         <div class="section_webinar_cover">
           <div class="outer_content_section_wrapper outer_content_webinar">
             <div class="row mx-auto">
- 
-
-                  
-        {% assign i = 0 %}
-        {% for mega-guide-repeat-description in page.mega-guide-repeat-description %}
-            {% assign i = i | plus:1 %}
-            <div class="col-md-4">
-              <div class="center_content">
-                 <a href="javascript:" class="hover_link" id="link-{{ i }}">   {{ mega-guide-repeat-description | markdownify }} </a>
+              <div class="col-md-4">
+                <div class="center_content">
+                  <a href="javascript:" class="hover_link" id="first_col">
+                    <img src="images/why-webinar/g1.png" alt="why to use Landing pages" class="img-fluid">
+                 <h4>What's a webinar?</h4></a>
+                </div>
               </div>
-            </div>
-        {% endfor %}
- 
-               
-
-
+              <div class="col-md-4">
+                <div class="center_content">
+                  <a href="javascript:" class="hover_link" id="scnd_col">
+                    <img src="images/why-webinar/g2.png" alt="why to use Landing pages" class="img-fluid">
+                  <h4>How to create a webinar landing page</h4></a>
+                </div>
+              </div>
+                <div class="col-md-4">
+                  <div class="center_content">
+                     <a href="javascript:" class="hover_link" id="third_col">
+                      <img src="images/why-webinar/g3.png" alt="why to use Landing pages" class="img-fluid">
+                    <h4>WHat you need to run an effective webinar campaign</h4></a>
+                  </div>
+                </div>
             </div><!-- row-->
           </div> <!-- outer_content_section_wrapper ends -->
+
+          <div class="row mx-auto">
+              <div class="col-md-4">
+                <div class="center_content">
+                  <a href="javascript:" class="hover_link"  id="forth_col"><img src="images/why-webinar/g4.png" alt="why to use Landing pages" class="img-fluid">
+                  <h4>What factors influence conversions on a webinar landing page </h4></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="center_content">
+                  <a href="javascript:" class="hover_link"  id="fifth_col"><img src="images/why-webinar/g5.png" alt="why to use Landing pages" class="img-fluid">
+                 <h4>What to consider when choosing a webinar platform </h4></a>
+                </div>
+              </div>
+                <div class="col-md-4">
+                  <div class="center_content">
+                    <a href="javascript:" class="hover_link" id="sixth_col"><img src="images/why-webinar/g6.png" alt="why to use Landing pages" class="img-fluid">
+                    <h4>Best webinar platform to check out in 2019</h4></a>
+                  </div>
+                </div>
+            </div>
             </div>
 
             <div class="make-down-cover">
-              <div class="jump-cont">{{ page.mega-guide-bottom-description | markdownify }}</div>
-              <a href="javascript:" class="hover_link" id="move-down"> <div class="lets-jump">Let’s Jump Right In! </div>
-              <div class="make-center"><img src="images/down.png" alt="down arrow" class="down-arrow"></div></a>
+              <div class="jump-cont">By the time you reach the end of this guide, you’ll be an expert on crafting webinar landing pages and running webinars</div>
+              <div class="lets-jump">Let’s Jump Right In! </div>
+              <div class="make-center"><img src="images/down.png" alt="down arrow" class="down-arrow"></div>
             </div>
 
       </div> <!-- blog container container-->
@@ -103,6 +129,7 @@
   <section id="blog_single_content_wrapper" class="md-top">
     <div class="blog_container_new container sec-333" id="why-use-a-landing-page">
       {{content}}
+     {{page.mydescription | markdownify }}---------------------
     </div>
   </section>
 
@@ -112,23 +139,36 @@
       <div class="wrap-aobut">
  <div class="how-cret">
    <div class="top-sec-how">
-
-
-
-
-
 <div class="title">
-{{ page.how-to-create-description | markdownify }}
+ <h2>  How to create a webinar landing page?</h3>
+</div>
+<div class="sub-title"><h4> There Are Quite A Few Ways In Which You Can Setup A Landing Page For Your Webinar.</h4></div>
  </div>
 <div class="border-color blue-brdr">
 <div class="create-list">
   <ul>
+    <li><span class="curv-img"><img src="images/arrow.png" ></span>
+        <div class="mov-wrap">
+        <h4>Self hosted landing pages</h4>
+        <p>If you host your website yourself and manage it directly without a content management system you can get going by either building a page in html/css and then hosting it. although it’s the most simplest way to get started but its not the most efficient. 
 
+            static web pages load up fast and you have granular control if you are a developer. however, most of the time it will be a job of a marketer to run lead generation campaigns like a webinar. </p>
+          </div>
+    </li>
+    <li><span class="curv-img"><img src="images/arrow.png" ></span>
+        <div class="mov-wrap">
+        <h4>Landing page builders</h4>
+        <p>Landing page builders like unbounce, instapages, clickfunnels allow marketers to easily make edits and setup up split tests to increase conversions.
 
-{% for how-to-create-repeater-description in page.how-to-create-repeater-description %}
- <li><span class="curv-img"><img src="images/arrow.png" ></span>
-  <div class="mov-wrap">{{ how-to-create-repeater-description | markdownify }}</div></li>
-{% endfor %}      
+            all page builders offer drag and drop builders which allow non-it people to build pages, host and publish them without involving it. Landing page builders like unbounce allows users to add custom scripts. using custom scripts you can add add-ons like countdown timers, show proof, speaker profiles etc. </p>
+          </div>
+    </li>
+    <li><span class="curv-img"><img src="images/arrow.png" ></span>
+        <div class="mov-wrap">
+        <h4>CMS based website builders</h4>
+        <p>When it comes to managing a website the first technology which comes to mind is wordpress. yes, you can create a landing page in wordpress and style it to match your brand, it’s just landing page builders such as unbounce are designed from the ground up to host landing pages. Wordpress webinar landing pages will do most of the heavy lifting but would need a proficient web designer/developer to make edits. </p>
+      </div>
+    </li>        
   </ul>
 </div>
 </div>
@@ -140,25 +180,54 @@
 
 <section class="how_does_a_landing_page_work" id="how_does_a_lp_work">
     <div class="blog_container_new container">
-      <div class="h2-title"><h3>{{ page.effective-webinar }}</h3></div>
+      <div class="h2-title"><h3>What you need to run an effective webinar campaign </h3></div>
       <div class="how_does_a_lp_work_content">
-        <div class="row"> 
-        {% assign a = 0 %}  
-        {% for effective-webinar-box-description in page.effective-webinar-box-description %}  
-        {% assign a = a | plus:1 %}
-          <div class="col-md-4 inline-{{ a }}">
+        {{page.section-4-main-heading-description | markdownify}}
+        <div class="row">
+          <div class="col-md-12">
+            <div class="outer_wrapper no-height">
+                {{page.section-4-sub-heading-description | markdownify}}
+                <div class="teafic-con">
+<h4>traffic</h4>
+<p>In order to generate new leads, you can run Facebook ads and drive traffic to your landing page. Although you might be tempted to call it a webinar we would recommend using something else e.g. conference, showcase, pitch night, demo day etc. I personally think the marketing world is saturated with the word webinars in general and you come up with clever ideas to stand out from the crowd. </p>
+                </div>
+            </div> <!-- outer_wrapper ends-->
+          </div> <!-- col-md-6 ends -->
+        </div> <!-- row ends -->   
+        <div class="row">       
+            <div class="col-md-4">
                 <div class="outer_wrapper no-height">
+                  {{page.section-4-sub-heading2-description | markdownify}}
                   <div class="teafic-con">
-                      {{ effective-webinar-box-description | markdownify }}
-                  </div>                  
+                      <h4> A Webinar Landing Page </h4>
+                      <p>You need a dedicated landing page where you can send your traffic and we will cover this in detail today.  </p>
+                                      </div>                  
                 </div> <!-- outer_wrapper ends-->
-          </div>
-          {% endfor %}
-        </div>
-
+          </div>    <!-- col-md-6 ends -->    
+ 
+            <div class="col-md-4">
+              <div class="outer_wrapper no-height">
+                {{page.section-4-sub-heading3-description | markdownify}}
+                <div class="teafic-con">
+                    <h4>Deliver Webinar </h4>
+                    <p>To deliver an engaging and quality webinar you would need a quality tool that can deliver an engaging and reliable service. We have got this covered as well for you.  </p>
+                                    </div>                
+              </div> <!-- outer_wrapper ends-->
+            </div> <!-- col-md-6 ends -->
+              <div class="col-md-4">
+                  <div class="outer_wrapper no-height">
+                    {{page.section-4-sub-heading4-description | markdownify}}
+                    <div class="teafic-con">
+                        <h4>Follow Up</h4>
+                        <p>Follow up is a key action which will determine your lead generation success. All the leads you generate need nurturing and constant follow up to increase your chances of success.  </p>
+                                        </div>                    
+                  </div> <!-- outer_wrapper ends-->
+            </div>    <!-- col-md-6 ends -->    
+          </div> <!-- row ends -->
           <div class="row">
             <div class="col">
-             <div class="botom-img"> <img src="{{ page.effective-webinar-image }}"></div>
+              {{page.section-4-bottom-heading-description | markdownify}}
+             <div class="botom-img"> <img src="images/traffic.png"></div>
             </div>
           </div>
         </div> <!--how_does_a_lp_work_content ends-->
