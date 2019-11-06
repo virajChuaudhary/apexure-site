@@ -76,7 +76,7 @@ $(document).ready(function () {
 //   }
 // });
 
-$("#first_col").bind("click", function()
+$("#link-1").bind("click", function()
    {
      var hash = "#why-use-a-landing-page";
      $('html, body').animate({
@@ -84,7 +84,7 @@ $("#first_col").bind("click", function()
 }, 1800);
 });
 
-$("#scnd_col").bind("click", function()
+$("#link-2").bind("click", function()
    {
      var hash = "#how_do_you_create_landing_page";
      $('html, body').animate({
@@ -92,7 +92,7 @@ $("#scnd_col").bind("click", function()
 }, 1800);
 });
 
-$("#third_col").bind("click", function()
+$("#link-3").bind("click", function()
    {
      var hash = "#how_does_a_lp_work";
      $('html, body').animate({
@@ -100,7 +100,7 @@ $("#third_col").bind("click", function()
 }, 1800);
 });
 
-$("#forth_col").bind("click", function()
+$("#link-4").bind("click", function()
    {
      var hash = "#is_lp_a_website";
      $('html, body').animate({
@@ -108,7 +108,7 @@ $("#forth_col").bind("click", function()
 }, 1800);
 });
 
-$("#fifth_col").bind("click", function()
+$("#link-5").bind("click", function()
    {
      var hash = "#types_of_landing_page";
      $('html, body').animate({
@@ -116,9 +116,18 @@ $("#fifth_col").bind("click", function()
 }, 1800);
 });
 
-$("#sixth_col").bind("click", function()
+$("#link-6").bind("click", function()
    {
      var hash = "#who_designs_landing_page";
+     $('html, body').animate({
+           scrollTop: $(hash).offset().top
+}, 1800);
+});
+
+
+$("#move-down").bind("click", function()
+   {
+     var hash = "#blog_single_content_wrapper";
      $('html, body').animate({
            scrollTop: $(hash).offset().top
 }, 1800);
