@@ -3,34 +3,19 @@ title: Best Webinar Platform
 date: 2019-05-18 12:16:00 Z
 tags:
 - others
+top-graph-image: "/uploads/Image@2x.png"
 author: Waseem Bashir
 image: "/uploads/top-3-reasons-why-we-use-slack.jpg"
 take-away-image: "/uploads/3-reasons-why-we-use-slack.jpg"
-author-image: "/images/author-waseem-bashir.png"
-facebook-link: https://www.facebook.com/Apexure/
-instagram-link: https://www.instagram.com/waseembashir/
-twitter-link: https://twitter.com/waseembashir
-author-description: Founder & CEO  of Apexure, Waseem worked in London’s Financial
-  Industry. He has worked on trading floors in BNP Paribas and Trafigura, developing
-  complex business systems. Waseem loves working with Startups and combines data and
-  design to create improved User Experiences.
-comments: true
-meta-keywords: Slack best practices, How to use slack,  Slack for Business, Slack
-  team communication
-description: As an agency, we love Slack. It makes our work life more manageable and
-  effective. Using the tool for a few years, we have learned many lessons and share
-  the best practices for using Slack for business.
-top-graph-image: "/uploads/Image@2x.png"
 how-to-create-description: |-
   ## How to create a webinar landing page?
 
   #### There Are Quite A Few Ways In Which You Can Setup A Landing Page For Your Webinar.
 how-to-create-repeater-description:
 - |-
-  \#### Self hosted landing pages
-  \
+  #### Self hosted landing pages
 
-  \
+
   If you host your website yourself and manage it directly without a content management system you can get going by either building a page in html/css and then hosting it. although it’s the most simplest way to get started but its not the most efficient. static web pages load up fast and you have granular control if you are a developer. however, most of the time it will be a job of a marketer to run lead generation campaigns like a webinar.
 - |-
   #### **Landing page builders**
@@ -88,6 +73,20 @@ effective-webinar-box-description:
 
   Follow up is a key action which will determine your lead generation success. All the leads you generate need nurturing and constant follow up to increase your chances of success.
 effective-webinar-image: "/uploads/traffic.png"
+author-image: "/images/author-waseem-bashir.png"
+facebook-link: https://www.facebook.com/Apexure/
+instagram-link: https://www.instagram.com/waseembashir/
+twitter-link: https://twitter.com/waseembashir
+author-description: Founder & CEO  of Apexure, Waseem worked in London’s Financial
+  Industry. He has worked on trading floors in BNP Paribas and Trafigura, developing
+  complex business systems. Waseem loves working with Startups and combines data and
+  design to create improved User Experiences.
+comments: true
+meta-keywords: Slack best practices, How to use slack,  Slack for Business, Slack
+  team communication
+description: As an agency, we love Slack. It makes our work life more manageable and
+  effective. Using the tool for a few years, we have learned many lessons and share
+  the best practices for using Slack for business.
 layout: new-webinar
 ---
 
