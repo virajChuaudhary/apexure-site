@@ -28,7 +28,7 @@ test-description: |-
 layout: new-webinar
 ---
 
-##### What's a webinar?
+##### What's a webinar 2?
 
 
 A Webinar Is Defined As A “Live, Virtual Event That Is Executed Online”. More Specifically, Webinars Are Educational Or Instructive Sessions That Include Both Audio And Visual Communication Between A Speaker And Attendees. 
