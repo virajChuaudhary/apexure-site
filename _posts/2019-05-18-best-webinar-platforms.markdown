@@ -383,6 +383,8 @@ final-word-description:
   * 59% of registrations occur less than a week before the webinar.
 
   * 36% of registrations occur between 8-10 am.
+final-word-bottom: Alright, that’s all we have for you on the topic of webinars. Go
+  ahead and pick your favorite webinar platform to try out, then take it from there!
 layout: new-webinar
 ---
 
