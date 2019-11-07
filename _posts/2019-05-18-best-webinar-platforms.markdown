@@ -295,6 +295,94 @@ bonus-repeater-description:
   ![graph3.png](/uploads/graph3.png)
 
   According to statistics, you have a higher chance of attracting more attendees if you hold your webinar at 10am or 11am. Intuitively speaking, this makes sense. Your attendees can arrive at work and respond to their urgent emails, attend your webinar, then pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock off work!
+virtual-summits-description: |-
+  ### Virtual Summits Vs Webinars
+
+  ![virtual.png](/uploads/virtual.png)
+
+  What’s the difference between virtual summits and webinars? Basically, virtual summits typically include a webinar or multiple webinars, but they also comprise of other elements such as discussions, forums, live chat, interviews, and more.
+
+  Webinars (that are created with the purpose of generating leads) are typically free to attend, but virtual summits tend to be freemium or paid. In the freemium model, the summits are free for a short period of time (say, 24 to 72 hours), and subscribers have the option to purchase an “all-access pass” so they can download or continue viewing the materials after this time period.
+final-word: 'How to use webinars: A final word'
+final-word-description:
+- |2-
+
+  ### Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.
+- |-
+  ### Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.
+
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+- |-
+  ### Elements that are essential for a successful webinar campaign include:
+  Traffic
+
+  * A webinar landing page
+
+  * A webinar tool
+
+  * Follow up
+- |-
+  ### Factors that affect conversion on a webinar landing page include:
+  The length of your form
+
+  * Countdown timers
+
+  * Timezone converters
+
+  * “Can’t make it” Call To Action
+- |2-
+
+  ### Tips to make your webinar successful include:
+  Choose a compelling topic
+
+  * Choose the right webinar tool
+
+  * Create a dedicated webinar landing page
+
+  * Market your webinar landing page across various channels (social media, email, etc). Write a blog post to cover the topics you’ll discuss in the webinar.
+
+  * Share a limited time offer with the participants.
+
+  * Follow up after the webinar
+- "### What to consider when looking for a webinar platform\nBudget (factor in additional
+  costs, such as extra charges for more users, etc)\n\n* Ease of use and learning
+  curve\n\n* Attendance size: how many attendees are "
+- |-
+  ### Best webinar platforms to choose in 2019
+  WebinarJam (#1 pick for platform that helps you upsell)
+
+  * LiveStorm
+
+  * EverWebinar (#1 pick for feature-rich platform)
+
+  * Zoom (#1 pick for budget-friendly platform)
+
+  * Zoho Webinar
+
+  * GoToWebinar
+
+  * ClickMeeting
+
+  * Webex
+
+  * Demio (#1 pick for easy to use platform)
+
+  * Google Hangouts
+- |2-
+
+  ### Best practices for promoting and hosting your webinar
+  Webinars held on Wednesdays and Thursdays get the most attendees.
+
+  * 10 and 11 am are the best webinar times to attract attendees.
+
+  * Email drives 57% of webinar registrations.
+
+  * 59% of registrations occur less than a week before the webinar.
+
+  * 36% of registrations occur between 8-10 am.
 layout: new-webinar
 ---
 
