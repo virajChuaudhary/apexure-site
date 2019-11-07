@@ -36,6 +36,8 @@ how-to-create-repeater-description:
   #### **CMS based website builders**
 
   When it comes to managing a website the first technology which comes to mind is wordpress. yes, you can create a landing page in wordpress and style it to match your brand, it’s just landing page builders such as unbounce are designed from the ground up to host landing pages. Wordpress webinar landing pages will do most of the heavy lifting but would need a proficient web designer/developer to make edits.
+- 
+- 
 mega-guide-title-description: "### In this mega guide, we’ll tell you all you need
   to know about using webinar and webinar landing pages to generate leads, including:"
 mega-guide-repeat-description:
@@ -229,9 +231,11 @@ webinar-platform-description: "### What to consider when looking for a webinar p
   Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
   page across "
 platforms-check-out-description:
-- 
-- "### Best webinar platforms to check out in 2019"
-platforms-check-out-title-description: 
+- outer title
+- - inner title 1
+  - inner title 2
+platforms-check-out-title-description:
+- Key 1: 
 layout: new-webinar
 ---
 
