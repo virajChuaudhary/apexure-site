@@ -296,11 +296,12 @@
 
     <div class="non-borber">
         <div class="call-wrap quick-title">
-        {% for webinar-platform-description in page.webinar-platform-description }}
+    
 
         {{ webinar-platform-description | markdownify }}
 
-        {% endfor %}
+      
+    
 
         </div>
     </div>    
@@ -311,8 +312,13 @@
 
 <section class="is_landing_page_a_website sec-45" id="who_designs_landing_page">
 
-      <div class="blog_container_new container">
-         {{ page.platforms-check-out-description | markdownify }}
+      <div class="blog_container_new container">  
+
+        {% for platforms-check-out-description in page.platforms-check-out-description %}
+ 
+  <div class="mov-wrap_1">{{ platforms-check-out-description | markdownify }}</div> 
+{% endfor %}  
+
       </div>
       <div class="blog_container_new container">
         <div class="title"><h3>Best webinar platforms to check out in 2019</h3></div>
