@@ -228,6 +228,22 @@ webinar-platform-description: "### What to consider when looking for a webinar p
   such as extra charges for more users, etc)\n\n\n* Ease of use and learning curve\n\n\n*
   Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
   page across "
+platforms-check-out-description:
+- Best webinar platforms to check out in 2019
+- |-
+  ### 1) Webinar Jam
+  [Webinar Jam](#)
+  is a well-known webinar broadcasting platform that integrates with many CRMs and email marketing tools.
+
+  ![poster.png](/uploads/poster.png)
+
+
+  pro:
+  * Comes with pop-up calls-to-action (CTAs) within your webinar. You can use this feature to get your attendees to purchase a product/service in real-time.
+
+  * Shows sales data while you’re conducting your webinar, so you can keep an eye on how much sales revenue you’re generating in real-time.
+
+  * Allows you to load videos ahead of time, so that you don’t run the risk of your video taking too long to buffer due to a poor internet connection.
 layout: new-webinar
 ---
 
