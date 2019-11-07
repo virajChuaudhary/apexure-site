@@ -4442,4 +4442,16 @@ color: #FF0900;
     flex: 0 0 100%;
     max-width: 100%;
 }
+#call-to-action-text-ideas {
+    background: #8A1A9B;
+    display: inline-block;
+    padding: 18px 60px 10px 53px;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cutoff-wrap {
+    position: relative;
+}
 @import "who-we-are-mobile-styling";
