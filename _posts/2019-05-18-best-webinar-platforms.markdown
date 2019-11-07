@@ -170,6 +170,23 @@ live-webinar-description: |-
   * Do not use the "submit" button for the form. instead, use action words such as - sign up! , count me in, register my spot.
   * Is the call to action big, bold, high contrast and does it stand out from the rest of the page?
   * Include a link on the thank you page which allows attendees to add the event on their calendar.
+post-launch-description: |-
+  ### Post Launch
+
+  ![Component 4 – 1.png](/uploads/Component%204%20%E2%80%93%201.png)
+
+
+  * Think Of Ways To Use It As A Lead Magnet.
+
+  * Offer Video Recording Of Your Previous Webinar.
+
+  * Remove Old Dates.
+
+  * Update CTA And Change The Text To Sign Up For The Next Webinar Or Notification.
+
+  * Share The Webinar's Success.
+
+  * Ensure The Timer Stops And Doesn’t Keep Ticking To Infinity.
 layout: new-webinar
 ---
 
