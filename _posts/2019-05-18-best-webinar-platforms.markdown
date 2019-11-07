@@ -158,6 +158,8 @@ call-to-action-description: |-
   * Limited Seats Available
 
   * Registration Sale Ends Soon
+form-field-image: "/uploads/Apexure-Webinar%20(1).png"
+form-image: "/uploads/Apexure-Webinar%20(1).png"
 layout: new-webinar
 ---
 
