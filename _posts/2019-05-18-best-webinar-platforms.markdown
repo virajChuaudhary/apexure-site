@@ -317,7 +317,8 @@ final-word-description:
   * Limit the number of seats and show proof by showing recent signups.
 - |-
   ### Elements that are essential for a successful webinar campaign include:
-  Traffic
+
+  * Traffic
 
   * A webinar landing page
 
