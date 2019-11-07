@@ -127,7 +127,7 @@ what-factors-points:
 - Add a friendly photo/headshot of the host(s) + name and bio.
 - Limit the number of seats and show proof by showing recent signups.
 call-to-action-description: |-
-  #### Call To Action Text Ideas:
+  ### Call To Action Text Ideas:
 
   * Sign Me Up!
 
