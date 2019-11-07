@@ -1136,10 +1136,10 @@
       <div class="final-wrap">
         <div class="create-list">
           <ul>
-            <li class="final-box   blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
+            <li class="wrap-final_rp"><span class="curv-img"><img src="images/arrow.png"></span>
                 <div class="mov-wrap">
                   {% for final-word-description  in page.final-word-description  %}
-                  {{ final-word-description | markdownify  }}
+                 <div class="final-box   blue-brdr no-border orng-brdr"> {{ final-word-description | markdownify  }}</div>
                 {% endfor %}
               </div>
             </li>
