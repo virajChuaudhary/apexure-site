@@ -4451,6 +4451,7 @@ color: #FF0900;
     top: 0;
     left: 0;
     color: #fff;
+    min-height: 80px;
 }
 .cutoff-wrap {
     position: relative;
@@ -4481,8 +4482,10 @@ color: #FF0900;
     font-weight: 900;
     content: "\f101";
     position: absolute;
-    left: 0;
+    left: -22px;
     z-index: 9999;
+    color: #8a1a9b;
+    font-size: 18px;
 }
 
 @import "who-we-are-mobile-styling";
