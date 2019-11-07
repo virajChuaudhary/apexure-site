@@ -4488,4 +4488,50 @@ color: #FF0900;
     font-size: 18px;
 }
 
+
+.padding-tb ul {
+    margin-top: 30px;
+}
+
+.padding-tb ul li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    position: absolute;
+    left: 70px;
+    z-index: 9999;
+    color: #444444;
+    font-size: 18px;
+}
+.padding-tb ul li:after {
+    background: #FFB600;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #444444;
+    margin-right: 34px;
+    min-width: 50px;
+    left: 53px;
+    content: "";
+    right: unset;
+    position: absolute;
+}
+.padding-tb ul li {
+    display: flex;
+    border-radius: 10px;
+    background: #fff;
+    padding: 45px 50px;
+    margin-bottom: 35px;
+    box-shadow: 0 0 14px -6px #F9D5FF;
+    align-items: center;
+    font-family: 'Poppins-semibold';
+    font-size: 22px;
+    line-height: 32px;
+    position: relative;
+    padding-left: 133px;
+}
+
 @import "who-we-are-mobile-styling";
