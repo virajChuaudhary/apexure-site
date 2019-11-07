@@ -286,24 +286,24 @@
 <section class="sec-99">
   <div class="max-966">
     <div class="blue-brdr">
-<div class="cutoff-wrap">
-<div class="quick-logo"><img src="images/tips.png"></div>
-<div class="call-wrap quick-title"> 
-{{ page.tips-description | markdownify }}
-</div>
-</div>      
+        <div class="cutoff-wrap">
+        <div class="quick-logo"><img src="images/tips.png"></div>
+        <div class="call-wrap quick-title"> 
+        {{ page.tips-description | markdownify }}
+        </div>
+        </div>      
     </div>
 
-<div class="non-borber">
-  <div class="call-wrap quick-title">
- {% for webinar-platform-description in page.webinar-platform-description | markdownify }}
+    <div class="non-borber">
+        <div class="call-wrap quick-title">
+        {% for webinar-platform-description in page.webinar-platform-description }}
 
-{{ webinar-platform-description | markdownify }}
+        {{ webinar-platform-description | markdownify }}
 
- {% endfor %}
+        {% endfor %}
 
-</div>
-</div>    
+        </div>
+    </div>    
   </div>
  
 </section>
