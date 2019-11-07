@@ -4450,8 +4450,20 @@ color: #FF0900;
     position: absolute;
     top: 0;
     left: 0;
+    color: #fff;
 }
 .cutoff-wrap {
     position: relative;
+}
+#call-to-action-text-ideas:after {
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 46px solid #ffffff;
+    content: "";
+    right: 0;
+    height: 100%;
+    width: 80px;
+    position: absolute;
+    top: 0;
 }
 @import "who-we-are-mobile-styling";
