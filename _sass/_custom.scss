@@ -4466,4 +4466,13 @@ color: #FF0900;
     position: absolute;
     top: 0;
 }
+.call-wrap ul {
+    margin-top: 71px;
+    column-count: 2;
+    column-gap: 90px;
+}
+.types_of_lp ul li {
+    padding-bottom: 0;
+    line-height: normal;
+}
 @import "who-we-are-mobile-styling";
