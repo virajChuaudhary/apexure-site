@@ -193,6 +193,28 @@ reduce-churn-description: |-
   its true webinars can be used to educate existing customers and reduce churn and increase LTV. I have participated in some of the webinars hosted by adespresso. similarly, other companies like intercom use webinars to share news and latest features with their existing subscribers.
 
   ![webi-red.png](/uploads/webi-red.png)
+tips-description: |-
+  ### Tips to make your webinars successful.
+
+  * Choose a topic which your visitors want to learn about.
+
+
+  * Choose the right tool for the job.
+
+
+  * Create a dedicated webinar landing page which you can market.
+
+
+  * Market your webinar landing page across various channels including social media, email and write a blog post to cover topics you will share in the webinar.
+
+
+  * Share a limited time offer with the participants. As you build trust your webinar participants would be more likely to buy from you. It’s your job now to come up with offers which are enticing. You can either have a time-bound offer or one-time offer bonuses.
+
+
+  * To increase the value offer an iron-clad money back guarantee to seal the deal.
+
+
+  * Follow up and evaluate your webinar.
 layout: new-webinar
 ---
 
