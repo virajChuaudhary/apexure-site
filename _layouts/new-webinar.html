@@ -296,7 +296,11 @@
 
 <div class="non-borber">
   <div class="call-wrap quick-title">
- {{ page.webinar-platform-description | markdownify }}
+ {% for webinar-platform-description in page.webinar-platform-description | markdownify }}
+
+{{ webinar-platform-description | markdownify }}
+
+ {% endfor %}
 
 </div>
 </div>    
