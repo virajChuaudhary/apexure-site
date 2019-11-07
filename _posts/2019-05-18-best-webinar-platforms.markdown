@@ -247,6 +247,54 @@ platforms-check-out-description:
     inner title 2
 
     > jldfnladfaflda
+marketers-looking-title: Best webinar platform for marketers looking for an easy-to-use
+  platform
+marketers-looking-description: |-
+  #1 Webinar platform
+
+  If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality.
+
+  While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
+marketers-who: 'Best webinar platform for marketers who want to upsell from their
+  webinars '
+marketers-who-description: |-
+  #1 Webinar platform
+
+  If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality.
+
+  While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
+bonus: 'BONUS: When should you host your webinar? how should you get sign-ups?'
+bonus-repeater-description:
+- |+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  ##### In this section, we’ll share several statistics and insights that will help you do just that.
+
+  ### Which is the best day to hold a webinar?
+
+  ##### Webinars held on Wednesdays and Thursdays get the most attendees.
+
+  ![grapth1.png](/uploads/grapth1.png)
+
+  No one knows for sure why Wednesdays and Thursdays are better-performing, but if you ask us, our guess is that people are too busy to attend webinars on Mondays, and they’re winding down for the week on Fridays. Bearing this in mind, avoid scheduling a webinar at the start or end of the work week (or worse, on the weekend). Instead, host your webinar on a Wednesday or Thursday.
+
+
+- |-
+  ### What time should you hold your webinar?
+  ###### 10 and 11 am are the best webinar times to attract attendees.
+
+  ![graph2.png](/uploads/graph2.png)
+
+  According to statistics, you have a higher chance of attracting more attendees if you hold your webinar at 10am or 11am. Intuitively speaking, this makes sense. Your attendees can arrive at work and respond to their urgent emails, attend your webinar, then pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock off work!
+- |-
+  ### How should you promote your webinar?
+  ###### 10 and 11 am are the best webinar times to attract attendees.
+
+  ![graph3.png](/uploads/graph3.png)
+
+  According to statistics, you have a higher chance of attracting more attendees if you hold your webinar at 10am or 11am. Intuitively speaking, this makes sense. Your attendees can arrive at work and respond to their urgent emails, attend your webinar, then pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock off work!
 layout: new-webinar
 ---
 
