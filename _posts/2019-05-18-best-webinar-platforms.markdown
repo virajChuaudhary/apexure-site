@@ -126,6 +126,40 @@ what-factors-points:
 - Add social proof/testimonials
 - Add a friendly photo/headshot of the host(s) + name and bio.
 - Limit the number of seats and show proof by showing recent signups.
+call-to-action-description: |-
+  #### Call To Action Text Ideas:
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
+
+  * Limit the number of seats and show proof by showing recent signups.
 layout: new-webinar
 ---
 
