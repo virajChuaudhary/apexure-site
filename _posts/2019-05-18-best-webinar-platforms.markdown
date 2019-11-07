@@ -215,6 +215,19 @@ tips-description: |-
 
 
   * Follow up and evaluate your webinar.
+webinar-platform-description: "### What to consider when looking for a webinar platform\n\nThere’s
+  a huge array of webinar platforms that cater to businesses who want to generate
+  more leads; in evaluating your options and shortlisting your ideal platform, take
+  the following factors into consideration:\n\n\n* Budget (factor in additional costs,
+  such as extra charges for more users, etc)\n\n\n* Ease of use and learning curve\n\n\n*
+  Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
+  page across \n\n* What to consider when looking for a webinar platform\nThere’s
+  a huge array of webinar platforms that cater to businesses who want to generate
+  more leads; in evaluating your options and shortlisting your ideal platform, take
+  the following factors into consideration:\n\n\n* Budget (factor in additional costs,
+  such as extra charges for more users, etc)\n\n\n* Ease of use and learning curve\n\n\n*
+  Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
+  page across "
 layout: new-webinar
 ---
 
