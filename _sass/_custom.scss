@@ -4533,5 +4533,29 @@ color: #FF0900;
     position: relative;
     padding-left: 133px;
 }
+#post-launch {
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+.back-blue.post-lunch ul li p:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f101";
+    position: absolute;
+    left: 36px;
+    z-index: 9999;
+    color: #FFB600;
+    font-size: 18px;
+}
+
+.back-blue.post-lunch ul li p {
+    color: #fff;
+    font-size: 22px;
+    text-transform: capitalize;
+    line-height: 34px;
+    padding-left: 61px;
+    position: relative;
+}
 
 @import "who-we-are-mobile-styling";
