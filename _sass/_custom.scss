@@ -4456,7 +4456,7 @@ color: #FF0900;
 .cutoff-wrap {
     position: relative;
 }
-#call-to-action-text-ideas:after {
+.cutoff-wrap #call-to-action-text-ideas:after {
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
     border-right: 46px solid #ffffff;
@@ -4477,7 +4477,7 @@ color: #FF0900;
     line-height: normal;
     position: relative;
 }
-.call-wrap ul li p:after {
+.cutoff-wrap .call-wrap ul li p:after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f101";
