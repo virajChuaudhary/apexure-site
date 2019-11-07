@@ -1138,7 +1138,9 @@
           <ul>
             <li class="final-box   blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
                 <div class="mov-wrap">
-                {{ page.final-word-description | markdownify }}
+                  {% for final-word-description  in page.final-word-description  %}
+                  {{ final-word-description | markdownify  }}
+                {% endfor %}
               </div>
             </li>
           </ul>
