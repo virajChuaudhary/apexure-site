@@ -129,37 +129,35 @@ what-factors-points:
 call-to-action-description: |-
   #### Call To Action Text Ideas:
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Sign Me Up!
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Count Me In
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * RSVP Now
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Register Now
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Register Your Spot >
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Yes! Claim My Spot Now >
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Click Here To Claim Your Sport In This Webinar
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Sign Up To Save Your Seat Now
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Yes! Sign Me Up For The Webinar
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * RSVP Here To Attend The Webinar
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Register
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Register Now
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Limited Time Offer Only
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Limited Seats Available
 
-  * Limit the number of seats and show proof by showing recent signups.
-
-  * Limit the number of seats and show proof by showing recent signups.
+  * Registration Sale Ends Soon
 layout: new-webinar
 ---
 
