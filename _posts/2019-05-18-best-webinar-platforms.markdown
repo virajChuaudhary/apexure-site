@@ -159,6 +159,7 @@ call-to-action-description: |-
 
   * Registration Sale Ends Soon
 form-field-image: "/uploads/Apexure-Webinar%20(1).png"
+form-image: "/uploads/Apexure-Webinar%20(1).png"
 layout: new-webinar
 ---
 
