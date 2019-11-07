@@ -232,10 +232,8 @@ webinar-platform-description: "### What to consider when looking for a webinar p
   page across "
 platforms-check-out-description:
 - outer title
-- - inner title 1
-  - inner title 2
-platforms-check-out-title-description:
-- Key 1: 
+- - "### inner title 1"
+  - "### inner title 2"
 layout: new-webinar
 ---
 
