@@ -215,13 +215,13 @@ tips-description: |-
 
 
   * Follow up and evaluate your webinar.
-webinar-platform-description: "### What to consider when looking for a webinar platform
-  1\n\nThere’s a huge array of webinar platforms that cater to businesses who want
-  to generate more leads; in evaluating your options and shortlisting your ideal platform,
-  take the following factors into consideration:\n\n\n* Budget (factor in additional
-  costs, such as extra charges for more users, etc)\n\n\n* Ease of use and learning
-  curve\n\n\n* Attendance size: how many attendees are supported?\n\n\n* Market your
-  webinar landing page across \n\n* What to consider when looking for a webinar platform\nThere’s
+webinar-platform-description: "### What to consider when looking for a webinar platform\n\nThere’s
+  a huge array of webinar platforms that cater to businesses who want to generate
+  more leads; in evaluating your options and shortlisting your ideal platform, take
+  the following factors into consideration:\n\n\n* Budget (factor in additional costs,
+  such as extra charges for more users, etc)\n\n\n* Ease of use and learning curve\n\n\n*
+  Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
+  page across \n\n* What to consider when looking for a webinar platform\nThere’s
   a huge array of webinar platforms that cater to businesses who want to generate
   more leads; in evaluating your options and shortlisting your ideal platform, take
   the following factors into consideration:\n\n\n* Budget (factor in additional costs,
@@ -232,7 +232,9 @@ platforms-check-out-description:
 - Best webinar platforms to check out in 2019
 - |-
   ### 1) Webinar Jam
+
   [Webinar Jam](#)
+
   is a well-known webinar broadcasting platform that integrates with many CRMs and email marketing tools.
 
   ![poster.png](/uploads/poster.png)
