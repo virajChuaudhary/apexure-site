@@ -296,8 +296,12 @@
 
     <div class="non-borber">
         <div class="call-wrap quick-title">
+    
 
         {{ webinar-platform-description | markdownify }}
+
+      
+    
 
         </div>
     </div>    
@@ -313,10 +317,11 @@
         {% for platforms-check-out-description in page.platforms-check-out-description %}
  
   <div class="mov-wrap_1">{{ platforms-check-out-description | markdownify }}</div> 
- 
-{{ platforms-check-out-description.platforms-check-out-description | markdownify }}
 
- 
+<!--  {% for platforms in platforms-check-out-description.platforms-check-out-description %}
+
+{{ platforms | markdownify }}
+{% endfor %} -->
 
 {% endfor %}  
 

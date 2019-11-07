@@ -231,11 +231,51 @@ webinar-platform-description: "### What to consider when looking for a webinar p
   Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
   page across "
 platforms-check-out-description:
-- outer title
-- - inner title 1
-  - inner title 2
-platforms-check-out-title-description:
-- Key 1: 
+- "1. Webinar Jam\n   Webinar Jam\n   is a well-known webinar broadcasting platform
+  that integrates with many CRMs and email marketing tools.\n\n![poster.png](/uploads/poster.png)\n\nThe
+  platform has an intuitive interface, making it easy for new users to jump in and
+  start running webinars immediately, and it currently serves 30,000\\+ customers
+  and more from across the globe.\n\n              <div class=\"review-wrap\">\n                <div
+  class=\"review-box\">\n                  <div class=\"rivew-pd\">\n                    <span
+  class=\"pro-thumb\"><i class=\"fas fa-thumbs-up\"></i></span>\n                    <div
+  class=\"font-16 font-bold\">\n                      pro:\n                    </div>\n
+  \                   <div class=\"pro-list font-16\">\n                      <ul>\n
+  \                         <li> <span class=\"intro\">    <i class=\"fa fa-check\"
+  aria-hidden=\"true\"></i> </span>\n                          <p>Comes with pop-up
+  calls-to-action (CTAs) within your webinar. You can use this feature to get your
+  attendees to purchase a product/service in real-time.\n                          </p>\n
+  \                         </li>  \n                          <li> <span class=\"intro\">
+  \   <i class=\"fa fa-check\" aria-hidden=\"true\"></i> </span>\n                          <p>Shows
+  sales data while you’re conducting your webinar, so you can keep an eye on how much
+  sales revenue you’re generating in real-time.\n                          </p>\n
+  \                         </li>  \n                          <li> <span class=\"intro\">
+  \   <i class=\"fa fa-check\" aria-hidden=\"true\"></i> </span>\n                          <p>Allows
+  you to load videos ahead of time, so that you don’t run the risk of your video taking
+  too long to buffer due to a poor internet connection.\n                          </p>\n
+  \                         </li>                                                                                                    \n
+  \                     </ul>                                                                  \n
+  \                   </div>\n                  </div>\n                </div>\n    \n
+  \               <div class=\"review-box\">\n                  <div class=\"rivew-pd\">\n
+  \                   <span class=\"pro-thumb con-thumb\"><i class=\"fas fa-thumbs-down\"></i></span>\n
+  \                   <div class=\"s font-bold\">\n                      Cons:\n                    </div>\n
+  \                   <div class=\"pro-list font-16 con-list\">\n                                           <ul>\n
+  \                         <li> <span class=\"intro\">    <i class=\"fa fa-times\"
+  aria-hidden=\"true\"></i> </span>\n                          <p>Doesn’t give users
+  many options when it comes to customizing landing pages.\n                          </p>\n
+  \                         </li>  \n                          <li> <span class=\"intro\">
+  \   <i class=\"fa fa-times\" aria-hidden=\"true\"></i> </span>\n                          <p>No
+  automation features that help you streamline your workflow.\n                          </p>\n
+  \                         </li>                                                                                                   \n
+  \                     </ul>                       \n                    </div>\n
+  \                 </div>\n                </div>\n    \n              </div>"
+- - |-
+    inner title
+
+    ![poster.png](/uploads/poster.png)
+  - |-
+    inner title 2
+
+    > jldfnladfaflda
 layout: new-webinar
 ---
 
