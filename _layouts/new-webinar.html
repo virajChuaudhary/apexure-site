@@ -1067,39 +1067,21 @@
 <div class="max-966">
 
   <div class="best-webi-wrap">
-  <div class="title"><h3>Best webinar platform for marketers looking for an easy-to-use platform </h3></div>
+  <div class="title"><h3>{{ page.marketers-looking-title }}</h3></div>
 
     <div class="bg-grey">
       <div class="bg-g-pd">
-          <div class="plt-f-inline">
-              <div class="gry-title font-24">#1 Webinar platform</div><div class="title-logo"><img src="images/demi.png"></div>
-          </div>
-          <div class="content">
-            <p>If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality. 
-            </p>
-            <p>
-            While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
-            </p>
-          </div>
+          {{ page.marketers-looking-description | markdownify }}
       </div>
     </div>
   </div>
 
   <div class="best-webi-wrap">
-  <div class="title"><h3>Best webinar platform for marketers looking for an easy-to-use platform </h3></div>
+  <div class="title"><h3>{{ page.marketers-looking-title }}</h3></div>
 
     <div class="bg-grey">
       <div class="bg-g-pd">
-          <div class="plt-f-inline">
-              <div class="gry-title font-24">#1 Webinar platform</div><div class="title-logo"><img src="images/webinarJamLogo.png"></div>
-          </div>
-          <div class="content">
-            <p>If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality. 
-            </p>
-            <p>
-            While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
-            </p>
-          </div>
+            {{ page.marketers-who-description | markdownify }}
       </div>
     </div>
   </div>
@@ -1122,101 +1104,21 @@
 
 <section class="types_of_lp" id="types_of_landing_page">
   <div class="purple_box">
-   <h3 class="text-white text-center">BONUS: When should you host your webinar? how should you get sign-ups?</h3>
+   <h3 class="text-white text-center">{{ page.bonus }}</h3>
   </div> <!-- purple_box ends-->
   <div class="blog_container_new container">
     <div class="row">
-      <div class="col">
-        <div class="landing_page_types_content">
-          <div class="call-wrap no-pd">
-          <ul>
-              <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-              <p>Limit the number of seats and show proof by showing recent signups.
-              </p>
-              </li>  
-              <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-              <p>Limit the number of seats and show proof by showing recent signups.
-              </p>
-              </li>                                                                                                     
-          </ul>
-         
-        </div>  
-
-
-<div class="font-16 font-bold">
-In this section, we’ll share several statistics and insights that will help you do just that.
-</div>
-<div class="graph-wrap">
-<div class="create-list">
-  <ul>
-    <li><span class="curv-img"><img src="images/arrow.png"></span>
-        <div class="mov-wrap">
-        <h4>Which is the best day to hold a webinar?</h4>
-        <div class="font-16 font-bold"> Webinars held on Wednesdays and Thursdays get the most attendees.</div>
-        <div class="grpth-img"><img src="images/graph1.png"></div>
-        <p>No one knows for sure why Wednesdays and Thursdays are better-performing, but if you ask us, our guess is that people are too busy to attend webinars on Mondays, and they’re winding down for the week on Fridays.
-
-Bearing this in mind, avoid scheduling a webinar at the start or end of the work week (or worse, on the weekend). Instead, host your webinar on a Wednesday or Thursday.
-</p>
-          </div>
-    </li>
-    <li><span class="curv-img"><img src="images/arrow.png"></span>
-        <div class="mov-wrap">
-        <h4>What time should you hold your webinar?</h4>
-         <div class="font-16 font-bold">10 and 11 am are the best webinar times to attract attendees. </div>
-        <div class="grpth-img"><img src="images/graph2.png"></div>
-        <p>According to statistics, you have a higher chance of attracting more attendees if you hold your webinar at 10am or 11am.
-
-Intuitively speaking, this makes sense. Your attendees can arrive at work and respond to their urgent emails, attend your webinar, then pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock off work! 
- </p>
-          </div>
-    </li>
-    <li><span class="curv-img"><img src="images/arrow.png"></span>
-        <div class="mov-wrap">
-        <h4>How should you promote your webinar?</h4>
-        <div class="font-16 font-bold">10 and 11 am are the best webinar times to attract attendees. </div>
-        <div class="grpth-img"><img src="images/graph3.png"></div>
-        <p>According to statistics, you have a higher chance of attracting more attendees if you hold your webinar at 10am or 11am.
-
-Intuitively speaking, this makes sense. Your attendees can arrive at work and respond to their urgent emails, attend your webinar, then pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock off work! 
- </p>
+      <div class="mark-wrap">
+        {% for bonus-repeater-description in page.bonus-repeater-description %}
+            {{ bonus-repeater-description | markdownify }}
+        {% endfor %}
       </div>
-    </li>        
-  </ul>
-</div>
-
-</div>
-        </div>
- 
-
-
- 
-        <!-- <div class="landing_page_types_content">
-          {{ page.section-6-sub-heading-description | markdownify }}
-          <a href="http://www.apexure.com/click-through-landing-page-template/" class="ghost_btn">Click-through landing page examples</a>
-          {{page.section-6-sub-heading2-description | markdownify}}
-          <a href="http://www.apexure.com/lead-generation-page-template/" class="ghost_btn">Leadgen Landing Page Exampes</a>
-          {{ page.section-6-sub-heading3-description | markdownify }}
-        </div>  -->
-         <!-- landing_page_types_content ends -->
-      </div> <!-- col ends-->
     </div> <!-- row ends -->
 
 
 <div class="blue-brdr no-border virtual-cover">
 <div class="virtual-wrap">
-  <div class="title"><h3>Virtual Summits Vs Webinars</h3></div>
-
-  <div class="bottom-virtual">
-<div class="virtual-img"><img src="images/virtual.png"></div>
-<div class="virtual-cont font-16">
-  <p>What’s the difference between virtual summits and webinars? Basically, virtual summits typically include a webinar or multiple webinars, but they also comprise of other elements such as discussions, forums, live chat, interviews, and more.
-</p>
-<p>
-Webinars (that are created with the purpose of generating leads) are typically free to attend, but virtual summits tend to be freemium or paid. In the freemium model, the summits are free for a short period of time (say, 24 to 72 hours), and subscribers have the option to purchase an “all-access pass” so they can download or continue viewing the materials after this time period.
-</p>
-</div>
-  </div>
+{{ page.virtual-summits-description | markdownify }}
 </div>
 </div>
   </div> <!-- blog_container container -->
@@ -1228,7 +1130,7 @@ Webinars (that are created with the purpose of generating leads) are typically f
 <section class="bg-bgny sec-100">
   <div class="max-966">
     <div class="final-word">
-      <div class="title"><h3>How to use webinars: A final word</h3></div>
+      <div class="title"><h3>{{ page.final-word }}</h3></div>
 
 
       <div class="final-wrap">
@@ -1236,248 +1138,15 @@ Webinars (that are created with the purpose of generating leads) are typically f
           <ul>
             <li class="final-box   blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
                 <div class="mov-wrap">
-                <h4>Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.</h4>
+                {{ page.final-word-description | markdownify }}
+              </div>
             </li>
-            <li class="final-box blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
-                <div class="mov-wrap">
-                <h4>Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.</h4>
-                <div class="call-wrap no-pd">
-                <ul>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Limit the number of seats and show proof by showing recent signups.
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Limit the number of seats and show proof by showing recent signups.
-                    </p>
-                    </li>                                                                                                     
-                </ul>
-               
-              </div>                 
-            </li> 
-            <li class="final-box blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
-                <div class="mov-wrap">
-                <h4>Elements that are essential for a successful webinar campaign include:</h4>
-                <div class="call-wrap no-pd">
-                <ul>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Traffic
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>A webinar landing page
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>A webinar tool
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Follow up
-                    </p>
-                    </li>                                                                                                                           
-                </ul>
-               
-              </div>                 
-            </li> 
-
-            <li class="final-box blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
-                <div class="mov-wrap">
-                <h4>Factors that affect conversion on a webinar landing page include:</h4>
-                <div class="call-wrap no-pd">
-                <ul>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>The length of your form 
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Countdown timers
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Timezone converters
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>“Can’t make it” Call To Action
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Attendee count
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Social proof/testimonials
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Details about the host (picture, bio, etc)
-                    </p>
-                    </li>                                                                                                                                         
-                </ul>
-               
-              </div>                 
-            </li> 
-
-            <li class="final-box blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
-                <div class="mov-wrap">
-                <h4>Tips to make your webinar successful include:</h4>
-                <div class="call-wrap no-pd">
-                <ul>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Choose a compelling topic 
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Choose the right webinar tool 
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Create a dedicated webinar landing page 
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Market your webinar landing page across various channels (social media, email, etc). Write a blog post to cover the topics you’ll discuss in the webinar.
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Share a limited time offer with the participants.
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Follow up after the webinar
-                    </p>
-                    </li>                                                                                                                                                               
-                </ul>
-               
-              </div>                 
-            </li> 
-            <li class="final-box blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
-                <div class="mov-wrap">
-                <h4>What to consider when looking for a webinar platform </h4>
-                <div class="call-wrap no-pd">
-                <ul>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Budget (factor in additional costs, such as extra charges for more users, etc)
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Ease of use and learning curve
-
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Attendance size: how many attendees are supported?
-
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Availability of analytics and reports
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Features to boost engagement and sales
-                    </p>
-                    </li>                                                                                                                                                                
-                </ul>
-               
-              </div>                 
-            </li>  
-
-
-            <li class="final-box blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
-                <div class="mov-wrap">
-                <h4>Best webinar platforms to choose in 2019 </h4>
-                <div class="call-wrap no-pd">
-                <ul>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>WebinarJam (#1 pick for platform that helps you upsell)
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>LiveStorm
-
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>EverWebinar (#1 pick for feature-rich platform)
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Zoom (#1 pick for budget-friendly platform)
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Zoho Webinar
-                    </p>
-                    </li>                                                                                                                        <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>GoToWebinar
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>ClickMeeting
-
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Webex
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Demio (#1 pick for easy to use platform)
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Google Hangouts
-                    </p>
-                    </li>                                                             
-                </ul>
-               
-              </div>                 
-            </li>
-
-
-            <li class="final-box blue-brdr no-border orng-brdr"><span class="curv-img"><img src="images/arrow.png"></span>
-                <div class="mov-wrap">
-                <h4>Best practices for promoting and hosting your webinar </h4>
-                <div class="call-wrap no-pd">
-                <ul>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Webinars held on Wednesdays and Thursdays get the most attendees.
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>10 and 11 am are the best webinar times to attract attendees.
-
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>Email drives 57% of webinar registrations.
-
-                    </p>
-                    </li>  
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>59% of registrations occur less than a week before the webinar.
-                    </p>
-                    </li>
-                    <li> <span class="intro">  <i class="fas fa-angle-double-right"></i> </span>
-                    <p>36% of registrations occur between 8-10 am.
-                    </p>
-                    </li>                                                                                                                                                                
-                </ul>
-               
-              </div>                 
-            </li>  
-
-
-
-
           </ul>
         </div>
       </div>
     </div>
     <div class="bottom-bold">
-      <div class="bottom-alright"><h3>Alright, that’s all we have for you on the topic of webinars. Go ahead and pick your favorite webinar platform to try out, then take it from there! </h3></div>
+      <div class="bottom-alright"><h3>{{ page.final-word-bottom }} </h3></div>
     </div>
   </div>
 </section>
