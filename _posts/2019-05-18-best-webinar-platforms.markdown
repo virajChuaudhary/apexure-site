@@ -229,7 +229,7 @@ webinar-platform-description: "### What to consider when looking for a webinar p
   Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
   page across "
 platforms-check-out-description:
-- Best webinar platforms to check out in 2019
+- "### Best webinar platforms to check out in 2019"
 - |-
   ### 1) Webinar Jam
 
@@ -239,8 +239,8 @@ platforms-check-out-description:
 
   ![poster.png](/uploads/poster.png)
 
-
   pro:
+
   * Comes with pop-up calls-to-action (CTAs) within your webinar. You can use this feature to get your attendees to purchase a product/service in real-time.
 
   * Shows sales data while you’re conducting your webinar, so you can keep an eye on how much sales revenue you’re generating in real-time.
