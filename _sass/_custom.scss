@@ -4475,4 +4475,13 @@ color: #FF0900;
     padding-bottom: 0;
     line-height: normal;
 }
+.types_of_lp ul li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+}
+
 @import "who-we-are-mobile-styling";
