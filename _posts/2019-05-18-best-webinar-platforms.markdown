@@ -229,7 +229,7 @@ webinar-platform-description: "### What to consider when looking for a webinar p
   Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
   page across "
 platforms-check-out-description:
-- "### Best webinar platforms to check out in 2019"
+- 
 - |-
   ### 1) Webinar Jam
 
