@@ -158,8 +158,18 @@ call-to-action-description: |-
   * Limited Seats Available
 
   * Registration Sale Ends Soon
-form-field-image: "/uploads/Apexure-Webinar%20(1).png"
 form-image: "/uploads/Apexure-Webinar%20(1).png"
+live-webinar-description: |-
+  ### Go Live Webinar Landing Page Checklist
+
+  * No links to any other pages
+  * Privacy Policy added, highly visible and linked
+  * The logo doesn't link to the main website
+  * Social icons only show social media counters and do not link to social pages
+  * Date / Time correctly added including Timezones
+  * Do not use the "submit" button for the form. instead, use action words such as - sign up! , count me in, register my spot.
+  * Is the call to action big, bold, high contrast and does it stand out from the rest of the page?
+  * Include a link on the thank you page which allows attendees to add the event on their calendar.
 layout: new-webinar
 ---
 
