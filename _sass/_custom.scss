@@ -4821,8 +4821,21 @@ color: #FF0900;
 .mov-wrap {
     width: 100%;
 }
+
+
+.blog_banner .blog_single_banner_alignment h4 {
+    font-family: 'Poppins-SemiBold';
+}
+#header_wrapper .general_header_inner_wrapper h1 {
+    color: #444444 !important;
+}
+.make-left h1, .make-left h4 {
+    color: #444444 !important;
+}
 @import "who-we-are-mobile-styling";
 
+
+/**********************************************************media css******/
 @media (max-width: 767px){
 	.types_of_lp .landing_page_types_content {
     margin-top: -160px;
