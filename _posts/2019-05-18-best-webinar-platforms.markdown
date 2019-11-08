@@ -251,6 +251,7 @@ platforms-check-out-description:
     * Doesn’t give users many options when it comes to customizing landing pages.
 
     * No automation features that help you streamline your workflow.
+  - "###### Price: $39.99/month onwards (billed annually)"
 - - |-
     #### 2) LiveStorm
     Next up, we have
@@ -275,6 +276,7 @@ platforms-check-out-description:
     * Limited attendee capacity (max of 1,000 attendees).
 
     * Some users encounter issues with the quality of recorded replays.
+  - "###### Price: Free plan available. Paid plans start at $99/month (billed annually)"
 - - |-
     #### 3) EverWebinar
     [EverWebinar](#)
