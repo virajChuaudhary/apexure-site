@@ -189,12 +189,11 @@ post-launch-description: |-
   * Share the webinar’s success.
 
   * Ensure the timer stops and doesn’t keep ticking to infinity.
-reduce-churn-description: |-
-  ### Webinars to reduce churn
-
-  its true webinars can be used to educate existing customers and reduce churn and increase LTV. I have participated in some of the webinars hosted by adespresso. similarly, other companies like intercom use webinars to share news and latest features with their existing subscribers.
-
-  ![webi-red.png](/uploads/webi-red.png)
+reduce-churn-description: "### Webinars to reduce churn\n\nits true webinars can be
+  used to educate existing customers and reduce churn and increase LTV. \n\nI have
+  participated in some of the webinars hosted by adespresso. similarly, other companies
+  like intercom use webinars to share news and latest features with their existing
+  subscribers.\n\n![webi-red.png](/uploads/webi-red.png)"
 tips-description: |-
   ### Tips to make your webinars successful.
 
