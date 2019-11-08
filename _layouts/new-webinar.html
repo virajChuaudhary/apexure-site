@@ -112,24 +112,17 @@
       <div class="wrap-aobut">
  <div class="how-cret">
    <div class="top-sec-how">
-
-
-
-
-
 <div class="title">
 {{ page.how-to-create-description | markdownify }}
  </div>
 <div class="border-color blue-brdr">
 <div class="create-list">
-  <ul>
-
-
+ 
 {% for how-to-create-repeater-description in page.how-to-create-repeater-description %}
  
-  <div class="mov-wrap">{{ how-to-create-repeater-description | markdownify }}</div></li>
+  <div class="mov-wrap">{{ how-to-create-repeater-description | markdownify }}</div>
 {% endfor %}      
-  </ul>
+  
 </div>
 </div>
  </div>
