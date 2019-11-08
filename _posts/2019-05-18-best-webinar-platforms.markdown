@@ -438,7 +438,7 @@ marketers-looking-description: |-
 marketers-who: 'Best webinar platform for marketers who want to upsell from their
   webinars '
 marketers-who-description: |-
-  #1 Webinar platform ![webinarJamLogo.png](/uploads/webinarJamLogo.png)
+  #1 Webinar platform  ![webinarJamLogo.png](/uploads/webinarJamLogo.png)
 
   If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality.
 
