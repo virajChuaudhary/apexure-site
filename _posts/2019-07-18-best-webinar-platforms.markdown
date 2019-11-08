@@ -26,12 +26,15 @@ how-to-create-repeater-description:
 - |-
   #### Self hosted landing pages
 
+  If you host your website yourself and manage it directly without a content management system you can get going by either building a page in html/css and then hosting it. although it’s the most simplest way to get started but its not the most efficient.
 
-  If you host your website yourself and manage it directly without a content management system you can get going by either building a page in html/css and then hosting it. although it’s the most simplest way to get started but its not the most efficient. static web pages load up fast and you have granular control if you are a developer. however, most of the time it will be a job of a marketer to run lead generation campaigns like a webinar.
-- |-
-  #### **Landing page builders**
-
-  Landing page builders like unbounce, instapages, clickfunnels allow marketers to easily make edits and setup up split tests to increase conversions. all page builders offer drag and drop builders which allow non-it people to build pages, host and publish them without involving it. Landing page builders like unbounce allows users to add custom scripts. using custom scripts you can add add-ons like countdown timers, show proof, speaker profiles etc.
+  static web pages load up fast and you have granular control if you are a developer. however, most of the time it will be a job of a marketer to run lead generation campaigns like a webinar.
+- "#### **Landing page builders**\n\nLanding page builders like unbounce, instapages,
+  clickfunnels allow marketers to easily make edits and setup up split tests to increase
+  conversions. \n\nall page builders offer drag and drop builders which allow non-it
+  people to build pages, host and publish them without involving it. Landing page
+  builders like unbounce allows users to add custom scripts. using custom scripts
+  you can add add-ons like countdown timers, show proof, speaker profiles etc."
 - |-
   #### **CMS based website builders**
 
@@ -189,11 +192,14 @@ post-launch-description: |-
   * Share the webinar’s success.
 
   * Ensure the timer stops and doesn’t keep ticking to infinity.
-reduce-churn-description: "### Webinars to reduce churn\n\nits true webinars can be
-  used to educate existing customers and reduce churn and increase LTV. \n\nI have
-  participated in some of the webinars hosted by adespresso. similarly, other companies
-  like intercom use webinars to share news and latest features with their existing
-  subscribers.\n\n![webi-red.png](/uploads/webi-red.png)"
+reduce-churn-description: |-
+  ### Webinars to reduce churn
+
+  its true webinars can be used to educate existing customers and reduce churn and increase LTV.
+
+  I have participated in some of the webinars hosted by adespresso. similarly, other companies like intercom use webinars to share news and latest features with their existing subscribers.
+
+  ![webi-red.png](/uploads/webi-red.png)
 tips-description: |-
   ### Tips to make your webinars successful.
 
@@ -216,19 +222,21 @@ tips-description: |-
 
 
   * Follow up and evaluate your webinar.
-webinar-platform-description: "### What to consider when looking for a webinar platform\n\nThere’s
-  a huge array of webinar platforms that cater to businesses who want to generate
-  more leads; in evaluating your options and shortlisting your ideal platform, take
-  the following factors into consideration:\n\n\n* Budget (factor in additional costs,
-  such as extra charges for more users, etc)\n\n\n* Ease of use and learning curve\n\n\n*
-  Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
-  page across \n\n* What to consider when looking for a webinar platform\nThere’s
-  a huge array of webinar platforms that cater to businesses who want to generate
-  more leads; in evaluating your options and shortlisting your ideal platform, take
-  the following factors into consideration:\n\n\n* Budget (factor in additional costs,
-  such as extra charges for more users, etc)\n\n\n* Ease of use and learning curve\n\n\n*
-  Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
-  page across "
+webinar-platform-description: |
+  ### What to consider when looking for a webinar platform
+
+  There’s a huge array of webinar platforms that cater to businesses who want to generate more leads; in evaluating your options and shortlisting your ideal platform, take the following factors into consideration:
+
+
+  * Budget (factor in additional costs, such as extra charges for more users, etc)
+
+  * Ease of use and learning curve
+
+  * Attendance size: how many attendees are supported?
+
+  * Availability of analytics and reports
+
+  * Features to boost engagement and sales
 platforms-check-out-description:
 - - |-
     #### 1) Webinar Jam
@@ -351,11 +359,12 @@ platforms-check-out-description:
     LogMeIn, the company that powers GoToWebinar, was recently named a Leader in Gartner’s 2018 Meeting Solutions Magic Quadrant. All in all, GoToWebinar serves 50,000+ customers who collectively host 2.7 million webinars each year.
   - |-
     ###### pro:
-    Comes with break out rooms that allow you to split up your webinar audience.
 
-    Comes with an advanced lead management feature which allows you to integrate your CRM and power up your lead generation
+    * Comes with break out rooms that allow you to split up your webinar audience.
 
-    Comes with an “engagement dashboard” that hosts can use to keep an eye on attentiveness, hands raised and time elapsed.
+    * Comes with an advanced lead management feature which allows you to integrate your CRM and power up your lead generation
+
+    * Comes with an “engagement dashboard” that hosts can use to keep an eye on attentiveness, hands raised and time elapsed.
   - |-
     ###### Cons:
     * Desktop interface is somewhat old-school.
@@ -426,10 +435,24 @@ platforms-check-out-description:
     * Polls, handouts and CTAs shared during a live webinar don’t appear in replays. s
 
   - "###### Price: $34/month onwards (billed annually)"
+- - "#### 10) Google Hangouts\n\n[Google Hangouts](https://hangouts.google.com/) is
+    a free tool that you can use to carry out video conferences, and while you can
+    use these to conduct webinars, note that you can only connect up to 10 people
+    within each call or webinar. \n\n![pasted image 0 (2).png](/uploads/pasted%20image%200%20(2).png)\n\nIn
+    the past, one workaround was to host a video conference with your team and guest
+    speakers, then broadcast it to a wider audience on YouTube, but Google Hangout
+    has since removed the “Hangouts on Air” feature, so this isn’t available anymore."
+  - |-
+    ###### pro:
+    * 100% free to use.
+  - "###### Cons: \n\n* All invited members need to use their own Google account to
+    join.\n\n* No additional webinar features/tools to help you plan or host your
+    webinar. \n\n* Max of 10 attendees in a single call (webinar).\n"
+  - 
 marketers-looking-title: Best webinar platform for marketers looking for an easy-to-use
   platform
 marketers-looking-description: |-
-  #1 Webinar platform ![demi.png](/uploads/demi.png)
+  #### #1 Webinar platform ![demi.png](/uploads/demi.png)
 
   If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality.
 
@@ -437,41 +460,39 @@ marketers-looking-description: |-
 marketers-who: 'Best webinar platform for marketers who want to upsell from their
   webinars '
 marketers-who-description: |-
-  #1 Webinar platform  ![webinarJamLogo.png](/uploads/webinarJamLogo.png)
+  #### #1 Webinar platform  ![webinarJamLogo.png](/uploads/webinarJamLogo.png)
 
   If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality.
 
   While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
 bonus: 'BONUS: When should you host your webinar? how should you get sign-ups?'
 bonus-repeater-description:
-- |-
-  * Limit the number of seats and show proof by showing recent signups.
-
-  * Limit the number of seats and show proof by showing recent signups.
-
-  ##### In this section, we’ll share several statistics and insights that will help you do just that.
-
-  #### Which is the best day to hold a webinar?
-
-  ##### Webinars held on Wednesdays and Thursdays get the most attendees.
-
-  ![grapth1.png](/uploads/grapth1.png)
-
-  No one knows for sure why Wednesdays and Thursdays are better-performing, but if you ask us, our guess is that people are too busy to attend webinars on Mondays, and they’re winding down for the week on Fridays. Bearing this in mind, avoid scheduling a webinar at the start or end of the work week (or worse, on the weekend). Instead, host your webinar on a Wednesday or Thursday.
-- |-
-  #### What time should you hold your webinar?
-  ###### 10 and 11 am are the best webinar times to attract attendees.
-
-  ![graph2.png](/uploads/graph2.png)
-
-  According to statistics, you have a higher chance of attracting more attendees if you hold your webinar at 10am or 11am. Intuitively speaking, this makes sense. Your attendees can arrive at work and respond to their urgent emails, attend your webinar, then pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock off work!
-- |-
-  #### How should you promote your webinar?
-  ###### 10 and 11 am are the best webinar times to attract attendees.
-
-  ![graph3.png](/uploads/graph3.png)
-
-  According to statistics, you have a higher chance of attracting more attendees if you hold your webinar at 10am or 11am. Intuitively speaking, this makes sense. Your attendees can arrive at work and respond to their urgent emails, attend your webinar, then pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock off work!
+- "* Choosing the right webinar platform (one that comes with all the features you
+  need!) is just part of the puzzle.\n\n* To make sure that you get the most out of
+  your webinars, make sure you optimize the planning and scheduling of your webinar,
+  including the day and time you hold your webinar, how you promote your webinar,
+  and more.\n\n##### In this section, we’ll share several statistics and insights
+  that will help you do just that.\n\n#### Which is the best day to hold a webinar?\n\n#####
+  Webinars held on Wednesdays and Thursdays get the most attendees.\n\n![grapth1.png](/uploads/grapth1.png)\n\nNo
+  one knows for sure why Wednesdays and Thursdays are better-performing, but if you
+  ask us, our guess is that people are too busy to attend webinars on Mondays, and
+  they’re winding down for the week on Fridays. \n\nBearing this in mind, avoid scheduling
+  a webinar at the start or end of the work week (or worse, on the weekend). Instead,
+  host your webinar on a Wednesday or Thursday."
+- "#### What time should you hold your webinar?\n###### 10 and 11 am are the best
+  webinar times to attract attendees.\n\n![graph2.png](/uploads/graph2.png)\n\nAccording
+  to statistics, you have a higher chance of attracting more attendees if you hold
+  your webinar at 10am or 11am. \n\nIntuitively speaking, this makes sense. Your attendees
+  can arrive at work and respond to their urgent emails, attend your webinar, then
+  pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock
+  off work!"
+- "#### How should you promote your webinar?\n###### 10 and 11 am are the best webinar
+  times to attract attendees.\n\n![graph3.png](/uploads/graph3.png)\n\nAccording to
+  statistics, you have a higher chance of attracting more attendees if you hold your
+  webinar at 10am or 11am. \n\nIntuitively speaking, this makes sense. Your attendees
+  can arrive at work and respond to their urgent emails, attend your webinar, then
+  pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock
+  off work!"
 virtual-summits-description: |-
   ### Virtual Summits Vs Webinars
 
@@ -479,19 +500,23 @@ virtual-summits-description: |-
 
   What’s the difference between virtual summits and webinars? Basically, virtual summits typically include a webinar or multiple webinars, but they also comprise of other elements such as discussions, forums, live chat, interviews, and more.
 
-  Webinars (that are created with the purpose of generating leads) are typically free to attend, but virtual summits tend to be freemium or paid. In the freemium model, the summits are free for a short period of time (say, 24 to 72 hours), and subscribers have the option to purchase an “all-access pass” so they can download or continue viewing the materials after this time period.
+  **Webinars** (that are created with the purpose of generating leads) are typically free to attend, but **virtual summits** tend to be freemium or paid. In the freemium model, the summits are free for a short period of time (say, 24 to 72 hours), and subscribers have the option to purchase an “all-access pass” so they can download or continue viewing the materials after this time period.
 final-word: 'How to use webinars: A final word'
 final-word-description:
 - |2-
 
   #### Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.
 - |-
-  #### Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.
+  #### To create a webinar landing page, you can choose from four options:
 
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Self-hosted landing pages
 
-  * Limit the number of seats and show proof by showing recent signups.
+  * Landing page builders
+
+  * CMS based website builders
+
+  * Webinar hosting platforms
 - |-
   #### Elements that are essential for a successful webinar campaign include:
 
@@ -583,11 +608,11 @@ The Word Webinar Comes From “Web-Based Seminar”, So Webinars Are Basically D
 
 Companies Hold Webinars For A Wide Range Of Reasons, Including:
 
-* Educating Their Target Audience To Generate And Nurture Leads
+* **Educating Their Target Audience** To Generate And Nurture Leads
 
-* Demonstrating Their Product/Service To Potential Customers
+* **Demonstrating Their Product/Service** To Potential Customers
 
-* Training Existing Users, And Teaching Them How To Use Their Product/Service
+* **Training Existing Users, And Teaching Them** How To Use Their Product/Service
 
 After Analyzing 350,890 Webinars, Gotowebinar Found That Webinars Are Most Popular In The Software And Technology Industry, With 26% Of Webinars Being Produced By This One Industry:
 
