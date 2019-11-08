@@ -4626,4 +4626,19 @@ color: #FF0900;
     font-family: 'Poppins-semibold';
     font-size: 16px;
 }
+.graph-cover h4:before {
+    background: url(images/arrow.png);
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 28px;
+    background-size: contain;
+    top: 6px;
+}
+
+.graph-cover h4 {
+    padding: 0 0 10px 34px;
+    position: relative;
+}
 @import "who-we-are-mobile-styling";
