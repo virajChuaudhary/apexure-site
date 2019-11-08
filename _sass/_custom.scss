@@ -4644,4 +4644,9 @@ color: #FF0900;
 .reduce-img img {
     margin-top: 37px;
 }
+.fector-box.mk-img-cntr p {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
 @import "who-we-are-mobile-styling";
