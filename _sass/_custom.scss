@@ -4811,4 +4811,126 @@ color: #FF0900;
     padding: 59px 51px;
     padding-bottom: 24px;
 }
+.blue-box img {
+    width: 100%;
+}
+.reduce-img img {
+    max-width: 100%;
+}
+
+.mov-wrap {
+    width: 100%;
+}
 @import "who-we-are-mobile-styling";
+
+@media (max-width: 767px){
+	.types_of_lp .landing_page_types_content {
+    margin-top: -160px;
+}
+.virtual-wrap {
+    padding: 0;
+}
+.landing_page_types_content ul {
+    column-count: 1;
+}
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.sec-009 {
+    padding: 90px 0 0;
+}
+.best-webi-wrap .title {
+    padding: 0 49px;
+    margin: 0;
+}
+.bg-grey {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.wrap-blue__br.child-jam-3,.wrap-blue__br.child-jam-2 {
+    padding: 20px;
+    padding-top: 50px;
+}
+.header-repeater {
+    padding: 59px 25px;
+    padding-bottom: 24px;
+}
+.wrap-blue__br.child-jam-1 h4, .wrap-blue__br.child-jam-1 p {
+    text-align: left;
+}
+.call-wrap ul {
+    margin-top: 30px;
+    column-count: 1;
+    column-gap: 0px;
+}
+.reduce-img {
+    padding: 0 30px;
+}
+.back-blue.post-lunch ul li p {
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 20px;
+    padding-left: 61px;
+    position: relative;
+    padding-right: 20px;
+}
+.padding-tb {
+    padding: 0 30px;
+}
+.padding-tb ul li {
+    display: flex;
+    border-radius: 10px;
+    background: #fff;
+    padding: 30px 20px;
+    margin-bottom: 35px;
+    box-shadow: 0 0 14px -6px #F9D5FF;
+    align-items: center;
+    font-family: 'Poppins-semibold';
+    font-size: 16px;
+    line-height: 17px;
+    position: relative;
+    padding-left: 89px;
+}
+.padding-tb ul li:after {
+    background: #FFB600;
+    border-radius: 50%;
+    width: 30px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #444444;
+    margin-right: 34px;
+    min-width: 35px;
+    left: 30px;
+    content: "";
+    right: unset;
+    position: absolute;
+}
+.padding-tb ul li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    position: absolute;
+    left: 40px;
+    z-index: 9999;
+    color: #444444;
+    font-size: 18px;
+}
+#header_wrapper.new-head-top {
+    padding-top: 0;
+    display: flex;
+    padding: 0;
+    height: unset !important;
+    min-width: unset !important;
+}
+
+#header_wrapper {
+    display: flex;
+    padding: 0;
+    height: auto !important;
+    min-width: unset !important;
+}
+}
