@@ -94,7 +94,7 @@ what-factors-description:
 - |-
   #### 1) Use a short form
 
-  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name**, **Email** and **Phone number**.
+  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** ,  **Email**  and  **Phone number**.
 
   ![form-image.png](/uploads/form-image.png)
 - |-
@@ -178,23 +178,22 @@ post-launch-description: |-
   ![Component 4 – 1.png](/uploads/Component%204%20%E2%80%93%201.png)
 
 
-  * Think Of Ways To Use It As A Lead Magnet.
+  * Think of ways to use it as a lead magnet.
 
-  * Offer Video Recording Of Your Previous Webinar.
+  * Offer video recording of your previous webinar.
 
-  * Remove Old Dates.
+  * Remove old dates.
 
-  * Update CTA And Change The Text To Sign Up For The Next Webinar Or Notification.
+  * Update cta and change the text to sign up for the next webinar or notification.
 
-  * Share The Webinar's Success.
+  * Share the webinar’s success.
 
-  * Ensure The Timer Stops And Doesn’t Keep Ticking To Infinity.
-reduce-churn-description: |-
-  ### Webinars to reduce churn
-
-  its true webinars can be used to educate existing customers and reduce churn and increase LTV. I have participated in some of the webinars hosted by adespresso. similarly, other companies like intercom use webinars to share news and latest features with their existing subscribers.
-
-  ![webi-red.png](/uploads/webi-red.png)
+  * Ensure the timer stops and doesn’t keep ticking to infinity.
+reduce-churn-description: "### Webinars to reduce churn\n\nits true webinars can be
+  used to educate existing customers and reduce churn and increase LTV. \n\nI have
+  participated in some of the webinars hosted by adespresso. similarly, other companies
+  like intercom use webinars to share news and latest features with their existing
+  subscribers.\n\n![webi-red.png](/uploads/webi-red.png)"
 tips-description: |-
   ### Tips to make your webinars successful.
 
