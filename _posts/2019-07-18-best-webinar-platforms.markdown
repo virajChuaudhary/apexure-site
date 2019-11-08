@@ -19,7 +19,7 @@ meta-keywords: Slack best practices, How to use slack,  Slack for Business, Slac
   team communication
 top-graph-image: "/uploads/Image@2x.png"
 how-to-create-description: |-
-  ## How to create a webinar landing page?
+  ### How to create a webinar landing page?
 
   #### There Are Quite A Few Ways In Which You Can Setup A Landing Page For Your Webinar.
 how-to-create-repeater-description:
@@ -577,12 +577,17 @@ A Webinar Is Defined As A “Live, Virtual Event That Is Executed Online”. Mor
 
 The Word Webinar Comes From “Web-Based Seminar”, So Webinars Are Basically Digital Seminars That Anyone Can Attend. If You’re Wondering Whether These Webinars Are As Effective As In-Person Events, The Answer Is Yes. With Webinar Software, You Can Share Slides, Interact With Your Audience Through Chat Boxes, And Even Encourage Participants To Raise Questions Using Q&A Features. In Short, Webinar Software Allow You To Mimic Real-Life Seminars To A Tee.
 
+<p></p>
+<p></p>
+
 ### What are webinars for?
 
 Companies Hold Webinars For A Wide Range Of Reasons, Including:
 
 * Educating Their Target Audience To Generate And Nurture Leads
+
 * Demonstrating Their Product/Service To Potential Customers
+
 * Training Existing Users, And Teaching Them How To Use Their Product/Service
 
 After Analyzing 350,890 Webinars, Gotowebinar Found That Webinars Are Most Popular In The Software And Technology Industry, With 26% Of Webinars Being Produced By This One Industry:
