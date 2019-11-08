@@ -4600,7 +4600,7 @@ color: #FF0900;
     line-height: 26px;
 }
 .final-rp-pd h3:before {
-    background: url(images/arrow.png);
+    background: url(/images/arrow.png);
     content: "";
     position: absolute;
     left: -40px;
@@ -4627,7 +4627,7 @@ color: #FF0900;
     font-size: 16px;
 }
 .graph-cover h4:before {
-    background: url(images/arrow.png);
+    background: url(/images/arrow.png);
     content: "";
     position: absolute;
     left: 0;
@@ -4640,5 +4640,8 @@ color: #FF0900;
 .graph-cover h4 {
     padding: 0 0 10px 34px;
     position: relative;
+}
+.reduce-img img {
+    margin-top: 37px;
 }
 @import "who-we-are-mobile-styling";
