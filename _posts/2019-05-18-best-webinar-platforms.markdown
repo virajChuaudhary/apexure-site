@@ -336,7 +336,8 @@ final-word-description:
 - |2-
 
   #### Tips to make your webinar successful include:
-  Choose a compelling topic
+
+  * Choose a compelling topic
 
   * Choose the right webinar tool
 
@@ -347,12 +348,13 @@ final-word-description:
   * Share a limited time offer with the participants.
 
   * Follow up after the webinar
-- "#### What to consider when looking for a webinar platform\nBudget (factor in additional
-  costs, such as extra charges for more users, etc)\n\n* Ease of use and learning
-  curve\n\n* Attendance size: how many attendees are "
+- "#### What to consider when looking for a webinar platform\n\n* Budget (factor in
+  additional costs, such as extra charges for more users, etc)\n\n* Ease of use and
+  learning curve\n\n* Attendance size: how many attendees are "
 - |-
   #### Best webinar platforms to choose in 2019
-  WebinarJam (#1 pick for platform that helps you upsell)
+
+  * WebinarJam (#1 pick for platform that helps you upsell)
 
   * LiveStorm
 
@@ -374,7 +376,8 @@ final-word-description:
 - |2-
 
   #### Best practices for promoting and hosting your webinar
-  Webinars held on Wednesdays and Thursdays get the most attendees.
+
+  * Webinars held on Wednesdays and Thursdays get the most attendees.
 
   * 10 and 11 am are the best webinar times to attract attendees.
 
