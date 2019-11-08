@@ -4678,4 +4678,116 @@ color: #FF0900;
 .blog_container_new .graph-cover h5 {
     padding-bottom: 0 !important;
 }
+.jam-wrap .header-repeater:nth-child(even) {
+    border: 2px solid #ffb600;
+    border-style: dashed;
+    padding: 47px 27px;
+    border-radius: 5px;
+}
+
+.header-repeater {
+    border-style: dashed;
+    padding: 47px 27px;
+    border-radius: 5px;
+    margin-bottom: 73px;
+}
+.jam-wrap .header-repeater:nth-child(odd) {
+    border: 2px solid #8A1A9B;
+    border-style: dashed;
+    padding: 47px 27px;
+    border-radius: 5px;
+}
+.wrap-blue__br.child-jam-2 {
+    background: #FAFAFA;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 55px;
+}
+.wrap-blue__br.child-jam-3 {
+    background: #FAFAFA;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 55px;
+}
+.wrap-blue__br.child-jam-2 h6, .wrap-blue__br.child-jam-3 h6 {
+    font-size: 16px;
+    font-family: 'Poppins-semibold';
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.wrap-blue__br {
+    position: relative;
+}
+.wrap-blue__br:after {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 12px 3px #00000012;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 26px;
+    color: #FFB600;
+    z-index: 9999;
+    content: "";
+}
+
+.wrap-blue__br {
+    position: relative;
+}
+.wrap-blue__br.child-jam-2:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f164";
+    position: absolute;
+    left: -20px;
+    z-index: 9999;
+    font-size: 26px;
+    color: #FFB600;
+}
+.wrap-blue__br.child-jam-3:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f165";
+    position: absolute;
+    left: -20px;
+    z-index: 9999;
+    font-size: 26px;
+    color: #FF0900;
+}
+.wrap-blue__br.child-jam-2 ul li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+    font-size: 18px;
+    color: #ffb600;
+}
+
+.wrap-blue__br ul li {
+    position: relative;
+    padding-left: 24px;
+}
+.wrap-blue__br.child-jam-3 ul li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+    font-size: 18px;
+    color: #FF0900;
+}
+.wrap-blue__br.child-jam-1:after {
+    display: none;
+}
 @import "who-we-are-mobile-styling";
