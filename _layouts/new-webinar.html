@@ -311,11 +311,13 @@
  
   
 {{ platforms-check-out-description | markdownify }}
+<div class="header-repeater">
   {% for platforms in platforms-check-out-description %}
 
  <div class="wrap-blue__br">{{ platforms | markdownify }} </div> 
 
-{% endfor %} 
+{% endfor %}
+</div> 
 
 {% endfor %}  
 
