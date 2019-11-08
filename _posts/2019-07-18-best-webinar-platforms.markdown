@@ -85,7 +85,7 @@ effective-webinar-box-description:
   #### Follow Up
 
   Follow up is a key action which will determine your lead generation success. All the leads you generate need nurturing and constant follow up to increase your chances of success.
-effective-webinar-image: "/uploads/traffic.png"
+effective-webinar-image: "/uploads/Image.png"
 description: As an agency, we love Slack. It makes our work life more manageable and
   effective. Using the tool for a few years, we have learned many lessons and share
   the best practices for using Slack for business.
@@ -94,9 +94,9 @@ what-factors-description:
 - |-
   #### 1) Use a short form
 
-  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing Name, Email and Phone number.
+  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name**, **Email** and **Phone number**.
 
-  ![back.png](/uploads/back.png)
+  ![form-image.png](/uploads/form-image.png)
 - |-
   #### 2) Use a countdown timer
 
