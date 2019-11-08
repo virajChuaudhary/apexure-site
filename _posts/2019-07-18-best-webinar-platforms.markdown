@@ -359,11 +359,12 @@ platforms-check-out-description:
     LogMeIn, the company that powers GoToWebinar, was recently named a Leader in Gartner’s 2018 Meeting Solutions Magic Quadrant. All in all, GoToWebinar serves 50,000+ customers who collectively host 2.7 million webinars each year.
   - |-
     ###### pro:
-    Comes with break out rooms that allow you to split up your webinar audience.
 
-    Comes with an advanced lead management feature which allows you to integrate your CRM and power up your lead generation
+    * Comes with break out rooms that allow you to split up your webinar audience.
 
-    Comes with an “engagement dashboard” that hosts can use to keep an eye on attentiveness, hands raised and time elapsed.
+    * Comes with an advanced lead management feature which allows you to integrate your CRM and power up your lead generation
+
+    * Comes with an “engagement dashboard” that hosts can use to keep an eye on attentiveness, hands raised and time elapsed.
   - |-
     ###### Cons:
     * Desktop interface is somewhat old-school.
@@ -434,10 +435,24 @@ platforms-check-out-description:
     * Polls, handouts and CTAs shared during a live webinar don’t appear in replays. s
 
   - "###### Price: $34/month onwards (billed annually)"
+- - "#### 10) Google Hangouts\n\n[Google Hangouts](https://hangouts.google.com/) is
+    a free tool that you can use to carry out video conferences, and while you can
+    use these to conduct webinars, note that you can only connect up to 10 people
+    within each call or webinar. \n\n![pasted image 0 (2).png](/uploads/pasted%20image%200%20(2).png)\n\nIn
+    the past, one workaround was to host a video conference with your team and guest
+    speakers, then broadcast it to a wider audience on YouTube, but Google Hangout
+    has since removed the “Hangouts on Air” feature, so this isn’t available anymore."
+  - |-
+    ###### pro:
+    * 100% free to use.
+  - "###### Cons: \n\n* All invited members need to use their own Google account to
+    join.\n\n* No additional webinar features/tools to help you plan or host your
+    webinar. \n\n* Max of 10 attendees in a single call (webinar).\n"
+  - 
 marketers-looking-title: Best webinar platform for marketers looking for an easy-to-use
   platform
 marketers-looking-description: |-
-  #1 Webinar platform ![demi.png](/uploads/demi.png)
+  #### #1 Webinar platform ![demi.png](/uploads/demi.png)
 
   If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality.
 
@@ -445,7 +460,7 @@ marketers-looking-description: |-
 marketers-who: 'Best webinar platform for marketers who want to upsell from their
   webinars '
 marketers-who-description: |-
-  ### #1 Webinar platform  ![webinarJamLogo.png](/uploads/webinarJamLogo.png)
+  #### #1 Webinar platform  ![webinarJamLogo.png](/uploads/webinarJamLogo.png)
 
   If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality.
 
