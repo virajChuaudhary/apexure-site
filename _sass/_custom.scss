@@ -4585,4 +4585,45 @@ color: #FF0900;
 .mov-wrap ul {
     column-count: 2;
 }
+.final-rp-pd {
+    margin-bottom: 26px;
+}
+.final-rp-pd ul {
+    margin-top: 63px;
+}
+.final-rp-pd .final-box {
+    padding: 46px 70px;
+}
+
+.final-rp-pd h3 {
+    position: relative;
+    line-height: 26px;
+}
+.final-rp-pd h3:before {
+    background: url(images/arrow.png);
+    content: "";
+    position: absolute;
+    left: -40px;
+    width: 30px;
+    height: 28px;
+    background-size: contain;
+}
+.final-rp-pd ul li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f101";
+    position: absolute;
+    left: -20px;
+    z-index: 9999;
+    font-size: 18px;
+    color: #8A1A9B;
+}
+
+.final-rp-pd ul li {
+    position: relative;
+}
+.blog_container_new h5 {
+    font-family: 'Poppins-semibold';
+    font-size: 16px;
+}
 @import "who-we-are-mobile-styling";

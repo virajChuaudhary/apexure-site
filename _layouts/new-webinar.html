@@ -126,7 +126,7 @@
 
 
 {% for how-to-create-repeater-description in page.how-to-create-repeater-description %}
- <li><span class="curv-img"><img src="images/arrow.png" ></span>
+ 
   <div class="mov-wrap">{{ how-to-create-repeater-description | markdownify }}</div></li>
 {% endfor %}      
   </ul>
@@ -1109,9 +1109,11 @@
   <div class="blog_container_new container">
     <div class="row">
       <div class="landing_page_types_content">
+        <div class="graph-wrap__pd">
         {% for bonus-repeater-description in page.bonus-repeater-description %}
-            {{ bonus-repeater-description | markdownify }}
+           <div class="graph-cover">{{ bonus-repeater-description | markdownify }}</div> 
         {% endfor %}
+        </div>
       </div>
     </div> <!-- row ends -->
 
