@@ -4662,4 +4662,21 @@ color: #FF0900;
 .create-list {
     padding: 0 42px;
 }
+.graph-cover ul li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f101";
+    position: absolute;
+    left: -20px;
+    z-index: 9999;
+    font-size: 18px;
+    color: #8A1A9B;
+}
+.graph-cover h4 {
+    margin-bottom: 9px;
+    margin-top: 28px;
+}
+.blog_container_new .graph-cover h5 {
+    padding-bottom: 0 !important;
+}
 @import "who-we-are-mobile-styling";
