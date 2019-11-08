@@ -178,17 +178,17 @@ post-launch-description: |-
   ![Component 4 – 1.png](/uploads/Component%204%20%E2%80%93%201.png)
 
 
-  * Think Of Ways To Use It As A Lead Magnet.
+  * Think of ways to use it as a lead magnet.
 
-  * Offer Video Recording Of Your Previous Webinar.
+  * Offer video recording of your previous webinar.
 
-  * Remove Old Dates.
+  * Remove old dates.
 
-  * Update CTA And Change The Text To Sign Up For The Next Webinar Or Notification.
+  * Update cta and change the text to sign up for the next webinar or notification.
 
-  * Share The Webinar's Success.
+  * Share the webinar’s success.
 
-  * Ensure The Timer Stops And Doesn’t Keep Ticking To Infinity.
+  * Ensure the timer stops and doesn’t keep ticking to infinity.
 reduce-churn-description: |-
   ### Webinars to reduce churn
 
