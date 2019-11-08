@@ -582,7 +582,9 @@ The Word Webinar Comes From “Web-Based Seminar”, So Webinars Are Basically D
 Companies Hold Webinars For A Wide Range Of Reasons, Including:
 
 * Educating Their Target Audience To Generate And Nurture Leads
+
 * Demonstrating Their Product/Service To Potential Customers
+
 * Training Existing Users, And Teaching Them How To Use Their Product/Service
 
 After Analyzing 350,890 Webinars, Gotowebinar Found That Webinars Are Most Popular In The Software And Technology Industry, With 26% Of Webinars Being Produced By This One Industry:
