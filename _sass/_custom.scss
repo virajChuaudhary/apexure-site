@@ -4925,6 +4925,7 @@ h3 {
     padding: 0;
     height: unset !important;
     min-width: unset !important;
+    padding: 31px 15px 50px;
 }
 
 #header_wrapper {
@@ -4935,5 +4936,11 @@ h3 {
 }
 #header_wrapper {
     min-height: unset !important;
+}
+.blog_banner .blog_single_banner_alignment h4 {
+    font-size: 12px;
+}
+.sec-1 {
+    margin-bottom: 25px;
 }
 }
