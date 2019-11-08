@@ -4930,8 +4930,10 @@ h3 {
 #header_wrapper {
     display: flex;
     padding: 0;
-    height: auto !important;
+    height: unset !important;
     min-width: unset !important;
 }
-
+#header_wrapper {
+    min-height: unset !important;
+}
 }
