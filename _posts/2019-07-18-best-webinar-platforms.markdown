@@ -580,7 +580,6 @@ The Word Webinar Comes From “Web-Based Seminar”, So Webinars Are Basically D
 <p></p>
 <p></p>
 <p></p>
-<p></p>
 
 ### What are webinars for?
 
