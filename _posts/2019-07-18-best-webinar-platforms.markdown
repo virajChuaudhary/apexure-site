@@ -19,7 +19,7 @@ meta-keywords: Slack best practices, How to use slack,  Slack for Business, Slac
   team communication
 top-graph-image: "/uploads/Image@2x.png"
 how-to-create-description: |-
-  ## How to create a webinar landing page?
+  ### How to create a webinar landing page?
 
   #### There Are Quite A Few Ways In Which You Can Setup A Landing Page For Your Webinar.
 how-to-create-repeater-description:
