@@ -305,36 +305,25 @@
 
 <section class="is_landing_page_a_website sec-45" id="who_designs_landing_page">
 
-      <div class="blog_container_new container">  
-<!--  {{ page.platforms-check-out-description | json }}  -->
-        {% for platforms-check-out-description in page.platforms-check-out-description %}
- 
-  
- 
-<div class="header-repeater">
-  {% for platforms in platforms-check-out-description %}
+      <div class="blog_container_new container"> 
+            <div class="jam-wrap">
+                <!--  {{ page.platforms-check-out-description | json }}  -->
+                {% for platforms-check-out-description in page.platforms-check-out-description %}
+                <div class="header-repeater">
+                {% assign i = 0 %}
+                {% for platforms in platforms-check-out-description %}
+                {% assign p = p | plus:1 %}
+                <div class="wrap-blue__br jam-{{ p }}">{{ platforms | markdownify }} </div> 
 
- <div class="wrap-blue__br">{{ platforms | markdownify }} </div> 
+                {% endfor %}
+                </div> 
 
-{% endfor %}
-</div> 
+                {% endfor %}  
 
-{% endfor %}  
-
-
-
-
-
- 
- 
- 
-
-
-
-
-
-
+            </div> 
       </div>
+
+
       <div class="blog_container_new container">
         <div class="title"><h3>Best webinar platforms to check out in 2019</h3></div>
         <div class="blue-brdr no-border">
