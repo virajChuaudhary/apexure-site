@@ -4445,7 +4445,7 @@ color: #FF0900;
 #call-to-action-text-ideas {
     background: #8A1A9B;
     display: inline-block;
-    padding: 18px 60px 10px 53px;
+    padding: 18px 60px 10px 35px;
     position: relative;
     position: absolute;
     top: 0;
@@ -4552,7 +4552,6 @@ color: #FF0900;
 .back-blue.post-lunch ul li p {
     color: #fff;
     font-size: 22px;
-    text-transform: capitalize;
     line-height: 34px;
     padding-left: 61px;
     position: relative;
@@ -4837,6 +4836,32 @@ color: #FF0900;
 }
 .mov-wrap {
     margin-bottom: 29px;
+}
+.fector-repeater p:nth-child(2) {
+    justify-content: left;
+}
+
+.fector-box.mk-img-cntr p {
+    flex-wrap: wrap;
+}
+.middle-dot .intro {
+    margin-right: 8px;
+}
+.blog_container_new p {
+    font-family: 'Poppins-SemiBold';
+}
+.double-after .call-wrap ul li p:after {
+    top: 0;
+}
+.jump-cont p {
+    font-family: 'Poppins-SemiBold';
+}
+#blog_single_content_wrapper {
+    padding: 100px 0 50px 0;
+    padding-top: 49px;
+}
+.sec-333 h3 {
+    padding-bottom: 33px;
 }
 @import "who-we-are-mobile-styling";
 
