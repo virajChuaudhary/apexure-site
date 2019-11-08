@@ -265,31 +265,29 @@ marketers-who-description: |-
   While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
 bonus: 'BONUS: When should you host your webinar? how should you get sign-ups?'
 bonus-repeater-description:
-- |+
+- |-
   * Limit the number of seats and show proof by showing recent signups.
 
   * Limit the number of seats and show proof by showing recent signups.
 
   ##### In this section, we’ll share several statistics and insights that will help you do just that.
 
-  ### Which is the best day to hold a webinar?
+  #### Which is the best day to hold a webinar?
 
   ##### Webinars held on Wednesdays and Thursdays get the most attendees.
 
   ![grapth1.png](/uploads/grapth1.png)
 
   No one knows for sure why Wednesdays and Thursdays are better-performing, but if you ask us, our guess is that people are too busy to attend webinars on Mondays, and they’re winding down for the week on Fridays. Bearing this in mind, avoid scheduling a webinar at the start or end of the work week (or worse, on the weekend). Instead, host your webinar on a Wednesday or Thursday.
-
-
 - |-
-  ### What time should you hold your webinar?
+  #### What time should you hold your webinar?
   ###### 10 and 11 am are the best webinar times to attract attendees.
 
   ![graph2.png](/uploads/graph2.png)
 
   According to statistics, you have a higher chance of attracting more attendees if you hold your webinar at 10am or 11am. Intuitively speaking, this makes sense. Your attendees can arrive at work and respond to their urgent emails, attend your webinar, then pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock off work!
 - |-
-  ### How should you promote your webinar?
+  #### How should you promote your webinar?
   ###### 10 and 11 am are the best webinar times to attract attendees.
 
   ![graph3.png](/uploads/graph3.png)
@@ -307,16 +305,16 @@ final-word: 'How to use webinars: A final word'
 final-word-description:
 - |2-
 
-  ### Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.
+  #### Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.
 - |-
-  ### Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.
+  #### Webinars are virtual or digital seminars. They’re used across many industries, but they’re the most popular amongst software and tech companies.
 
 
   * Limit the number of seats and show proof by showing recent signups.
 
   * Limit the number of seats and show proof by showing recent signups.
 - |-
-  ### Elements that are essential for a successful webinar campaign include:
+  #### Elements that are essential for a successful webinar campaign include:
 
   * Traffic
 
@@ -326,8 +324,9 @@ final-word-description:
 
   * Follow up
 - |-
-  ### Factors that affect conversion on a webinar landing page include:
-  The length of your form
+  #### Factors that affect conversion on a webinar landing page include:
+
+  * The length of your form
 
   * Countdown timers
 
@@ -336,7 +335,7 @@ final-word-description:
   * “Can’t make it” Call To Action
 - |2-
 
-  ### Tips to make your webinar successful include:
+  #### Tips to make your webinar successful include:
   Choose a compelling topic
 
   * Choose the right webinar tool
@@ -348,11 +347,11 @@ final-word-description:
   * Share a limited time offer with the participants.
 
   * Follow up after the webinar
-- "### What to consider when looking for a webinar platform\nBudget (factor in additional
+- "#### What to consider when looking for a webinar platform\nBudget (factor in additional
   costs, such as extra charges for more users, etc)\n\n* Ease of use and learning
   curve\n\n* Attendance size: how many attendees are "
 - |-
-  ### Best webinar platforms to choose in 2019
+  #### Best webinar platforms to choose in 2019
   WebinarJam (#1 pick for platform that helps you upsell)
 
   * LiveStorm
@@ -374,7 +373,7 @@ final-word-description:
   * Google Hangouts
 - |2-
 
-  ### Best practices for promoting and hosting your webinar
+  #### Best practices for promoting and hosting your webinar
   Webinars held on Wednesdays and Thursdays get the most attendees.
 
   * 10 and 11 am are the best webinar times to attract attendees.
