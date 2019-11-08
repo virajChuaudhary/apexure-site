@@ -308,12 +308,14 @@
       <div class="blog_container_new container"> 
             <div class="jam-wrap">
                 <!--  {{ page.platforms-check-out-description | json }}  -->
+                {% assign m = 0 %}
                 {% for platforms-check-out-description in page.platforms-check-out-description %}
-                <div class="header-repeater">
-                {% assign i = 0 %}
+                {% assign m = m | plus:1 %}
+                <div class="header-repeater prnt-jam-{{ m }}">
+                {% assign p = 0 %}
                 {% for platforms in platforms-check-out-description %}
                 {% assign p = p | plus:1 %}
-                <div class="wrap-blue__br jam-{{ p }}">{{ platforms | markdownify }} </div> 
+                <div class="wrap-blue__br child-jam-{{ p }}">{{ platforms | markdownify }} </div> 
 
                 {% endfor %}
                 </div> 
