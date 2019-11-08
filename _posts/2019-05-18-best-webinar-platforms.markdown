@@ -231,22 +231,39 @@ webinar-platform-description: "### What to consider when looking for a webinar p
   Attendance size: how many attendees are supported?\n\n\n* Market your webinar landing
   page across "
 platforms-check-out-description:
-- |
-  1. Webinar Jam
-     Webinar Jam
-     is a well-known webinar broadcasting platform that integrates with many CRMs and email marketing tools.
-
-  ![poster.png](/uploads/poster.png)
-
-  The platform has an intuitive interface, making it easy for new users to jump in and start running webinars immediately, and it currently serves 30,000\+ customers and more from across the globe.
-- - |-
-    inner title
+- - |
+    1. Webinar Jam
+       Webinar Jam
+       is a well-known webinar broadcasting platform that integrates with many CRMs and email marketing tools.
 
     ![poster.png](/uploads/poster.png)
-  - |-
-    inner title 2
 
-    > jldfnladfaflda
+    The platform has an intuitive interface, making it easy for new users to jump in and start running webinars immediately, and it currently serves 30,000\+ customers and more from across the globe.
+  - |
+    1. Webinar Jam
+       Webinar Jam
+       is a well-known webinar broadcasting platform that integrates with many CRMs and email marketing tools.
+
+    ![poster.png](/uploads/poster.png)
+
+    The platform has an intuitive interface, making it easy for new users to jump in and start running webinars immediately, and it currently serves 30,000\+ customers and more from across the globe.
+- - |-
+    sd'fknslfn;lsnflsnflsnf'sd
+    sdfn
+    sdjfs
+    jdbf
+    sj
+    sdjbf
+    sdfb
+    sjdbf
+    jsldbf
+  - |-
+    22222222222222222222lsjdf'sjdbf
+    sdf
+    sbf
+    jbsdf
+    jbs
+    dfjbjsldbf
 marketers-looking-title: Best webinar platform for marketers looking for an easy-to-use
   platform
 marketers-looking-description: |-
