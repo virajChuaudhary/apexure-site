@@ -180,7 +180,7 @@ live-webinar-description: |-
 post-launch-description: |-
   ### Post Launch
 
-  ![Component 4 – 1.png](/uploads/Component%204%20%E2%80%93%201.png)
+  ![Component 4 – 1 (1).png](/uploads/Component%204%20%E2%80%93%201%20(1).png)
 
 
   * Think of ways to use it as a lead magnet.
