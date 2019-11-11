@@ -5067,8 +5067,11 @@ h3.text-white.text-center {
 .wrap-blue__br {
     padding: 30px 55px 5px !important;
 }
-section#types_of_landing_page .landing_page_types_content {
+#types_of_landing_page .landing_page_types_content {
     padding-bottom: 64px;
+}
+.fector-box.mk-img-cntr .fector-repeater:first-child p strong:first-child {
+    padding: 0;
 }
 @import "who-we-are-mobile-styling";
 
