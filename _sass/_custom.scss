@@ -5037,6 +5037,15 @@ h3.text-white.text-center {
 .inline-1 .outer_wrapper.no-height {
     min-height: auto !important;
 }
+.cutoff-wrap.double-after ul li p {
+    padding: 0;
+    line-height: 49px;
+}
+
+.cutoff-wrap.double-after ul {
+    column-gap: 70px;
+    column-fill: initial;
+}
 @import "who-we-are-mobile-styling";
 
 
