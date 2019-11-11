@@ -242,7 +242,7 @@ webinar-platform-description: |
 platforms-check-out-description:
 - - |-
     #### 1) Webinar Jam
-    [Webinar Jam](#)
+    [Webinar Jam](https://www.webinarjam.com/)
     is a well-known webinar broadcasting platform that integrates with many CRMs and email marketing tools.
 
     ![poster.png](/uploads/poster.png)
@@ -263,7 +263,7 @@ platforms-check-out-description:
   - "###### Price: $39.99/month onwards (billed annually)"
 - - |-
     #### 2) LiveStorm
-    Next up, we have [LiveStorm](#), which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
+    Next up, we have [LiveStorm](https://livestorm.co/), which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
 
     ![poster2.png](/uploads/poster2.png)
 
@@ -327,7 +327,7 @@ platforms-check-out-description:
   - "###### Price: Free plan available. The paid “Video webinar” plan starts at $40/month"
 - - |-
     #### 5) Zoho Webinar
-    [Zoho](#)
+    [Zoho](https://www.zoho.com/)
     offers a webinar feature as part of their Zoho Meetings software, and this comes with plenty of features to help you educate and engage your leads.
 
     ![poster5.png](/uploads/poster5.png)
@@ -371,7 +371,7 @@ platforms-check-out-description:
   - "###### Price: $89/month onwards (billed annually)"
 - - |-
     #### 7) ClickMeeting
-    [ClickMeeting](#)
+    [ClickMeeting](https://clickmeeting.com/)
     is a robust, feature-rich platform that’s suitable for businesses from all industries.
 
     ![pasted image 0 (2)@2x-559fce.png](/uploads/pasted%20image%200%20(2)@2x-559fce.png)
@@ -413,7 +413,7 @@ platforms-check-out-description:
   - "###### Price: Not disclosed. Contact Webex’s sales team for more information."
 - - |-
     #### 9) Demio
-    [Demio](#)
+    [Demio](https://demio.com/)
     bills itself as a webinar platform “built for marketing”, and its goal is to leverage the power of personal conversations at scale to help companies generate more leads.
 
     ![pasted image 0 (2)-768376.png](/uploads/pasted%20image%200%20(2)-768376.png)
