@@ -97,7 +97,7 @@ what-factors-description:
 - |-
   #### 1) Use a short form
 
-  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** ,  **Email** and **Phone number**.
+  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** ,  **Email**   and  **Phone number**.
 
   ![form-image-52b393.png](/uploads/form-image-52b393.png)
 - |-
@@ -105,19 +105,21 @@ what-factors-description:
 
   Countdown timers are useful to create urgency. In simple terms, you want to demonstrate Time is running out. When integrating countdown timers there are two configurations:
 
-  Static:
+  **Static:**
   Set a universal cut off date for all participants. e.g. Black Friday sale day is set for everyone shopping.
 
-  Evergreen:
+  **Evergreen:**
   Instead of setting an end date for everyone, customize the date so every visitor has their own unique end date. This is based on their initial touch point. evergreen timers could be hard to configure unless you rely on some third-party apps.
 
   You can use countdown timers to show registration close date/time. Here are some examples of countdown timers effectively used on webinar pages:
 
   ![Timer.png](/uploads/Timer.png)
-- |-
-  #### 3) Use a timezone converter
-
-  Adding a simple timezone converter will help your visitors to schedule the event in their work week. I have noticed personally webinars held in US time zones usually mean I can view them after 6 pm UK time. However, I am left to do the calculations myself. By adding a simple timezone converter script you can overcome this annoyance. Or even better automatically convert the time based on users’ timezone set by the operating system.
+- "#### 3) Use a timezone converter\n\nAdding a simple timezone converter will help
+  your visitors to schedule the event in their work week. I have noticed personally
+  webinars held in US time zones usually mean I can view them after 6 pm UK time.
+  However, I am left to do the calculations myself. \n\nBy adding a simple timezone
+  converter script you can overcome this annoyance. Or even better automatically convert
+  the time based on users’ timezone set by the operating system."
 - |-
   #### 4) Add a can't make it section block
 
