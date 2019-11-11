@@ -165,7 +165,7 @@ call-to-action-description: |-
   * Limited Seats Available
 
   * Registration Sale Ends Soon
-form-image: "/uploads/Apexure-Webinar%20(1).png"
+form-image: "/uploads/Apexure-Webinar%20(1)%20(1).png"
 live-webinar-description: |-
   ### Go Live Webinar Landing Page Checklist
 
@@ -242,8 +242,7 @@ webinar-platform-description: |
 platforms-check-out-description:
 - - |-
     #### 1) Webinar Jam
-    [Webinar Jam](#)
-    is a well-known webinar broadcasting platform that integrates with many CRMs and email marketing tools.
+    <a target="_blank" href="https://www.webinarjam.com/">Webinar Jam</a> is a well-known webinar broadcasting platform that integrates with many CRMs and email marketing tools.
 
     ![poster.png](/uploads/poster.png)
 
@@ -263,7 +262,7 @@ platforms-check-out-description:
   - "###### Price: $39.99/month onwards (billed annually)"
 - - |-
     #### 2) LiveStorm
-    Next up, we have [LiveStorm](#), which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
+    Next up, we have [LiveStorm](https://livestorm.co/), which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
 
     ![poster2.png](/uploads/poster2.png)
 
@@ -286,7 +285,7 @@ platforms-check-out-description:
 - - |-
     #### 3) EverWebinar
 
-    [EverWebinar](#)is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
+    [EverWebinar](#) is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
 
     ![poster3.png](/uploads/poster3.png)
 
@@ -327,7 +326,7 @@ platforms-check-out-description:
   - "###### Price: Free plan available. The paid “Video webinar” plan starts at $40/month"
 - - |-
     #### 5) Zoho Webinar
-    [Zoho](#)
+    [Zoho](https://www.zoho.com/)
     offers a webinar feature as part of their Zoho Meetings software, and this comes with plenty of features to help you educate and engage your leads.
 
     ![poster5.png](/uploads/poster5.png)
@@ -371,7 +370,7 @@ platforms-check-out-description:
   - "###### Price: $89/month onwards (billed annually)"
 - - |-
     #### 7) ClickMeeting
-    [ClickMeeting](#)
+    [ClickMeeting](https://clickmeeting.com/)
     is a robust, feature-rich platform that’s suitable for businesses from all industries.
 
     ![pasted image 0 (2)@2x-559fce.png](/uploads/pasted%20image%200%20(2)@2x-559fce.png)
@@ -413,7 +412,7 @@ platforms-check-out-description:
   - "###### Price: Not disclosed. Contact Webex’s sales team for more information."
 - - |-
     #### 9) Demio
-    [Demio](#)
+    [Demio](https://demio.com/)
     bills itself as a webinar platform “built for marketing”, and its goal is to leverage the power of personal conversations at scale to help companies generate more leads.
 
     ![pasted image 0 (2)-768376.png](/uploads/pasted%20image%200%20(2)-768376.png)
@@ -457,12 +456,12 @@ marketers-looking-description: |-
   While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
 marketers-who: 'Best webinar platform for marketers who want to upsell from their
   webinars '
-marketers-who-description: |-
-  #### #1 Webinar platform  ![webinarJamLogo.png](/uploads/webinarJamLogo.png)
-
-  If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality.
-
-  While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
+marketers-who-description: "#### #1 Webinar platform  ![webinarJamLogo.png](/uploads/webinarJamLogo.png)\n\nFor
+  marketers whose top priority is to generate sales through their webinars, definitely
+  consider using WebinarJam. \n\nThis platform allows you to create pop-up CTAs within
+  your webinar, which goes a long way in boosting conversions. That aside, WebinarJam
+  also displays your sales data while you’re conducting your webinar; this lets you
+  keep an eye on how much revenue you’re generating in real-time.\n"
 bonus: 'BONUS: When should you host your webinar? how should you get sign-ups?'
 bonus-repeater-description:
 - "* Choosing the right webinar platform (one that comes with all the features you
