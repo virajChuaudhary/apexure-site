@@ -5012,6 +5012,16 @@ h3.text-white.text-center {
 .outer_content_section_wrapper.outer_content_webinar p {
     padding-bottom: 10px;
 }
+
+.fector-box.mk-img-cntr p {
+    flex-wrap: wrap;
+    justify-content: unset;
+}
+.fector-box.mk-img-cntr p img {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
 @import "who-we-are-mobile-styling";
 
 
