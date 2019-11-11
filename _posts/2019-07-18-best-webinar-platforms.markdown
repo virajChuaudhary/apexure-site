@@ -547,9 +547,13 @@ final-word-description:
   #### What to consider when looking for a webinar platform
 
   * Budget (factor in additional costs, such as extra charges for more users, etc)
+
   * Ease of use and learning curve
+
   * Attendance size: how many attendees are supported?
+
   * Availability of analytics and reports
+
   * Features to boost engagement and sales
 - |-
   #### Best webinar platforms to choose in 2019
