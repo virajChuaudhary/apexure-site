@@ -228,15 +228,15 @@ webinar-platform-description: |
   There’s a huge array of webinar platforms that cater to businesses who want to generate more leads; in evaluating your options and shortlisting your ideal platform, take the following factors into consideration:
 
 
-  * Budget (factor in additional costs, such as extra charges for more users, etc)
+  * **Budget** (factor in additional costs, such as extra charges for more users, etc)
 
-  * Ease of use and learning curve
+  * **Ease of use** and learning curve
 
-  * Attendance size: how many attendees are supported?
+  * **Attendance size:** how many attendees are supported?
 
-  * Availability of analytics and reports
+  * **Availability** of analytics and reports
 
-  * Features to boost engagement and sales
+  * **Features to boost** engagement and sales
 platforms-check-out-description:
 - - |-
     #### 1) Webinar Jam
