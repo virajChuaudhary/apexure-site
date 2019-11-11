@@ -99,7 +99,7 @@ what-factors-description:
 
   Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** ,  **Email** and **Phone number**.
 
-  ![form-image.png](/uploads/form-image.png)
+  ![form-image-52b393.png](/uploads/form-image-52b393.png)
 - |-
   #### 2) Use a countdown timer
 
