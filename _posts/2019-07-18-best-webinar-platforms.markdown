@@ -97,7 +97,7 @@ what-factors-description:
 - |-
   #### 1) Use a short form
 
-  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** &nbsp; , &nbsp;  **Email**  &nbsp;and&nbsp;   **Phone number**.
+  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** , **Email** and  **Phone number**.
 
   ![form-image-52b393.png](/uploads/form-image-52b393.png)
 - |-
@@ -263,7 +263,7 @@ platforms-check-out-description:
   - "###### Price: $39.99/month onwards (billed annually)"
 - - |-
     #### 2) LiveStorm
-    Next up, we have[LiveStorm](#),which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
+    Next up, we have [LiveStorm](#), which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
 
     ![poster2.png](/uploads/poster2.png)
 
