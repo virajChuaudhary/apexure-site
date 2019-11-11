@@ -114,10 +114,12 @@ what-factors-description:
   You can use countdown timers to show registration close date/time. Here are some examples of countdown timers effectively used on webinar pages:
 
   ![Timer.png](/uploads/Timer.png)
-- |-
-  #### 3) Use a timezone converter
-
-  Adding a simple timezone converter will help your visitors to schedule the event in their work week. I have noticed personally webinars held in US time zones usually mean I can view them after 6 pm UK time. However, I am left to do the calculations myself. By adding a simple timezone converter script you can overcome this annoyance. Or even better automatically convert the time based on users’ timezone set by the operating system.
+- "#### 3) Use a timezone converter\n\nAdding a simple timezone converter will help
+  your visitors to schedule the event in their work week. I have noticed personally
+  webinars held in US time zones usually mean I can view them after 6 pm UK time.
+  However, I am left to do the calculations myself. \n\nBy adding a simple timezone
+  converter script you can overcome this annoyance. Or even better automatically convert
+  the time based on users’ timezone set by the operating system."
 - |-
   #### 4) Add a can't make it section block
 
