@@ -242,7 +242,8 @@ webinar-platform-description: |
 platforms-check-out-description:
 - - |-
     #### 1) Webinar Jam
-    [Webinar Jam](https://www.webinarjam.com/)
+    <a target="_blank" href="https://www.webinarjam.com/">Webinar Jam</a>
+
     is a well-known webinar broadcasting platform that integrates with many CRMs and email marketing tools.
 
     ![poster.png](/uploads/poster.png)
