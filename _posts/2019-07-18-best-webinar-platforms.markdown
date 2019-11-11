@@ -249,7 +249,7 @@ platforms-check-out-description:
 
     The platform has an intuitive interface, making it easy for new users to jump in and start running webinars immediately, and it currently serves 30,000+ customers and more from across the globe.
   - |-
-    ###### pro:
+    ###### pros:
     * Comes with pop-up calls-to-action (CTAs) within your webinar. You can use this feature to get your attendees to purchase a product/service in real-time.
 
     * Shows sales data while you’re conducting your webinar, so you can keep an eye on how much sales revenue you’re generating in real-time.
