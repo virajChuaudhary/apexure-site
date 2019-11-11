@@ -5082,6 +5082,7 @@ h3.text-white.text-center {
 .is_landing_page_a_website.sec-45 {
     padding-bottom: 35px;
 }
+
 @import "who-we-are-mobile-styling";
 
 
@@ -5191,7 +5192,7 @@ h3 {
     padding: 31px 15px 50px;
 }
 
-#header_wrapper {
+#header_wrapper.banner_new_fav.new-head-top {
     display: flex;
     padding: 0;
     height: unset !important;
@@ -5213,7 +5214,7 @@ h3 {
 #header_wrapper .blog_banner .blog_single_banner_alignment .author_image_wrapper {
     margin-right: 10px;
 }
-#header_wrapper .blog_banner h1 {
+#header_wrapper.banner_new_fav.new-head-top .blog_banner h1 {
     font-size: 21px;
     line-height: 36px;
     text-align: center;
@@ -5345,5 +5346,8 @@ h4#there-are-quite-a-few-ways-in-which-you-can-setup-a-landing-page-for-your-web
 }
 .sec-333 {
     padding: 0 35px;
+}
+#header_wrapper.new-head-top {
+    justify-content: center;
 }
 }
