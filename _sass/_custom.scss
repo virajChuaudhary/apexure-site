@@ -4999,6 +4999,19 @@ h3.text-white.text-center {
     margin: 0 auto;
     padding: 15px 0;
 }
+#blog_single_content_wrapper #why-use-a-landing-page ul li:before {
+    color: #FFB600;
+}
+#blog_single_content_wrapper #why-use-a-landing-page ul li {
+    padding-bottom: 10px;
+}
+.outer_content_section_wrapper.outer_content_webinar h4 {
+    font-family: 'Poppins-Medium';
+    padding-top: 0;
+}
+.outer_content_section_wrapper.outer_content_webinar p {
+    padding-bottom: 10px;
+}
 @import "who-we-are-mobile-styling";
 
 
@@ -5122,5 +5135,73 @@ h3 {
 }
 .sec-1 {
     margin-bottom: 25px;
+}
+#header_wrapper.new-head-top .blog_banner .blog_single_banner_alignment h4 {
+    font-size: 14px;
+    line-height: 18px;
+}
+#header_wrapper .blog_banner .blog_single_banner_alignment .author_image_wrapper {
+    margin-right: 10px;
+}
+#header_wrapper .blog_banner h1 {
+    font-size: 21px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+}
+.blog_content .center_content img {
+    width: 35%;
+}
+
+
+.section_webinar_cover {
+    margin-bottom: 96px;
+    padding-bottom: 0;
+}
+#blog_single_content_wrapper p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+h4#there-are-quite-a-few-ways-in-which-you-can-setup-a-landing-page-for-your-webinar {
+    padding-bottom: 44px;
+    text-align: center;
+}
+.create-list {
+    padding: 0 15px;
+}
+.cutoff-wrap.double-after ul {
+    column-count: 1;
+    width: 100%;
+}
+.landing_page_types_content.boder-shadow {
+    margin-top: 0 !important;
+    margin-bottom: 42px;
+}
+.landing_page_types_content.boder-shadow .call-wrap {
+    padding: 0 30px;
+    padding-top: 100px;
+}
+
+
+#call-to-action-text-ideas {
+    text-align: left;
+}
+.sec-99 .call-wrap {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.non-borber {
+    margin-top: 75px;
+    padding: 0px 30px;
+}
+.wrap-blue__br p {
+    text-align: left;
+}
+.bottom-alright {
+    padding: 0 20px;
 }
 }
