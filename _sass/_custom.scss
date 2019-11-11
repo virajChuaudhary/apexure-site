@@ -4993,11 +4993,7 @@ h3.text-white.text-center {
 .wrap-blue__br p img {
     display: flex;
     margin: 0 auto;
-}
-.wrap-blue__br p img {
-    display: flex;
-    margin: 0 auto;
-    padding: 15px 0;
+    padding: 15px 20px;
 }
 #blog_single_content_wrapper #why-use-a-landing-page ul li:before {
     color: #FFB600;
@@ -5067,6 +5063,12 @@ h3.text-white.text-center {
 }
 .back-blue.post-lunch ul li p {
     font-family: 'Poppins-SemiBold';
+}
+.wrap-blue__br {
+    padding: 30px 55px 5px !important;
+}
+section#types_of_landing_page .landing_page_types_content {
+    padding-bottom: 64px;
 }
 @import "who-we-are-mobile-styling";
 
