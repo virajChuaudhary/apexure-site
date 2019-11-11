@@ -97,7 +97,7 @@ what-factors-description:
 - |-
   #### 1) Use a short form
 
-  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** ,  **Email**   and  **Phone number**.
+  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** ,  **Email**  &nbsp;  and  &nbsp;   **Phone number**.
 
   ![form-image-52b393.png](/uploads/form-image-52b393.png)
 - |-
