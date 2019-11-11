@@ -269,7 +269,7 @@ platforms-check-out-description:
 
     LiveStorm is used by many reputable companies, including Intercom, Bosch and Pipedrive, and it’s an all-in-one-tool that’s highly versatile.
   - |-
-    ###### pro:
+    ###### pros:
 
     * Comes with unlimited webinar recording storage (even on the free plan), with recordings being created automatically.
 
@@ -293,7 +293,7 @@ platforms-check-out-description:
 
     The platform has an intuitive interface, making it easy for new users to jump in and start running webinars immediately, and it currently serves 30,000+ customers and more from across the globe.
   - |-
-    ###### pro:
+    ###### pros:
     * Allows you to organize past and upcoming webinars and package them together as an online course.
 
     * Comes with advanced webinar behaviour tracking and analytics. Users can easily get access to insightful metrics such as purchase ratios.
@@ -307,13 +307,13 @@ platforms-check-out-description:
   - "##### Price: Flat fee of $597 ($497 after using on-site discount)"
 - - |-
     #### 4) Zoom
-    Zoom is more of a general video conferencing tool than a standalone webinar tool, but it does come with a webinar feature that allows users to set up and host live webinars.
+    [Zoom](#) is more of a general video conferencing tool than a standalone webinar tool, but it does come with a webinar feature that allows users to set up and host live webinars.
 
-    ![Apexure-Webinar (1)-e6ec37.png](/uploads/Apexure-Webinar%20(1)-e6ec37.png)
+    ![pasted image 0 (2)@2x.png](/uploads/pasted%20image%200%20(2)@2x.png)
 
     Apart from webinars, you can also use Zoom to set up online meetings, build virtual conference rooms, and allow team members to collaborate and share files.
   - |-
-    ###### pro:
+    ###### pros:
     * Allows up to 100 interactive video participants, which is great for webinars with large panels of speakers.
 
     * Comes with a built-in integration that lets you broadcast your webinars to Facebook Live and YouTube.
@@ -335,7 +335,7 @@ platforms-check-out-description:
 
     With Zoho’s webinar tool, you can easily launch live polls, set up Q&A sessions, promote your webinar through various channels, and more.
   - |-
-    ###### pro:
+    ###### pros:
     * Comes with detailed analytics and reporting about registrations, attendance, poll participation and more.
 
     * Lets you use global dial-in numbers so that you can and your attendees connect to webinars from over 40 countries.
@@ -357,7 +357,7 @@ platforms-check-out-description:
 
     LogMeIn, the company that powers GoToWebinar, was recently named a Leader in Gartner’s 2018 Meeting Solutions Magic Quadrant. All in all, GoToWebinar serves 50,000+ customers who collectively host 2.7 million webinars each year.
   - |-
-    ###### pro:
+    ###### pros:
 
     * Comes with break out rooms that allow you to split up your webinar audience.
 
@@ -379,7 +379,7 @@ platforms-check-out-description:
 
     The tool is used by 147,000+ companies in 219 countries, and it’s highly rated on review sites such as G2Crowd and Capterra.
   - |-
-    ###### pro:
+    ###### pros:
     * Allows you to customize your webinar pages to a high degree so that you can offer a consistent brand experience.
 
     * The user interface is intuitive and easy to use.
@@ -400,7 +400,7 @@ platforms-check-out-description:
 
     While Webex does not disclose the price of its webinar add-on (termed “Webex Events and Training”) online, it does detail the various features of the add-on, some of which we discuss below.
   - |-
-    ###### pro:
+    ###### pros:
     * Screen sharing, Q&A, polling, and chat included.
 
     * Allows you to customize the enrollment process with questions that let you score, track, and follow up on leads.
@@ -421,7 +421,7 @@ platforms-check-out-description:
 
     While the tool does come with some advanced features, it’s easy enough to use, even for marketers who are new to the world of webinars.
   - |-
-    ###### pro:
+    ###### pros:
     * Allows you to automate webinar replays. Not many tools do this (two exceptions are WebinarJam and EverWebinar).
 
     * "Stay registered" feature allows attendees to sign up once for a series of ongoing webinars.
@@ -442,7 +442,7 @@ platforms-check-out-description:
     speakers, then broadcast it to a wider audience on YouTube, but Google Hangout
     has since removed the “Hangouts on Air” feature, so this isn’t available anymore."
   - |-
-    ###### pro:
+    ###### pros:
     * 100% free to use.
   - "###### Cons: \n\n* All invited members need to use their own Google account to
     join.\n\n* No additional webinar features/tools to help you plan or host your
