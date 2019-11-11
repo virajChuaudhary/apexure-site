@@ -457,12 +457,12 @@ marketers-looking-description: |-
   While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
 marketers-who: 'Best webinar platform for marketers who want to upsell from their
   webinars '
-marketers-who-description: |-
-  #### #1 Webinar platform  ![webinarJamLogo.png](/uploads/webinarJamLogo.png)
-
-  If you’re looking for an easy-to-use webinar tool that will allow you to get your first webinar up and running quickly, we recommend Demio. This platform is intuitive and easy to find your way around, and it manages to be beginner-friendly without compromising on advanced features and functionality.
-
-  While you’ll find Demio easy to use when you’re just getting started, you’ll also appreciate the advanced features that are available to you once you become levelling up your webinars.
+marketers-who-description: "#### #1 Webinar platform  ![webinarJamLogo.png](/uploads/webinarJamLogo.png)\n\nFor
+  marketers whose top priority is to generate sales through their webinars, definitely
+  consider using WebinarJam. \n\nThis platform allows you to create pop-up CTAs within
+  your webinar, which goes a long way in boosting conversions. That aside, WebinarJam
+  also displays your sales data while you’re conducting your webinar; this lets you
+  keep an eye on how much revenue you’re generating in real-time.\n"
 bonus: 'BONUS: When should you host your webinar? how should you get sign-ups?'
 bonus-repeater-description:
 - "* Choosing the right webinar platform (one that comes with all the features you
