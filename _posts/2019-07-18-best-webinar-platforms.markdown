@@ -263,10 +263,7 @@ platforms-check-out-description:
   - "###### Price: $39.99/month onwards (billed annually)"
 - - |-
     #### 2) LiveStorm
-    Next up, we have
-    [LiveStorm](#)
-
-    , which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
+    Next up, we have[LiveStorm](#),which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
 
     ![poster2.png](/uploads/poster2.png)
 
