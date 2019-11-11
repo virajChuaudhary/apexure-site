@@ -285,9 +285,8 @@ platforms-check-out-description:
   - "###### Price: Free plan available. Paid plans start at $99/month (billed annually)"
 - - |-
     #### 3) EverWebinar
-    [EverWebinar](#)
 
-    is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
+    [EverWebinar](#)is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
 
     ![poster3.png](/uploads/poster3.png)
 
