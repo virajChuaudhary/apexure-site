@@ -3,7 +3,7 @@
 <head>
   {% include head.html %}
 </head>
-	<body>
+  <body>
       {% include header.html %}
   <section id="header_wrapper" class="banner_new_fav" style="background: #3F2883">
 
@@ -14,12 +14,12 @@
          <div class="main_banner blog_banner">
           <h1>{{page.title}}</h1>
            <div class="blog_single_banner_alignment d-flex align-items-center justify-content-center">
-           	<div class="author_image_wrapper">
-           		<img src="{{site.baseurl}}{{page.author-image}}" alt="{{page.author}}" class="rounded-circle img-fluid">
-           	</div>
-           	 <h4 class="text-white">{{page.author}}</h4>
-           	 <h4 class="text-white"> | </h4>
-           	 <h4 class="text-white">{{ page.date | date:"%d %b %Y" }} </h4>
+            <div class="author_image_wrapper">
+              <img src="{{site.baseurl}}{{page.author-image}}" alt="{{page.author}}" class="rounded-circle img-fluid">
+            </div>
+             <h4 class="text-white">{{page.author}}</h4>
+             <h4 class="text-white"> | </h4>
+             <h4 class="text-white">{{ page.date | date:"%d %b %Y" }} </h4>
            </div>
          </div>
        </div>
@@ -27,8 +27,8 @@
    </div>
   </div> 
   </section> 
-	{% include google-tag-manager.html %}
-	<section id="blog_single_content_wrapper">
+  {% include google-tag-manager.html %}
+  <section id="blog_single_content_wrapper">
     <div class="blog_container container">
      {{ content }}
        <div class="blog_take_away_image">
@@ -61,9 +61,9 @@
       {% include disqus.html %}
     </div> 
     {% include recent-blog-posts.html %}
-	  {% include newsletter.html %}
+    {% include newsletter.html %}
     {% include javascript_core.html %}     
-	</body>
+  </body>
 
  {% include footer.html %}
 </html> 
