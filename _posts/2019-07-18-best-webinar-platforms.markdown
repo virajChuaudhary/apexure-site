@@ -249,7 +249,7 @@ platforms-check-out-description:
 
     The platform has an intuitive interface, making it easy for new users to jump in and start running webinars immediately, and it currently serves 30,000+ customers and more from across the globe.
   - |-
-    ###### pro:
+    ###### pros:
     * Comes with pop-up calls-to-action (CTAs) within your webinar. You can use this feature to get your attendees to purchase a product/service in real-time.
 
     * Shows sales data while you’re conducting your webinar, so you can keep an eye on how much sales revenue you’re generating in real-time.
@@ -285,9 +285,8 @@ platforms-check-out-description:
   - "###### Price: Free plan available. Paid plans start at $99/month (billed annually)"
 - - |-
     #### 3) EverWebinar
-    [EverWebinar](#)
 
-    is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
+    [EverWebinar](#)is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
 
     ![poster3.png](/uploads/poster3.png)
 
@@ -369,7 +368,7 @@ platforms-check-out-description:
     * Desktop interface is somewhat old-school.
 
     * Not much customization available for landing pages.
-  - "###### Price: $39.99/month onwards (billed annually)"
+  - "###### Price: $89/month onwards (billed annually)"
 - - |-
     #### 7) ClickMeeting
     [ClickMeeting](#)
@@ -447,7 +446,7 @@ platforms-check-out-description:
   - "###### Cons: \n\n* All invited members need to use their own Google account to
     join.\n\n* No additional webinar features/tools to help you plan or host your
     webinar. \n\n* Max of 10 attendees in a single call (webinar).\n"
-  - 
+  - "###### Price: Free"
 marketers-looking-title: Best webinar platform for marketers looking for an easy-to-use
   platform
 marketers-looking-description: |-
@@ -485,13 +484,12 @@ bonus-repeater-description:
   can arrive at work and respond to their urgent emails, attend your webinar, then
   pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock
   off work!"
-- "#### How should you promote your webinar?\n###### 10 and 11 am are the best webinar
-  times to attract attendees.\n\n![unnamed (2)@2x.png](/uploads/unnamed%20(2)@2x.png)\n\nAccording
-  to statistics, you have a higher chance of attracting more attendees if you hold
-  your webinar at 10am or 11am. \n\nIntuitively speaking, this makes sense. Your attendees
-  can arrive at work and respond to their urgent emails, attend your webinar, then
-  pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock
-  off work!"
+- "#### How should you promote your webinar?\n###### Email drive 57% of webinar registrations.\n\n![unnamed
+  (2)@2x.png](/uploads/unnamed%20(2)@2x.png)\n\nAccording to statistics, you have
+  a higher chance of attracting more attendees if you hold your webinar at 10am or
+  11am. \n\nIntuitively speaking, this makes sense. Your attendees can arrive at work
+  and respond to their urgent emails, attend your webinar, then pop out for lunch.
+  No one wants to attend a webinar at 6pm, when it’s time to knock off work!"
 virtual-summits-description: |-
   ### Virtual Summits Vs Webinars
 
