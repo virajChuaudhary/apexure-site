@@ -290,7 +290,7 @@ platforms-check-out-description:
 
     ![poster3.png](/uploads/poster3.png)
 
-    This platform is actually powered by WebinarJam, but it offers its own set of features and focuses on evergreen webinars (instead of live events).
+    This platform is actually powered by WebinarJam, but it offers its own set of features and focuses on evergreen webinars (instead of live events)...
   - |-
     ###### pros:
     * Allows you to organize past and upcoming webinars and package them together as an online course.
