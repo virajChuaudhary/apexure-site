@@ -527,7 +527,7 @@ final-word-description:
 - "#### Factors that affect conversion on a webinar landing page include:\n\n* The
   length of your form \n\n* Countdown timers\n\n* Timezone converters\n\n* “Can’t
   make it” Call To Action \n\n* Attendee count\n\n* Attendee capacity\n\n* Social
-  proof/testimonials\n\nDetails about the host (picture, bio, etc)\n"
+  proof/testimonials\n\n* Details about the host (picture, bio, etc)\n"
 - |2-
 
   #### Tips to make your webinar successful include:
