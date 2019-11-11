@@ -144,4 +144,51 @@ $.each($('#menu-header-menu').find('> li'), function () {
 
   
       
-  
+
+$("#first_col").bind("click", function()
+   {
+     var hash = "#why-use-a-landing-page";
+     $('html, body').animate({
+           scrollTop: $(hash).offset().top
+}, 1800);
+});
+
+$("#scnd_col").bind("click", function()
+   {
+     var hash = "#how_do_you_create_landing_page";
+     $('html, body').animate({
+           scrollTop: $(hash).offset().top
+}, 1800);
+});
+
+$("#third_col").bind("click", function()
+   {
+     var hash = "#how_does_a_lp_work";
+     $('html, body').animate({
+           scrollTop: $(hash).offset().top
+}, 1800);
+});
+
+$("#forth_col").bind("click", function()
+   {
+     var hash = "#is_lp_a_website";
+     $('html, body').animate({
+           scrollTop: $(hash).offset().top
+}, 1800);
+});
+
+$("#fifth_col").bind("click", function()
+   {
+     var hash = "#types_of_landing_page";
+     $('html, body').animate({
+           scrollTop: $(hash).offset().top
+}, 1800);
+});
+
+$("#sixth_col").bind("click", function()
+   {
+     var hash = "#who_designs_landing_page";
+     $('html, body').animate({
+           scrollTop: $(hash).offset().top
+}, 1800);
+});
