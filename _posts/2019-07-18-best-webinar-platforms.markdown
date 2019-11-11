@@ -524,16 +524,10 @@ final-word-description:
   * A webinar tool
 
   * Follow up
-- |-
-  #### Factors that affect conversion on a webinar landing page include:
-
-  * The length of your form
-
-  * Countdown timers
-
-  * Timezone converters
-
-  * “Can’t make it” Call To Action
+- "#### Factors that affect conversion on a webinar landing page include:\n\n* The
+  length of your form \n\n* Countdown timers\n\n* Timezone converters\n\n* “Can’t
+  make it” Call To Action \n\n* Attendee count\n\n* Attendee capacity\n\n* Social
+  proof/testimonials\n\nDetails about the host (picture, bio, etc)\n"
 - |2-
 
   #### Tips to make your webinar successful include:
@@ -549,9 +543,14 @@ final-word-description:
   * Share a limited time offer with the participants.
 
   * Follow up after the webinar
-- "#### What to consider when looking for a webinar platform\n\n* Budget (factor in
-  additional costs, such as extra charges for more users, etc)\n\n* Ease of use and
-  learning curve\n\n* Attendance size: how many attendees are "
+- |
+  #### What to consider when looking for a webinar platform
+
+  * Budget (factor in additional costs, such as extra charges for more users, etc)
+  * Ease of use and learning curve
+  * Attendance size: how many attendees are supported?
+  * Availability of analytics and reports
+  * Features to boost engagement and sales
 - |-
   #### Best webinar platforms to choose in 2019
 
