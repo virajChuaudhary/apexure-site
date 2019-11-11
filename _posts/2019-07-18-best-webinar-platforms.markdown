@@ -290,7 +290,7 @@ platforms-check-out-description:
 
     ![poster3.png](/uploads/poster3.png)
 
-    The platform has an intuitive interface, making it easy for new users to jump in and start running webinars immediately, and it currently serves 30,000+ customers and more from across the globe.
+    This platform is actually powered by WebinarJam, but it offers its own set of features and focuses on evergreen webinars (instead of live events).
   - |-
     ###### pros:
     * Allows you to organize past and upcoming webinars and package them together as an online course.
