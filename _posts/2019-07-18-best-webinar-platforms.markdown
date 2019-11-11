@@ -325,7 +325,7 @@ platforms-check-out-description:
     * No webinar automation available.
 
     * Some users encounter issues with webinar quality.
-  - "###### Price: $39.99/month onwards (billed annually)"
+  - 'Price: Free plan available. The paid “Video webinar” plan starts at $40/month'
 - - |-
     #### 5) Zoho Webinar
     [Zoho](#)
