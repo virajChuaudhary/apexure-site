@@ -165,7 +165,7 @@ call-to-action-description: |-
   * Limited Seats Available
 
   * Registration Sale Ends Soon
-form-image: "/uploads/Apexure-Webinar%20(1).png"
+form-image: "/uploads/Apexure-Webinar%20(1)%20(1).png"
 live-webinar-description: |-
   ### Go Live Webinar Landing Page Checklist
 
@@ -286,7 +286,7 @@ platforms-check-out-description:
 - - |-
     #### 3) EverWebinar
 
-    [EverWebinar](#)is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
+    [EverWebinar](#) is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
 
     ![poster3.png](/uploads/poster3.png)
 
