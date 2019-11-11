@@ -325,13 +325,13 @@ platforms-check-out-description:
     * No webinar automation available.
 
     * Some users encounter issues with webinar quality.
-  - 'Price: Free plan available. The paid “Video webinar” plan starts at $40/month'
+  - "###### Price: Free plan available. The paid “Video webinar” plan starts at $40/month"
 - - |-
     #### 5) Zoho Webinar
     [Zoho](#)
     offers a webinar feature as part of their Zoho Meetings software, and this comes with plenty of features to help you educate and engage your leads.
 
-    ![Apexure-Webinar (1)-d961ef.png](/uploads/Apexure-Webinar%20(1)-d961ef.png)
+    ![poster5.png](/uploads/poster5.png)
 
     With Zoho’s webinar tool, you can easily launch live polls, set up Q&A sessions, promote your webinar through various channels, and more.
   - |-
@@ -353,7 +353,7 @@ platforms-check-out-description:
     [GoToWebinar](#)
     is one of the most popular webinar tools out there.
 
-    ![Apexure-Webinar (1)-890018.png](/uploads/Apexure-Webinar%20(1)-890018.png)
+    ![poster6.png](/uploads/poster6.png)
 
     LogMeIn, the company that powers GoToWebinar, was recently named a Leader in Gartner’s 2018 Meeting Solutions Magic Quadrant. All in all, GoToWebinar serves 50,000+ customers who collectively host 2.7 million webinars each year.
   - |-
@@ -375,7 +375,7 @@ platforms-check-out-description:
     [ClickMeeting](#)
     is a robust, feature-rich platform that’s suitable for businesses from all industries.
 
-    ![Apexure-Webinar (1)-0784e4.png](/uploads/Apexure-Webinar%20(1)-0784e4.png)
+    ![pasted image 0 (2)@2x-559fce.png](/uploads/pasted%20image%200%20(2)@2x-559fce.png)
 
     The tool is used by 147,000+ companies in 219 countries, and it’s highly rated on review sites such as G2Crowd and Capterra.
   - |-
@@ -396,7 +396,7 @@ platforms-check-out-description:
     [Webex](#)
     is an online meeting platform that allows companies to hold online events, training sessions, interactive presentations and of course, webinars.
 
-    ![Apexure-Webinar (1)-031c0d.png](/uploads/Apexure-Webinar%20(1)-031c0d.png)
+    ![pasted image 0 (2)-d1b364.png](/uploads/pasted%20image%200%20(2)-d1b364.png)
 
     While Webex does not disclose the price of its webinar add-on (termed “Webex Events and Training”) online, it does detail the various features of the add-on, some of which we discuss below.
   - |-
@@ -417,7 +417,7 @@ platforms-check-out-description:
     [Demio](#)
     bills itself as a webinar platform “built for marketing”, and its goal is to leverage the power of personal conversations at scale to help companies generate more leads.
 
-    ![Apexure-Webinar (1)-cc3d15.png](/uploads/Apexure-Webinar%20(1)-cc3d15.png)
+    ![pasted image 0 (2)-768376.png](/uploads/pasted%20image%200%20(2)-768376.png)
 
     While the tool does come with some advanced features, it’s easy enough to use, even for marketers who are new to the world of webinars.
   - |-
