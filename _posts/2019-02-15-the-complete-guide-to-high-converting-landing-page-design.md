@@ -378,7 +378,7 @@ section-7-book-description: |2-
   #### Please book a slot with us, and we would be delighted to have a quick call to discuss them with you.
 
   [Book a call with us](http://www.apexure.com/contact-us)
-layout: posts
+layout: new-posts
 ---
 
 A landing page is a web-page which is different from the rest of the pages on the website. A landing page has an objective. Whether it’s capturing contact details or linking to a product page etc. landing pages can use for a variety of actions. I will go through them in detail later.
