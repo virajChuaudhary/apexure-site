@@ -97,7 +97,7 @@ what-factors-description:
 - |-
   #### 1) Use a short form
 
-  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** ,  **Email** and **Phone number**.
+  Capture only the fields you really want at this stage. You can enrich leads with additional info at a later stage. e.g. Quizzes, surveys, email follow up etc. At this stage, we would recommend capturing **Name** ,  **Email**   and  **Phone number**.
 
   ![form-image-52b393.png](/uploads/form-image-52b393.png)
 - |-
@@ -105,10 +105,10 @@ what-factors-description:
 
   Countdown timers are useful to create urgency. In simple terms, you want to demonstrate Time is running out. When integrating countdown timers there are two configurations:
 
-  Static:
+  **Static:**
   Set a universal cut off date for all participants. e.g. Black Friday sale day is set for everyone shopping.
 
-  Evergreen:
+  **Evergreen:**
   Instead of setting an end date for everyone, customize the date so every visitor has their own unique end date. This is based on their initial touch point. evergreen timers could be hard to configure unless you rely on some third-party apps.
 
   You can use countdown timers to show registration close date/time. Here are some examples of countdown timers effectively used on webinar pages:
