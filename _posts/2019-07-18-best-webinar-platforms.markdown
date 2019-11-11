@@ -486,9 +486,9 @@ bonus-repeater-description:
   pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock
   off work!"
 - "#### How should you promote your webinar?\n###### 10 and 11 am are the best webinar
-  times to attract attendees.\n\n![graph3.png](/uploads/graph3.png)\n\nAccording to
-  statistics, you have a higher chance of attracting more attendees if you hold your
-  webinar at 10am or 11am. \n\nIntuitively speaking, this makes sense. Your attendees
+  times to attract attendees.\n\n![unnamed (2)@2x.png](/uploads/unnamed%20(2)@2x.png)\n\nAccording
+  to statistics, you have a higher chance of attracting more attendees if you hold
+  your webinar at 10am or 11am. \n\nIntuitively speaking, this makes sense. Your attendees
   can arrive at work and respond to their urgent emails, attend your webinar, then
   pop out for lunch. No one wants to attend a webinar at 6pm, when it’s time to knock
   off work!"
