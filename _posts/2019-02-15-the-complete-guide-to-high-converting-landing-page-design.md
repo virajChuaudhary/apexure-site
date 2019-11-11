@@ -16,9 +16,9 @@ author-description: Founder & CEO  of Apexure, Waseem worked in London’s Finan
   complex business systems. Waseem loves working with Startups and combines data and
   design to create improved User Experiences.
 comments: true
-description: The complete guide to high-converting landing page design
 meta-keywords: "Trello project management, Trello project management tool, Trello
   content marketing, Trello butler, \nTrello butler bot"
+description: The complete guide to high-converting landing page design
 section_2-description: "\n### Why use a Landing Page?\n\n![6-post-landing-page.jpg](/images/postsimages/6-post-landing-page.jpg)\n\nMany
   businesses owners assume that the homepage of the website is effectively a landing\npage,
   as that’s where the visitors first land. Although that does make sense, landing\npages
@@ -381,4 +381,4 @@ section-7-book-description: |2-
 layout: posts
 ---
 
-A landing page is a web-page which is different from the rest of the pages on the website. A landing page has an objective. Whether it’s capturing contact details or linking to a product page etc. landing pages can use for a variety of actions. I will go through them in detail later. 
+A landing page is a web-page which is different from the rest of the pages on the website. A landing page has an objective. Whether it’s capturing contact details or linking to a product page etc. landing pages can use for a variety of actions. I will go through them in detail later.
