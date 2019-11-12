@@ -4,8 +4,8 @@ date: 2019-07-18 12:16:00 Z
 tags:
 - others
 author: Waseem Bashir
-image: "/uploads/Best%20webinar%20platform.png"
-take-away-image: "/uploads/Best%20webinar%20platform.png"
+image: "/uploads/Best%20webinar%20platform%20V2.png"
+take-away-image: "/uploads/Best%20webinar%20platform%20V2.png"
 author-image: "/images/author-waseem-bashir.png"
 facebook-link: https://www.facebook.com/Apexure/
 instagram-link: https://www.instagram.com/waseembashir/
