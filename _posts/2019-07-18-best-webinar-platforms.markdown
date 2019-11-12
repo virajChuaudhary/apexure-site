@@ -4,8 +4,8 @@ date: 2019-07-18 12:16:00 Z
 tags:
 - others
 author: Waseem Bashir
-image: "/uploads/top-3-reasons-why-we-use-slack.jpg"
-take-away-image: "/uploads/3-reasons-why-we-use-slack.jpg"
+image: "/uploads/Best%20webinar%20platform.png"
+take-away-image: "/uploads/Best%20webinar%20platform.png"
 author-image: "/images/author-waseem-bashir.png"
 facebook-link: https://www.facebook.com/Apexure/
 instagram-link: https://www.instagram.com/waseembashir/
