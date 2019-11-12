@@ -5400,4 +5400,9 @@ h4#there-are-quite-a-few-ways-in-which-you-can-setup-a-landing-page-for-your-web
 .fector-box.mk-img-cntr p {
     display: block;
 }
+.double-after #call-to-action-text-ideas:after {
+    border-top: 44px solid transparent;
+    border-bottom: 44px solid transparent;
+    border-right: 60px solid #ffffff;
+}
 }
