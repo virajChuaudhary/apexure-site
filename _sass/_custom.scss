@@ -5088,6 +5088,9 @@ h3.text-white.text-center {
 section#blog_body div#nav-tabContent .blog_outer_second_alignment .blog_wrapper .blog_content_alignment span.blog_news_date, section#blog_body div#nav-tabContent .blog_outer_second_alignment .blog_wrapper .blog_content_alignment span.blog_seperator{
     display: none;
 }
+.main_banner.blog_banner.make-left.make-blk-title .blog_single_banner_alignment h4:last-child, .main_banner.blog_banner.make-left.make-blk-title .blog_single_banner_alignment h4:nth-child(3) {
+    display: none;
+}
 @import "who-we-are-mobile-styling";
 
 
