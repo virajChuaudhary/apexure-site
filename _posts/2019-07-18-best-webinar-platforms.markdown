@@ -347,7 +347,7 @@ platforms-check-out-description:
   - "###### Price: $15/month onwards (billed annually)"
 - - |-
     #### 6) GoToWebinar
-    Along with WebinarJam, <a target="_blank" href="https://www.gotomeeting.com/">GoToWebinar</a> is one of the most popular webinar tools out there.
+    Along with WebinarJam, <a target="_blank" href="https://www.gotomeeting.com/en-in/webinar">GoToWebinar</a> is one of the most popular webinar tools out there.
 
     ![poster6.png](/uploads/poster6.png)
 
