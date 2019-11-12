@@ -239,6 +239,7 @@ webinar-platform-description: |
   * **Availability** of analytics and reports
 
   * **Features to boost** engagement and sales
+platforms-check-out-title: Best webinar platforms to check out in 2019
 platforms-check-out-description:
 - - |-
     #### 1) Webinar Jam
