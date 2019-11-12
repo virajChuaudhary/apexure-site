@@ -262,7 +262,7 @@ platforms-check-out-description:
   - "###### Price: $39.99/month onwards (billed annually)"
 - - |-
     #### 2) LiveStorm
-    Next up, we have [LiveStorm](https://livestorm.co/), which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
+    Next up, we have <a target="_blank" href="https://livestorm.co/">LiveStorm</a>, which is a platform that businesses can use to create live webinars, on-demand webinars, automated webinars, and more.
 
     ![poster2.png](/uploads/poster2.png)
 
@@ -285,7 +285,7 @@ platforms-check-out-description:
 - - |-
     #### 3) EverWebinar
 
-    [EverWebinar](#) is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
+    <a target="_blank" href="https://main.everwebinar.com/">EverWebinar</a> is a powerful webinar automation tool that caters to businesses who want to generate leads and build their email lists.
 
     ![poster3.png](/uploads/poster3.png)
 
@@ -305,7 +305,7 @@ platforms-check-out-description:
   - "##### Price: Flat fee of $597 ($497 after using on-site discount)"
 - - |-
     #### 4) Zoom
-    [Zoom](#) is more of a general video conferencing tool than a standalone webinar tool, but it does come with a webinar feature that allows users to set up and host live webinars.
+    <a target="_blank" href="https://zoom.us/">Zoom</a> is more of a general video conferencing tool than a standalone webinar tool, but it does come with a webinar feature that allows users to set up and host live webinars.
 
     ![pasted image 0 (2)@2x.png](/uploads/pasted%20image%200%20(2)@2x.png)
 
@@ -326,8 +326,7 @@ platforms-check-out-description:
   - "###### Price: Free plan available. The paid “Video webinar” plan starts at $40/month"
 - - |-
     #### 5) Zoho Webinar
-    [Zoho](https://www.zoho.com/)
-    offers a webinar feature as part of their Zoho Meetings software, and this comes with plenty of features to help you educate and engage your leads.
+    <a target="_blank" href="https://www.zoho.com/">Zoho Webinar</a> offers a webinar feature as part of their Zoho Meetings software, and this comes with plenty of features to help you educate and engage your leads.
 
     ![poster5.png](/uploads/poster5.png)
 
@@ -347,9 +346,7 @@ platforms-check-out-description:
   - "###### Price: $15/month onwards (billed annually)"
 - - |-
     #### 6) GoToWebinar
-    Along with WebinarJam,
-    [GoToWebinar](#)
-    is one of the most popular webinar tools out there.
+    Along with WebinarJam, <a target="_blank" href="https://www.gotomeeting.com/">GoToWebinar</a> is one of the most popular webinar tools out there.
 
     ![poster6.png](/uploads/poster6.png)
 
@@ -370,7 +367,7 @@ platforms-check-out-description:
   - "###### Price: $89/month onwards (billed annually)"
 - - |-
     #### 7) ClickMeeting
-    [ClickMeeting](https://clickmeeting.com/)
+    <a target="_blank" href="https://clickmeeting.com/">ClickMeeting</a>
     is a robust, feature-rich platform that’s suitable for businesses from all industries.
 
     ![pasted image 0 (2)@2x-559fce.png](/uploads/pasted%20image%200%20(2)@2x-559fce.png)
@@ -391,8 +388,7 @@ platforms-check-out-description:
   - "###### Price: $25/month onwards (billed annually)"
 - - |-
     #### 8) Webex
-    [Webex](#)
-    is an online meeting platform that allows companies to hold online events, training sessions, interactive presentations and of course, webinars.
+    <a target="_blank" href="https://www.webex.co.in/">Webex</a> is an online meeting platform that allows companies to hold online events, training sessions, interactive presentations and of course, webinars.
 
     ![pasted image 0 (2)-d1b364.png](/uploads/pasted%20image%200%20(2)-d1b364.png)
 
@@ -412,8 +408,7 @@ platforms-check-out-description:
   - "###### Price: Not disclosed. Contact Webex’s sales team for more information."
 - - |-
     #### 9) Demio
-    [Demio](https://demio.com/)
-    bills itself as a webinar platform “built for marketing”, and its goal is to leverage the power of personal conversations at scale to help companies generate more leads.
+    <a target="_blank" href="https://demio.com/">Demio</a> bills itself as a webinar platform “built for marketing”, and its goal is to leverage the power of personal conversations at scale to help companies generate more leads.
 
     ![pasted image 0 (2)-768376.png](/uploads/pasted%20image%200%20(2)-768376.png)
 
@@ -432,10 +427,10 @@ platforms-check-out-description:
     * Polls, handouts and CTAs shared during a live webinar don’t appear in replays. s
 
   - "###### Price: $34/month onwards (billed annually)"
-- - "#### 10) Google Hangouts\n\n[Google Hangouts](https://hangouts.google.com/) is
-    a free tool that you can use to carry out video conferences, and while you can
-    use these to conduct webinars, note that you can only connect up to 10 people
-    within each call or webinar. \n\n![pasted image 0 (2).png](/uploads/pasted%20image%200%20(2).png)\n\nIn
+- - "#### 10) Google Hangouts\n\n<a target=\"_blank\" href=\"https://hangouts.google.com/\">Google
+    Hangouts</a> is a free tool that you can use to carry out video conferences, and
+    while you can use these to conduct webinars, note that you can only connect up
+    to 10 people within each call or webinar. \n\n![pasted image 0 (2).png](/uploads/pasted%20image%200%20(2).png)\n\nIn
     the past, one workaround was to host a video conference with your team and guest
     speakers, then broadcast it to a wider audience on YouTube, but Google Hangout
     has since removed the “Hangouts on Air” feature, so this isn’t available anymore."
