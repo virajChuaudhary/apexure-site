@@ -5085,7 +5085,9 @@ h3.text-white.text-center {
 .make-pd__ud {
     margin-bottom: 29px;
 }
-
+section#blog_body div#nav-tabContent .blog_outer_second_alignment .blog_wrapper .blog_content_alignment span.blog_news_date, section#blog_body div#nav-tabContent .blog_outer_second_alignment .blog_wrapper .blog_content_alignment span.blog_seperator{
+    display: none;
+}
 @import "who-we-are-mobile-styling";
 
 
@@ -5452,8 +5454,5 @@ h4#there-are-quite-a-few-ways-in-which-you-can-setup-a-landing-page-for-your-web
 }
 .final-box.blue-brdr.no-border.orng-brdr {
     padding-right: 25px;
-}
-section#blog_body div#nav-tabContent .blog_outer_second_alignment .blog_wrapper .blog_content_alignment span.blog_news_date{
-    display: none;
 }
 }
