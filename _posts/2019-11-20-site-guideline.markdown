@@ -1,6 +1,7 @@
 ---
 title: Site Guideline
 date: 2019-11-20 10:08:00 Z
+layout: guideline
 ---
 
 # This is a heading 1
