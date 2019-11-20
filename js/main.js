@@ -194,8 +194,8 @@ $("#sixth_col").bind("click", function()
 });
 
  //console.log($(".blog_container.container ol li").length);
-
-  for (var i = $(".blog_container.container ol li").length - 1 ; i >=  0; i--) {
+var count = $(".blog_container.container ol li").length; 
+  for (var i = count; - 1 ; i >=  0; i--) {
    
  console.log(i);
  console.log("test");
