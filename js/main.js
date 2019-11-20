@@ -198,8 +198,8 @@ var count = $(".blog_container.container ol li").length;
 
 console.log(count);
 
- //  for (var i = count; - 1 ; i >=  0; i--) {
+  for (var i = count - 1 ; i >=  0; i--) {
    
- // console.log(i);
- // console.log("test");
- //  }
+ console.log(i);
+ console.log("test");
+  }
