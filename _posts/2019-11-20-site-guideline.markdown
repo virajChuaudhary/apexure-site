@@ -23,7 +23,6 @@ line break in the sentence. but it seems the break line doesn't actually work, b
 * 2nd bullet point
 
 1. numbered bullet point 1
-
 2. numbered bullet point 2
 3. numbered bullet point 3
 4. numbered bullet point 4
