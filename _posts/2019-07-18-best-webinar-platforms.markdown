@@ -15,8 +15,9 @@ author-description: Founder & CEO  of Apexure, Waseem worked in London’s Finan
   complex business systems. Waseem loves working with Startups and combines data and
   design to create improved User Experiences.
 comments: true
-meta-keywords: Slack best practices, How to use slack,  Slack for Business, Slack
-  team communication
+meta-description: "meta discription \nssssssssssssss\n\ns\ns\nss\ns\ns\ns\n"
+meta-keywords: alok-test Slack best practices, How to use slack,  Slack for Business,
+  Slack team communication
 top-graph-image: "/uploads/Image@2x.png"
 how-to-create-description: |-
   ### How to create a webinar landing page?
@@ -180,7 +181,7 @@ live-webinar-description: |-
 post-launch-description: |-
   ### Post Launch
 
-  ![Component 4 – 1 (1).png](/uploads/Component%204%20%E2%80%93%201%20(1).png)
+  ![component.png](/uploads/component.png)
 
 
   * Think of ways to use it as a lead magnet.
@@ -327,7 +328,7 @@ platforms-check-out-description:
   - "###### Price: Free plan available. The paid “Video webinar” plan starts at $40/month"
 - - |-
     #### 5) Zoho Webinar
-    <a target="_blank" href="https://www.zoho.com/">Zoho Webinar</a> offers a webinar feature as part of their Zoho Meetings software, and this comes with plenty of features to help you educate and engage your leads.
+    <a target="_blank" href="https://www.zoho.com/meeting/">Zoho Webinar</a> offers a webinar feature as part of their Zoho Meetings software, and this comes with plenty of features to help you educate and engage your leads.
 
     ![poster5.png](/uploads/poster5.png)
 
@@ -347,7 +348,7 @@ platforms-check-out-description:
   - "###### Price: $15/month onwards (billed annually)"
 - - |-
     #### 6) GoToWebinar
-    Along with WebinarJam, <a target="_blank" href="https://www.gotomeeting.com/">GoToWebinar</a> is one of the most popular webinar tools out there.
+    Along with WebinarJam, <a target="_blank" href="https://www.gotomeeting.com/en-in/webinar">GoToWebinar</a> is one of the most popular webinar tools out there.
 
     ![poster6.png](/uploads/poster6.png)
 
@@ -592,7 +593,7 @@ layout: new-webinar
 
 ### What's a webinar?
 
-A Webinar Is Defined As A “Live, Virtual Event That Is Executed Online”. More Specifically, Webinars Are Educational Or Instructive Sessions That Include Both Audio And Visual Communication Between A Speaker And Attendees.
+A Webinar Is Defined As A “Live, Virtual Event That Is E xecuted Online”. More Specifically, Webinars Are Educational Or Instructive Sessions That Include Both Audio And Visual Communication Between A Speaker And Attendees.
 
 The Word Webinar Comes From “Web-Based Seminar”, So Webinars Are Basically Digital Seminars That Anyone Can Attend. If You’re Wondering Whether These Webinars Are As Effective As In-Person Events, The Answer Is Yes. With Webinar Software, You Can Share Slides, Interact With Your Audience Through Chat Boxes, And Even Encourage Participants To Raise Questions Using Q&A Features. In Short, Webinar Software Allow You To Mimic Real-Life Seminars To A Tee.
 
