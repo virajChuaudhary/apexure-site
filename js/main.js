@@ -198,5 +198,5 @@ $("#sixth_col").bind("click", function()
  for (var i = 0 ; i >= $(".blog_container.container ol li").length - 1; i++) {
    
 console.log(i);
-
+console.log("test");
  }
