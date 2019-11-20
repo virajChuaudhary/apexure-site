@@ -5091,6 +5091,11 @@ section#blog_body div#nav-tabContent .blog_outer_second_alignment .blog_wrapper 
 .main_banner.blog_banner .blog_single_banner_alignment h4:last-child, .main_banner.blog_banner .blog_single_banner_alignment h4:nth-child(3) {
     display: none;
 }
+section#blog_single_content_wrapper #info h6 {
+    text-align: left;
+}
+
+
 @import "who-we-are-mobile-styling";
 
 
