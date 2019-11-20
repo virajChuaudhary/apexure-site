@@ -16,8 +16,10 @@ line break in the sentence. but it seems the break line doesn't actually work, b
 * Bullet points
 * 2nd bullet point
 
+ 
 1. numbered bullet point 1
 2. numbered bullet point 2
+
 > this is a quote
 
 #### Where does it come from?
