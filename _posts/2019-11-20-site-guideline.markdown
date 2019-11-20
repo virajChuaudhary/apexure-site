@@ -17,7 +17,7 @@ layout: guideline
 **This is bold text**
 This is normal paragraph text with a
 line break in the sentence. but it seems the break line doesn't actually work, but never mind we will sort it out later.
-
+ 
 * Bullet points
 
 * 2nd bullet point
