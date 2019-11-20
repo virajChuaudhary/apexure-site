@@ -5094,7 +5094,9 @@ section#blog_body div#nav-tabContent .blog_outer_second_alignment .blog_wrapper 
 section#blog_single_content_wrapper #info h6 {
     text-align: left;
 }
-
+#blog_single_content_wrapper p {
+    line-height: 26px;
+}
 
 @import "who-we-are-mobile-styling";
 
