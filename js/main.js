@@ -192,3 +192,11 @@ $("#sixth_col").bind("click", function()
            scrollTop: $(hash).offset().top
 }, 1800);
 });
+
+ //console.log($(".blog_container.container ol li").length);
+
+ for (var i = 0 ; i >= $(".blog_container.container ol li").length - 1; i++) {
+   
+console.log(i);
+
+ }
