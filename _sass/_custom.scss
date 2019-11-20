@@ -5094,6 +5094,7 @@ section#blog_body div#nav-tabContent .blog_outer_second_alignment .blog_wrapper 
 section#blog_single_content_wrapper #info h6 {
     text-align: left;
 }
+
 /*************************************************style guide***/
 #blog_single_content_wrapper p {
     line-height: 26px;
@@ -5111,6 +5112,14 @@ h4 {
     font-size: 14px;
     line-height: 24px;
     font-family: 'Poppins-SemiBold';
+}
+ol li {
+    list-style-type: devanagari;
+    list-style: decimal;
+    list-style-position: inside;
+}
+ol {
+    list-style: decimal;
 }
 @import "who-we-are-mobile-styling";
 
@@ -5510,9 +5519,5 @@ section#is_lp_a_website .landing_page_types_content {
 .non-borber {
     margin-top: 30px;
 }
-ol li {
-    list-style-type: devanagari;
-    list-style: decimal;
-    list-style-position: inside;
-}
+
 }
