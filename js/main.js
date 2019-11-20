@@ -195,8 +195,11 @@ $("#sixth_col").bind("click", function()
 
  //console.log($(".blog_container.container ol li").length);
 var count = $(".blog_container.container ol li").length; 
-  for (var i = count; - 1 ; i >=  0; i--) {
+
+console.log(count);
+
+ //  for (var i = count; - 1 ; i >=  0; i--) {
    
- console.log(i);
- console.log("test");
-  }
+ // console.log(i);
+ // console.log("test");
+ //  }
