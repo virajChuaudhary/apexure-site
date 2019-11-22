@@ -600,16 +600,17 @@ The Word Webinar Comes From “Web-Based Seminar”, So Webinars Are Basically D
 <p></p>
 <p></p>
 
-### What are webinars for?
+### What to consider when looking for a webinar platform
 
-Companies Hold Webinars For A Wide Range Of Reasons, Including:
+There’s a huge array of webinar platforms that cater to businesses who want to generate more leads; in evaluating your options and shortlisting your ideal platform, take the following factors into consideration:
 
-* **Educating Their Target Audience** To Generate And Nurture Leads
 
-* **Demonstrating Their Product/Service** To Potential Customers
+* **Budget** (factor in additional costs, such as extra charges for more users, etc)
 
-* **Training Existing Users, And Teaching Them** How To Use Their Product/Service
+* **Ease of use** and learning curve
 
-After Analyzing 350,890 Webinars, Gotowebinar Found That Webinars Are Most Popular In The Software And Technology Industry, With 26% Of Webinars Being Produced By This One Industry:
+* **Attendance size:** how many attendees are supported?
 
-###### ![why-we-use-slack.jpg](images/pastedimage.png)
+* **Availability** of analytics and reports
+
+* **Features to boost** engagement and sales
