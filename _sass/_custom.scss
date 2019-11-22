@@ -5121,6 +5121,24 @@ h4 {
 #blog_single_content_wrapper ol {
     list-style: decimal;
 }
+.center_content {
+    position: relative;
+}
+.round {
+    display: block;
+    border: 1px solid #8a1a9b;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 16px;
+    color: #8a1a9b;
+    position: absolute;
+    top: -14px;
+    right: 80px;
+}
 @import "who-we-are-mobile-styling";
 
 
