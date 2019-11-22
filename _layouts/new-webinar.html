@@ -106,6 +106,32 @@
     </div>
   </section>
 
+
+<section class="is_landing_page_a_website sec-45" id="who_designs_landing_page">
+
+      <div class="blog_container_new container"> 
+            <div class="jam-wrap">
+                <div class="make-pd__ud"><h3>{{ page.platforms-check-out-title }} </h3></div>
+                {% assign m = 0 %}
+                {% for platforms-check-out-description in page.platforms-check-out-description %}
+                {% assign m = m | plus:1 %}
+                <div class="header-repeater prnt-jam-{{ m }}">
+                {% assign p = 0 %}
+                {% for platforms in platforms-check-out-description %}
+                {% assign p = p | plus:1 %}
+                <div class="wrap-blue__br child-jam-{{ p }}">{{ platforms | markdownify }} </div> 
+
+                {% endfor %}
+                </div> 
+
+                {% endfor %}  
+
+            </div> 
+      </div>
+ 
+</section>
+
+
 <!-- Full Width Sections -->
 <section class="how_do_you_create_lp" id="how_do_you_create_landing_page">
     <div class="blog_container_new container">
@@ -298,7 +324,7 @@
 </section>
 
 
-<section class="is_landing_page_a_website sec-45" id="who_designs_landing_page">
+<!-- <section class="is_landing_page_a_website sec-45" id="who_designs_landing_page">
 
       <div class="blog_container_new container"> 
             <div class="jam-wrap">
@@ -320,7 +346,7 @@
             </div> 
       </div>
  
-</section>
+</section> -->
 
 
 
