@@ -202,7 +202,7 @@ description: Do you need a top-notch Landing Page for your Business? We are the 
   and marketers by designing High-Converting Landing Pages, optimised for Lead Generation
   Optimal User Experience.
 baseurl: 
-url: jekyll
+url: http://virajchuaudhary.github.io/apexure-site/
 permalink: "/blog/:title"
 markdown: kramdown
 theme: minima
